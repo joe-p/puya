@@ -79,19 +79,19 @@ jobs:
             dist
             stubs/dist
 
-  build-binaries:
-    needs: prepare-release
-    uses: ./.github/workflows/build-binaries.yaml
-    with:
-      python_version: "3.12"
-      package_prefix: "puya-${{ needs.prepare-release.outputs.version_number }}"
-      allow_signing: ${{ github.ref_name == 'main' }}
-      git_ref: ${{ needs.prepare-release.outputs.version_tag }}
-    secrets: inherit
+  # build-binaries:
+  #   needs: prepare-release
+  #   uses: ./.github/workflows/build-binaries.yaml
+  #   with:
+  #     python_version: "3.12"
+  #     package_prefix: "puya-${{ needs.prepare-release.outputs.version_number }}"
+  #     allow_signing: ${{ github.ref_name == 'main' }}
+  #     git_ref: ${{ needs.prepare-release.outputs.version_tag }}
+  #   secrets: inherit
 
   publish-to-github:
     name: Publish to GitHub
-    needs: [ prepare-release, build-binaries ]
+    needs: [ prepare-release ] # , build-binaries ]
     if: github.ref_name == 'main' && inputs.publish_github
     runs-on: ubuntu-latest
     permissions:
