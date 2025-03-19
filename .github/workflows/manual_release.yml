@@ -92,7 +92,6 @@ jobs:
   publish-to-github:
     name: Publish to GitHub
     needs: [ prepare-release ] # , build-binaries ]
-    if: github.ref_name == 'main' && inputs.publish_github
     runs-on: ubuntu-latest
     permissions:
       id-token: write
