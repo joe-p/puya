@@ -1,0 +1,137 @@
+name: Manual Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version number to set (e.g. 1.2.3)"
+        type: string
+        required: true
+
+concurrency: release
+
+permissions:
+  contents: write
+  packages: read
+ 
+jobs:
+  prepare-release:
+    name: Prepare Manual Release
+    runs-on: ubuntu-latest
+    permissions:
+      # IMPORTANT: this permission is mandatory for trusted publishing
+      id-token: write
+      contents: write
+      packages: read
+    steps:
+      - name: Set variables
+        id: vars
+        run: |
+          echo "changelog=## v${{ inputs.version }} (`date +%Y-%m-%d`)\n\n### Chore\n\n* Bumped major version" >> $GITHUB_OUTPUT
+          echo "version_number=${{ inputs.version }}" >> $GITHUB_OUTPUT
+          echo "version_tag=v${{ inputs.version }}" >> $GITHUB_OUTPUT
+
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.BOT_ID }}
+          private-key: ${{ secrets.BOT_SK }}
+
+      - uses: actions/checkout@v4
+        with:
+          # Fetch entire repository history so we can determine version number from it
+          fetch-depth: 0
+          token: ${{ steps.app-token.outputs.token }}
+ 
+      - name: Setup Python venv
+        uses: ./.github/actions/setup-python-venv
+        with:
+          poetry_install_args: "--with cicd"
+
+      - name: Set Git user as GitHub actions
+        run: git config --global user.email "actions@github.com" && git config --global user.name "github-actions"
+
+      - name: Bump Version and Changelog 
+        run: |
+          # Update version in pyproject.toml
+          poetry version ${{ inputs.version }}
+          # Update CHANGELOG.md
+          sed -i 's/# CHANGELOG/# CHANGELOG\n\n'"${{ steps.vars.outputs.changelog }}"'/' CHANGELOG.md
+          # Commit both changes together
+          git add pyproject.toml CHANGELOG.md
+          git commit -t "${{ inputs.version }}" -m "${{ inputs.version }}"
+          # Create and push tag
+          git tag -a "v${{ inputs.version }}" -m "Release v${{ inputs.version }}"
+          git push origin "v${{ inputs.version }}"
+          git push origin main
+
+      - name: Create puyapy wheel
+        run: poetry build --format wheel
+
+      - name: Create algorand-python wheel
+        working-directory: ./stubs
+        run: poetry build --format wheel
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-artifacts
+          path: |
+            dist
+            stubs/dist
+
+  build-binaries:
+    needs: prepare-release
+    uses: ./.github/workflows/build-binaries.yaml
+    with:
+      python_version: "3.12"
+      package_prefix: "puya-${{ needs.prepare-release.outputs.version_number }}"
+      allow_signing: ${{ github.ref_name == 'main' }}
+      git_ref: ${{ needs.prepare-release.outputs.version_tag }}
+    secrets: inherit
+
+  publish-to-github:
+    name: Publish to GitHub
+    needs: [ prepare-release, build-binaries ]
+    if: github.ref_name == 'main' && inputs.publish_github
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: write
+    env:
+      VERSION_TAG: ${{ needs.prepare-release.outputs.version_tag }}
+    steps:
+      - uses: actions/create-github-app-token@v1
+        id: app-token
+        with:
+          app-id: ${{ secrets.BOT_ID }}
+          private-key: ${{ secrets.BOT_SK }}
+      
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download wheels
+        uses: actions/download-artifact@v4
+        with:
+          name: release-artifacts
+
+      - name: Download all binary artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: bdist
+          pattern: binary-artifacts-*
+          merge-multiple: true
+                        
+      - name: Create release
+        run: |
+          # Create GitHub release
+          FORMATTED_NOTES=$(echo -e "${{ steps.vars.outputs.changelog }}" | sed 's/\\n/<br>/g')
+          gh release create "v${{ inputs.version }}" --title "v${{ inputs.version }}" ./dist/* ./stubs/dist/* ./bdist/*  --notes "$FORMATTED_NOTES"
+        env:
+          GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
+
+      # - name: Publish to PyPI
+      #   uses: pypa/gh-action-pypi-publish@release/v1
+
+
