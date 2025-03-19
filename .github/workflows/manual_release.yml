@@ -126,7 +126,7 @@ jobs:
       - name: Create release
         run: |
           # Create GitHub release
-          FORMATTED_NOTES=$(echo -e "${{ steps.vars.outputs.changelog }}" | sed 's/\\n/<br>/g')
+          FORMATTED_NOTES=$(echo -e "${{ needs.prepare-release.outputs.changelog }}" | sed 's/\\n/<br>/g')
           gh release create "v${{ inputs.version }}" --title "v${{ inputs.version }}" ./dist/* ./stubs/dist/* --notes "$FORMATTED_NOTES"
         env:
           GITHUB_TOKEN: ${{ steps.app-token.outputs.token }}
