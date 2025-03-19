@@ -18,6 +18,10 @@ jobs:
   prepare-release:
     name: Prepare Manual Release
     runs-on: ubuntu-latest
+    outputs:
+      changelog: ${{ steps.vars.outputs.changelog }}
+      version_number: ${{ steps.vars.outputs.version_number }}
+      version_tag: ${{ steps.vars.outputs.version_tag }}
     permissions:
       # IMPORTANT: this permission is mandatory for trusted publishing
       id-token: write
@@ -55,6 +59,7 @@ jobs:
         run: |
           # Update version in pyproject.toml
           poetry version ${{ inputs.version }}
+          poetry version --project stubs ${{ inputs.version }}
           # Update CHANGELOG.md
           sed -i 's/# CHANGELOG/# CHANGELOG\n\n'"${{ steps.vars.outputs.changelog }}"'/' CHANGELOG.md
           # Commit both changes together
