@@ -1,4 +1,10 @@
 # CHANGELOG
+
+## vv103.0.0 (2025-03-19)
+
+### Chore
+
+* Bumped major version
 ## v4.5.2 (2025-03-17)
 
 ### Fix
