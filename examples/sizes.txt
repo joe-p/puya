@@ -108,7 +108,7 @@
  loop_else/LoopElse                             279     164       -    |        140      58       - 
  match                                          454     420       -    |        103      84       - 
  match/Counter                                   60      45       -    |         32      24       - 
- merkle/MerkleTree                              210     156     149    |        107      75      75 
+ merkle/MerkleTree                              217     167     163    |        112      83      85 
  module_consts                                   52      50       -    |         12      11       - 
  named_tuples/NamedTuples                       383     240     230    |        217     125     121 
  nested_loops/Nested                            213     200       -    |        132     120       - 
@@ -159,4 +159,4 @@
  unssa/UnSSA                                    411     266       -    |        234     153       - 
  voting/VotingRoundApp                         1575    1423    1411    |        722     618     619 
  with_reentrancy/WithReentrancy                 245     214       -    |        126     108       - 
- Total                                        90059   53718   50119    |      45545   26124   24555 
+ Total                                        90066   53729   50133    |      45550   26132   24565 

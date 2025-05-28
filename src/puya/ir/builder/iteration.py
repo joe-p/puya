@@ -341,7 +341,11 @@ def _iterate_urange_simple(
 
         context.block_builder.activate_block(body)
         context.ssa.write_variable(
-            current_range_item.name, context.block_builder.active_block, next_range_item
+            current_range_item.name,
+            context.block_builder.active_block,
+            context.ssa.read_variable(
+                next_range_item.name, PrimitiveIRType.uint64, context.block_builder.active_block
+            ),
         )
         with context.block_builder.enter_loop(on_continue=footer, on_break=next_block):
             loop_body.accept(context.visitor)

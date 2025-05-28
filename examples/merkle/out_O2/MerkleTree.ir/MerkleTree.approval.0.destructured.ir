@@ -28,12 +28,15 @@ main algopy.arc4.ARC4Contract.approval_program:
         let (maybe_value%0#0: bytes, maybe_exists%0#0: bool) = (app_global_get_ex 0u "root")
         (assert maybe_exists%0#0) // check self.root exists
         let tmp%0#1: uint64 = (extract_uint16 proof#0 0u)
+        let next_range_item#0: uint64 = 0u
         let computed#1: bytes = leaf#0
         goto block@11
     block@11: // for_header_L22
         goto tmp%0#1 ? block@12 : block@16
     block@12: // for_body_L23
-        let b#0: bytes = ((extract 2 32) proof#0)
+        let array_head_and_tail%0#0: bytes = ((extract 2 0) proof#0)
+        let item_offset%0#0: uint64 = (* next_range_item#0 32u)
+        let b#0: bytes = (extract3 array_head_and_tail%0#0 item_offset%0#0 32u) // on error: Index access is out of bounds
         let tmp%0#0: bool = (b< computed#1 b#0)
         goto tmp%0#0 ? block@13 : block@14
     block@13: // ternary_true_L29
@@ -44,6 +47,7 @@ main algopy.arc4.ARC4Contract.approval_program:
         goto block@15
     block@15: // ternary_merge_L29
         let computed#1: bytes = (sha256 ternary_result%0#0)
+        let next_range_item#0: uint64 = 1u
         goto block@11
     block@16: // after_for_L22
         let tmp%0#0: bool = (== maybe_value%0#0 computed#1)

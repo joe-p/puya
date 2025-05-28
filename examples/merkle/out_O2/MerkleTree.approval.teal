@@ -3,11 +3,12 @@
 
 // algopy.arc4.ARC4Contract.approval_program() -> uint64:
 main:
-    intcblock 0 1
+    intcblock 0 1 32
     bytecblock "root"
     intc_0 // 0
     dupn 2
     pushbytes ""
+    dup
     txn NumAppArgs
     bz main_after_if_else@8
     pushbytess 0x8424203b 0xc0290ad5 // method "create(byte[32])void", method "verify(byte[32][],byte[32])bool"
@@ -26,46 +27,55 @@ main_verify_route@4:
     assert // can only call when not creating
     txna ApplicationArgs 1
     dup
-    bury 3
+    bury 4
     txna ApplicationArgs 2
     intc_0 // 0
     bytec_0 // "root"
     app_global_get_ex
     swap
-    bury 6
+    bury 7
     assert // check self.root exists
     swap
     intc_0 // 0
     extract_uint16
     bury 2
-    bury 4
+    intc_0 // 0
+    bury 3
+    bury 5
 
 main_for_header@11:
     dup
     bz main_after_for@16
-    dig 1
-    extract 2 32
+    dig 2
+    extract 2 0
+    dig 2
+    intc_2 // 32
+    *
+    intc_2 // 32
+    extract3 // on error: Index access is out of bounds
     dup
-    dig 5
+    dig 6
     b>
     bz main_ternary_false@14
-    dig 4
+    dig 5
     swap
     concat
 
 main_ternary_merge@15:
     sha256
-    bury 4
+    bury 5
+    intc_1 // 1
+    bury 2
     b main_for_header@11
 
 main_ternary_false@14:
-    dig 4
+    dig 5
     concat
     b main_ternary_merge@15
 
 main_after_for@16:
-    dig 2
-    dig 4
+    dig 3
+    dig 5
     ==
     pushbytes 0x00
     intc_0 // 0

@@ -14,18 +14,19 @@ subroutine examples.merkle.contract.compute_root_hash(proof: bytes, leaf: bytes)
         let next_range_item#0: uint64 = 0u
         goto block@1
     block@1: // for_header_L22
-        let idx#1: uint64 = φ(idx#0 <- block@0, next_range_item#0 <- block@3)
+        let idx#1: uint64 = φ(idx#0 <- block@0, next_range_item#1 <- block@3)
+        let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3)
         let computed#1: bytes = φ(computed#0 <- block@0, computed#2 <- block@3)
         let continue_looping%0#0: bool = (< next_range_item#0 tmp%0#0)
         goto continue_looping%0#0 ? block@2 : block@4
     block@2: // for_body_L23
         let array_head_and_tail%0#0: bytes = ((extract 2 0) proof#0)
-        let item_offset%0#0: uint64 = (* next_range_item#0 32u)
+        let item_offset%0#0: uint64 = (* next_range_item#1 32u)
         let tmp%1#0: bytes = (extract3 array_head_and_tail%0#0 item_offset%0#0 32u) // on error: Index access is out of bounds
         let computed#2: bytes = examples.merkle.contract.hash_pair(computed#1, tmp%1#0)
         goto block@3
     block@3: // for_footer_L22
-        let next_range_item#1: uint64 = (+ next_range_item#0 1u)
+        let next_range_item#2: uint64 = (+ next_range_item#0 1u)
         goto block@1
     block@4: // after_for_L22
         return computed#1 proof#0
