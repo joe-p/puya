@@ -327,7 +327,15 @@ def _iterate_urange_simple(
             context,
             target="continue_looping",
             op=AVMOp.lt,
-            args=[next_range_item, stop],
+            args=[
+                # Get the latest version since it was an assignment target above
+                next_range_item := context.ssa.read_variable(
+                    next_range_item.name,
+                    PrimitiveIRType.uint64,
+                    context.block_builder.active_block,
+                ),
+                stop,
+            ],
             source_location=range_loc,
         )
         context.block_builder.terminate(
@@ -341,12 +349,10 @@ def _iterate_urange_simple(
 
         context.block_builder.activate_block(body)
         context.ssa.write_variable(
-            current_range_item.name,
-            context.block_builder.active_block,
-            context.ssa.read_variable(
-                next_range_item.name, PrimitiveIRType.uint64, context.block_builder.active_block
-            ),
+            current_range_item.name, context.block_builder.active_block, next_range_item
         )
+        (current_range_item,), current_range_index = loop_vars.refresh_assignment(context)
+
         with context.block_builder.enter_loop(on_continue=footer, on_break=next_block):
             loop_body.accept(context.visitor)
 
