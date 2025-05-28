@@ -101,7 +101,7 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
-debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, next_range_item#0 <- block@3) in block@3
 debug: Added head_and_tail#0 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0) in block@0
 debug: Added head_and_tail#1 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) (head_and_tail#1) with head_and_tail#0
@@ -229,7 +229,7 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
-debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, next_range_item#0 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
 debug: Added array_head_and_tail#1 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) (array_head_and_tail#1) with array_head_and_tail#0
@@ -251,7 +251,7 @@ debug: Deleting Phi assignment: let new_items_count#1: uint64 = φ(new_items_cou
 debug: Replaced trivial Phi node: let new_items_count#1: uint64 = φ(new_items_count#0 <- block@0, new_items_count#1 <- block@3) (new_items_count#1) with new_items_count#0 in current definition for 3 blocks
 debug: Terminated block@4
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@5
-debug: Created Phi assignment: let head_offset#4: uint64 = undefined while trying to resolve 'head_offset' in block@5
+debug: Created Phi assignment: let head_offset#3: uint64 = undefined while trying to resolve 'head_offset' in block@5
 debug: Terminated block@5
 debug: Sealing block@6
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@5
@@ -264,8 +264,8 @@ debug: Terminated block@6
 debug: Sealing block@7
 debug: Terminated block@7
 debug: Sealing block@5
-debug: Added head_offset#3 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4) in block@4
-debug: Added head_offset#5 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4, head_offset#5 <- block@7) in block@7
+debug: Added head_offset#2 to Phi node: let head_offset#3: uint64 = φ(head_offset#2 <- block@4) in block@4
+debug: Added next_range_item#2 to Phi node: let head_offset#3: uint64 = φ(head_offset#2 <- block@4, next_range_item#2 <- block@7) in block@7
 debug: Created Phi assignment: let new_head_and_tail#2: bytes = undefined while trying to resolve 'new_head_and_tail' in block@1
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
@@ -334,7 +334,7 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
-debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, next_range_item#0 <- block@3) in block@3
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
 debug: Added new_item_length#0 to Phi node: let new_item_length#1: uint64 = φ(new_item_length#0 <- block@0) in block@0
@@ -368,7 +368,7 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
-debug: Added head_offset#3 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#3 <- block@3) in block@3
+debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
 debug: Added tail_offset#0 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0) in block@0
 debug: Added tail_offset#2 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0, tail_offset#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
@@ -391,7 +391,7 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Sealing block@1
 debug: Added idx#0 to Phi node: let idx#1: uint64 = φ(idx#0 <- block@0) in block@0
-debug: Added idx#2 to Phi node: let idx#1: uint64 = φ(idx#0 <- block@0, idx#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let idx#1: uint64 = φ(idx#0 <- block@0, next_range_item#0 <- block@3) in block@3
 debug: Added computed#0 to Phi node: let computed#1: bytes = φ(computed#0 <- block@0) in block@0
 debug: Added computed#2 to Phi node: let computed#1: bytes = φ(computed#0 <- block@0, computed#2 <- block@3) in block@3
 debug: Added proof#0 to Phi node: let proof#1: bytes = φ(proof#0 <- block@0) in block@0
@@ -500,8 +500,10 @@ debug: Optimizer: Perform Subroutine Inlining
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable idx#1
 debug: Removing unused variable proof%is_original#0
 debug: Removing unused variable proof%out#0
+debug: Removing unused variable next_range_item#1
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizing subroutine examples.merkle.contract.hash_pair
@@ -548,6 +550,8 @@ debug: Optimizer: Perform Subroutine Inlining
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable idx#0
+debug: Removing unused variable next_range_item#0
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizing subroutine examples.merkle.contract.hash_pair
@@ -571,7 +575,43 @@ debug: Optimizer: Constant Replacer
 debug: Optimizer: Remove Unused Variables
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
-debug: No optimizations performed in pass 2, ending loop
+debug: Begin optimization pass 3/100
+debug: Optimizing subroutine algopy.arc4.ARC4Contract.approval_program
+debug: Optimizer: Perform Subroutine Inlining
+debug: Optimizer: Split Parallel Copies
+debug: Optimizer: Constant Replacer
+debug: Optimizer: Remove Unused Variables
+debug: Optimizer: Inner Txn Field Replacer
+debug: Optimizer: Replace Compiled References
+debug: Optimizing subroutine examples.merkle.contract.compute_root_hash
+debug: Optimizer: Perform Subroutine Inlining
+debug: Optimizer: Split Parallel Copies
+debug: Optimizer: Constant Replacer
+debug: Optimizer: Remove Unused Variables
+debug: Optimizer: Inner Txn Field Replacer
+debug: Optimizer: Replace Compiled References
+debug: Optimizing subroutine examples.merkle.contract.hash_pair
+debug: Optimizer: Perform Subroutine Inlining
+debug: Optimizer: Split Parallel Copies
+debug: Optimizer: Constant Replacer
+debug: Optimizer: Remove Unused Variables
+debug: Optimizer: Inner Txn Field Replacer
+debug: Optimizer: Replace Compiled References
+debug: Optimizing subroutine examples.merkle.contract.MerkleTree.create
+debug: Optimizer: Perform Subroutine Inlining
+debug: Optimizer: Split Parallel Copies
+debug: Optimizer: Constant Replacer
+debug: Optimizer: Remove Unused Variables
+debug: Optimizer: Inner Txn Field Replacer
+debug: Optimizer: Replace Compiled References
+debug: Optimizing subroutine examples.merkle.contract.MerkleTree.verify
+debug: Optimizer: Perform Subroutine Inlining
+debug: Optimizer: Split Parallel Copies
+debug: Optimizer: Constant Replacer
+debug: Optimizer: Remove Unused Variables
+debug: Optimizer: Inner Txn Field Replacer
+debug: Optimizer: Replace Compiled References
+debug: No optimizations performed in pass 3, ending loop
 debug: optimizing clear program of examples.merkle.contract.MerkleTree at level 0
 debug: Begin optimization pass 1/100
 debug: Optimizing subroutine algopy.arc4.ARC4Contract.clear_state_program
@@ -656,27 +696,8 @@ debug: Converting to CSSA
 debug: Removing Phi nodes
 debug: Coalescing local variables in examples.merkle.contract.compute_root_hash using strategy RootOperandGrouping
 debug: Coalescing computed#0 with [computed#5, computed#1, computed#2]
-debug: Coalescing idx#0 with [idx#5, idx#1, idx#2]
-debug: Coalescing resulted in 17 replacement/s
+debug: Coalescing resulted in 8 replacement/s
 debug: Sequentializing parallel copies in examples.merkle.contract.compute_root_hash
-debug: loc: {idx#0=idx#0, computed#0=computed#0}
-debug: pred: {idx#0=idx#0, computed#0=computed#0}
-debug: ready: 
-debug: to_do: idx#0, computed#0
-debug: * to_do computed#0
-debug: * to_do idx#0
-debug: loc: {idx#0=idx#0, computed#0=computed#0}
-debug: pred: {idx#0=idx#0, computed#0=computed#0}
-debug: ready: 
-debug: to_do: idx#0, computed#0
-debug: * to_do computed#0
-debug: * to_do idx#0
-debug: loc: {idx#0=idx#0, computed#0=computed#0}
-debug: pred: {idx#0=idx#0, computed#0=computed#0}
-debug: ready: 
-debug: to_do: idx#0, computed#0
-debug: * to_do computed#0
-debug: * to_do idx#0
 debug: Performing post-SSA optimizations at level 0
 debug: Performing SSA IR destructuring for examples.merkle.contract.hash_pair
 debug: Converting to CSSA
@@ -784,7 +805,7 @@ debug: Allocated 1 variable/s to x-stack: ternary_result%0#0
 debug: shared x-stack for hash_pair_ternary_true@1 -> hash_pair_ternary_merge@3: ternary_result%0#0
 debug: shared x-stack for hash_pair_ternary_false@2 -> hash_pair_ternary_merge@3: ternary_result%0#0
 debug: examples.merkle.contract.compute_root_hash f-stack entry: []
-debug: examples.merkle.contract.compute_root_hash f-stack on first store: ['computed#0', 'tmp%0#0', 'idx#0']
+debug: examples.merkle.contract.compute_root_hash f-stack on first store: ['computed#0', 'tmp%0#0']
 debug: optimizing TEAL subroutine ops algopy.arc4.ARC4Contract.approval_program() -> uint64:
 merkle/contract.py:19 debug: optimizing TEAL subroutine ops examples.merkle.contract.compute_root_hash(proof: bytes, leaf: bytes) -> bytes, bytes:
 merkle/contract.py:27 debug: optimizing TEAL subroutine ops examples.merkle.contract.hash_pair(a: bytes, b: bytes) -> bytes:

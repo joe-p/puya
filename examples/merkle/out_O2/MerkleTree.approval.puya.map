@@ -3,7 +3,7 @@
   "sources": [
     "../contract.py"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;AAQA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;;AAAA;AALL;;;AAAA;AAAA;;AAAA;;;AAOe;AAAA;AAAA;AAAA;AAAA;;AAAA;AAMO;AAAA;AAAA;AAAA;;AAAP;AAAP;;;;AAAO;AAAA;AAAf;;;AACuC;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAMT;;AAAA;AAAT;;;AAAA;;AAAA;AAAA;AAAV;AAAA;;AAPI;;AAAA;AAAA;AAAA;;;;;AAOkE;;AAAA;;;;AAblE;;AAAA;;AAAA;AAFV;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAEG;AAHR;;;AAGQ;AAFH;",
+  "mappings": ";;;;;;;;;;;;;;;;;AAQA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;;AAAA;AALL;;;AAAA;AAAA;;AAAA;;;AAOe;AAAA;AAAA;AAAA;AAAA;;AAAA;AAMO;AAAA;AAAA;AAAA;;;;AAAtB;AAAA;;;AACuC;;AAAA;;;AAAA;AAMT;;AAAA;AAAT;;;AAAA;;AAAA;AAAA;AAAV;AAAA;;;;;AAAsE;;AAAA;;;;AAblE;;AAAA;;AAAA;AAFV;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAEG;AAHR;;;AAGQ;AAFH;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -11,18 +11,18 @@
       "params": {},
       "block": "main",
       "stack_in": [],
-      "op": "intcblock 0 1 32"
+      "op": "intcblock 0 1"
     },
-    "6": {
+    "5": {
       "op": "bytecblock \"root\""
     },
-    "13": {
+    "12": {
       "op": "intc_0 // 0",
       "stack_out": [
         "computed#1"
       ]
     },
-    "14": {
+    "13": {
       "op": "dupn 2",
       "stack_out": [
         "computed#1",
@@ -30,26 +30,16 @@
         "proof#0"
       ]
     },
-    "16": {
+    "15": {
       "op": "pushbytes \"\"",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0"
-      ]
-    },
-    "18": {
-      "op": "dup",
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "19": {
+    "17": {
       "op": "txn NumAppArgs",
       "defined_out": [
         "tmp%0#1"
@@ -58,22 +48,20 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#1"
       ]
     },
-    "21": {
+    "19": {
       "op": "bz main_after_if_else@8",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "24": {
+    "22": {
       "op": "pushbytess 0x8424203b 0xc0290ad5 // method \"create(byte[32])void\", method \"verify(byte[32][],byte[32])bool\"",
       "defined_out": [
         "Method(create(byte[32])void)",
@@ -84,13 +72,12 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "Method(create(byte[32])void)",
         "Method(verify(byte[32][],byte[32])bool)"
       ]
     },
-    "36": {
+    "34": {
       "op": "txna ApplicationArgs 0",
       "defined_out": [
         "Method(create(byte[32])void)",
@@ -102,30 +89,27 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "Method(create(byte[32])void)",
         "Method(verify(byte[32][],byte[32])bool)",
         "tmp%2#0"
       ]
     },
-    "39": {
+    "37": {
       "op": "match main_create_route@3 main_verify_route@4",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "45": {
+    "43": {
       "block": "main_after_if_else@8",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ],
       "op": "intc_0 // 0",
@@ -136,28 +120,25 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#0"
       ]
     },
-    "46": {
+    "44": {
       "op": "return",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "47": {
+    "45": {
       "block": "main_verify_route@4",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ],
       "op": "txn OnCompletion",
@@ -168,12 +149,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%7#0"
       ]
     },
-    "49": {
+    "47": {
       "op": "!",
       "defined_out": [
         "tmp%8#0"
@@ -182,23 +162,21 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%8#0"
       ]
     },
-    "50": {
+    "48": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "51": {
+    "49": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%9#0"
@@ -207,26 +185,24 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%9#0"
       ]
     },
-    "53": {
+    "51": {
       "error": "can only call when not creating",
       "op": "assert // can only call when not creating",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "54": {
+    "52": {
       "op": "txna ApplicationArgs 1"
     },
-    "57": {
+    "55": {
       "op": "dup",
       "defined_out": [
         "proof#0"
@@ -235,14 +211,13 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "proof#0"
       ]
     },
-    "58": {
-      "op": "bury 4",
+    "56": {
+      "op": "bury 3",
       "defined_out": [
         "proof#0"
       ],
@@ -250,12 +225,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0"
       ]
     },
-    "60": {
+    "58": {
       "op": "txna ApplicationArgs 2",
       "defined_out": [
         "leaf#0",
@@ -265,26 +239,24 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0"
       ]
     },
-    "63": {
+    "61": {
       "op": "intc_0 // 0",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0",
         "0"
       ]
     },
-    "64": {
+    "62": {
       "op": "bytec_0 // \"root\"",
       "defined_out": [
         "\"root\"",
@@ -296,7 +268,6 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0",
@@ -304,7 +275,7 @@
         "\"root\""
       ]
     },
-    "65": {
+    "63": {
       "op": "app_global_get_ex",
       "defined_out": [
         "leaf#0",
@@ -316,7 +287,6 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0",
@@ -324,13 +294,12 @@
         "maybe_exists%0#0"
       ]
     },
-    "66": {
+    "64": {
       "op": "swap",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0",
@@ -338,8 +307,8 @@
         "maybe_value%0#0"
       ]
     },
-    "67": {
-      "op": "bury 7",
+    "65": {
+      "op": "bury 6",
       "defined_out": [
         "leaf#0",
         "maybe_exists%0#0",
@@ -350,52 +319,48 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0",
         "maybe_exists%0#0"
       ]
     },
-    "69": {
+    "67": {
       "error": "check self.root exists",
       "op": "assert // check self.root exists",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0",
         "leaf#0"
       ]
     },
-    "70": {
+    "68": {
       "op": "swap",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "leaf#0",
         "proof#0"
       ]
     },
-    "71": {
+    "69": {
       "op": "intc_0 // 0",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "leaf#0",
         "proof#0",
         "0"
       ]
     },
-    "72": {
+    "70": {
       "op": "extract_uint16",
       "defined_out": [
         "leaf#0",
@@ -407,16 +372,15 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "leaf#0",
         "tmp%0#1"
       ]
     },
-    "73": {
+    "71": {
       "op": "bury 2",
       "defined_out": [
-        "leaf#0",
+        "computed#1",
         "maybe_value%0#0",
         "proof#0",
         "tmp%0#1"
@@ -425,53 +389,14 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "leaf#0"
-      ]
-    },
-    "75": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "idx#0",
-        "leaf#0",
-        "maybe_value%0#0",
-        "proof#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "leaf#0",
-        "idx#0"
-      ]
-    },
-    "76": {
-      "op": "bury 3",
-      "defined_out": [
-        "computed#1",
-        "idx#0",
-        "maybe_value%0#0",
-        "proof#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
         "tmp%0#1",
         "computed#1"
       ]
     },
-    "78": {
-      "op": "bury 5",
+    "73": {
+      "op": "bury 4",
       "defined_out": [
         "computed#1",
-        "idx#0",
         "maybe_value%0#0",
         "proof#0",
         "tmp%0#1"
@@ -480,64 +405,41 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "80": {
+    "75": {
       "block": "main_for_header@11",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ],
-      "op": "dup2",
+      "op": "dup",
       "defined_out": [
-        "idx#0",
         "tmp%0#1"
       ],
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "81": {
-      "op": "<",
-      "defined_out": [
-        "continue_looping%0#0",
-        "idx#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "continue_looping%0#0"
-      ]
-    },
-    "82": {
+    "76": {
       "op": "bz main_after_for@16",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "85": {
-      "op": "dig 2",
+    "79": {
+      "op": "dig 1",
       "defined_out": [
-        "idx#0",
         "proof#0",
         "tmp%0#1"
       ],
@@ -545,98 +447,14 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "proof#0"
       ]
     },
-    "87": {
-      "op": "extract 2 0",
-      "defined_out": [
-        "array_head_and_tail%0#0",
-        "idx#0",
-        "proof#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "array_head_and_tail%0#0"
-      ]
-    },
-    "90": {
-      "op": "dig 2",
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "array_head_and_tail%0#0",
-        "idx#0"
-      ]
-    },
-    "92": {
-      "op": "intc_2 // 32",
-      "defined_out": [
-        "32",
-        "array_head_and_tail%0#0",
-        "idx#0",
-        "proof#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "array_head_and_tail%0#0",
-        "idx#0",
-        "32"
-      ]
-    },
-    "93": {
-      "op": "*",
-      "defined_out": [
-        "array_head_and_tail%0#0",
-        "idx#0",
-        "item_offset%0#0",
-        "proof#0",
-        "tmp%0#1"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "array_head_and_tail%0#0",
-        "item_offset%0#0"
-      ]
-    },
-    "94": {
-      "op": "intc_2 // 32",
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "array_head_and_tail%0#0",
-        "item_offset%0#0",
-        "32"
-      ]
-    },
-    "95": {
-      "error": "Index access is out of bounds",
-      "op": "extract3 // on error: Index access is out of bounds",
+    "81": {
+      "op": "extract 2 32",
       "defined_out": [
         "b#0",
-        "idx#0",
         "proof#0",
         "tmp%0#1"
       ],
@@ -644,16 +462,14 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0"
       ]
     },
-    "96": {
+    "84": {
       "op": "dup",
       "defined_out": [
         "b#0",
-        "idx#0",
         "proof#0",
         "tmp%0#1"
       ],
@@ -661,18 +477,16 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0",
         "b#0"
       ]
     },
-    "97": {
-      "op": "dig 6",
+    "85": {
+      "op": "dig 5",
       "defined_out": [
         "b#0",
         "computed#1",
-        "idx#0",
         "proof#0",
         "tmp%0#1"
       ],
@@ -680,19 +494,17 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0",
         "b#0",
         "computed#1"
       ]
     },
-    "99": {
+    "87": {
       "op": "b>",
       "defined_out": [
         "b#0",
         "computed#1",
-        "idx#0",
         "proof#0",
         "tmp%0#0",
         "tmp%0#1"
@@ -701,52 +513,47 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0",
         "tmp%0#0"
       ]
     },
-    "100": {
+    "88": {
       "op": "bz main_ternary_false@14",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0"
       ]
     },
-    "103": {
-      "op": "dig 5",
+    "91": {
+      "op": "dig 4",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0",
         "computed#1"
       ]
     },
-    "105": {
+    "93": {
       "op": "swap",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "computed#1",
         "b#0"
       ]
     },
-    "106": {
+    "94": {
       "op": "concat",
       "defined_out": [
         "computed#1",
-        "idx#0",
         "proof#0",
         "ternary_result%0#0",
         "tmp%0#1"
@@ -755,18 +562,16 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "ternary_result%0#0"
       ]
     },
-    "107": {
+    "95": {
       "block": "main_ternary_merge@15",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "ternary_result%0#0"
       ],
@@ -778,13 +583,12 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "computed#1"
       ]
     },
-    "108": {
-      "op": "bury 5",
+    "96": {
+      "op": "bury 4",
       "defined_out": [
         "computed#1"
       ],
@@ -792,76 +596,22 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "110": {
-      "op": "dig 1",
-      "defined_out": [
-        "computed#1",
-        "idx#0"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "idx#0"
-      ]
-    },
-    "112": {
-      "op": "intc_1 // 1",
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "idx#0",
-        "1"
-      ]
-    },
-    "113": {
-      "op": "+",
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1",
-        "idx#0"
-      ]
-    },
-    "114": {
-      "op": "bury 2",
-      "defined_out": [
-        "computed#1",
-        "idx#0"
-      ],
-      "stack_out": [
-        "computed#1",
-        "maybe_value%0#0",
-        "proof#0",
-        "idx#0",
-        "tmp%0#1"
-      ]
-    },
-    "116": {
+    "98": {
       "op": "b main_for_header@11"
     },
-    "119": {
+    "101": {
       "block": "main_ternary_false@14",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0"
       ],
-      "op": "dig 5",
+      "op": "dig 4",
       "defined_out": [
         "b#0",
         "computed#1"
@@ -870,13 +620,12 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "b#0",
         "computed#1"
       ]
     },
-    "121": {
+    "103": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -886,24 +635,22 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "ternary_result%0#0"
       ]
     },
-    "122": {
+    "104": {
       "op": "b main_ternary_merge@15"
     },
-    "125": {
+    "107": {
       "block": "main_after_for@16",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ],
-      "op": "dig 3",
+      "op": "dig 2",
       "defined_out": [
         "maybe_value%0#0"
       ],
@@ -911,13 +658,12 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "maybe_value%0#0"
       ]
     },
-    "127": {
-      "op": "dig 5",
+    "109": {
+      "op": "dig 4",
       "defined_out": [
         "computed#1",
         "maybe_value%0#0"
@@ -926,13 +672,12 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "maybe_value%0#0",
         "computed#1"
       ]
     },
-    "129": {
+    "111": {
       "op": "==",
       "defined_out": [
         "computed#1",
@@ -943,12 +688,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#0"
       ]
     },
-    "130": {
+    "112": {
       "op": "pushbytes 0x00",
       "defined_out": [
         "0x00",
@@ -960,13 +704,12 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#0",
         "0x00"
       ]
     },
-    "133": {
+    "115": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -979,27 +722,25 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#0",
         "0x00",
         "0"
       ]
     },
-    "134": {
+    "116": {
       "op": "uncover 2",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "0x00",
         "0",
         "tmp%0#0"
       ]
     },
-    "136": {
+    "118": {
       "op": "setbit",
       "defined_out": [
         "computed#1",
@@ -1010,12 +751,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "encoded_bool%0#0"
       ]
     },
-    "137": {
+    "119": {
       "op": "pushbytes 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -1027,25 +767,23 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "encoded_bool%0#0",
         "0x151f7c75"
       ]
     },
-    "143": {
+    "125": {
       "op": "swap",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "0x151f7c75",
         "encoded_bool%0#0"
       ]
     },
-    "144": {
+    "126": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -1056,22 +794,20 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%12#0"
       ]
     },
-    "145": {
+    "127": {
       "op": "log",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "146": {
+    "128": {
       "op": "intc_1 // 1",
       "defined_out": [
         "computed#1",
@@ -1082,28 +818,25 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#0"
       ]
     },
-    "147": {
+    "129": {
       "op": "return",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "148": {
+    "130": {
       "block": "main_create_route@3",
       "stack_in": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ],
       "op": "txn OnCompletion",
@@ -1114,12 +847,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%3#0"
       ]
     },
-    "150": {
+    "132": {
       "op": "!",
       "defined_out": [
         "tmp%4#0"
@@ -1128,23 +860,21 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%4#0"
       ]
     },
-    "151": {
+    "133": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "152": {
+    "134": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%5#0"
@@ -1153,12 +883,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%5#0"
       ]
     },
-    "154": {
+    "136": {
       "op": "!",
       "defined_out": [
         "tmp%6#0"
@@ -1167,23 +896,21 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%6#0"
       ]
     },
-    "155": {
+    "137": {
       "error": "can only call when creating",
       "op": "assert // can only call when creating",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "156": {
+    "138": {
       "op": "bytec_0 // \"root\"",
       "defined_out": [
         "\"root\""
@@ -1192,12 +919,11 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "\"root\""
       ]
     },
-    "157": {
+    "139": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "\"root\"",
@@ -1207,23 +933,21 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "\"root\"",
         "root#0"
       ]
     },
-    "160": {
+    "142": {
       "op": "app_global_put",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     },
-    "161": {
+    "143": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -1232,18 +956,16 @@
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1",
         "tmp%0#0"
       ]
     },
-    "162": {
+    "144": {
       "op": "return",
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
         "proof#0",
-        "idx#0",
         "tmp%0#1"
       ]
     }

@@ -3,7 +3,7 @@
   "sources": [
     "../contract.py"
   ],
-  "mappings": ";;;;;;;;;;;;;AAQA;;AAAA;AAAA;AAAA;;;AAAA;;;AAAA;;;;;;AAAA;;;;;;AAAA;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AALL;;;AAAA;;;AAKK;;;AAAA;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;;;AAJA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AADL;;;AACK;;;AAAA;;;;;;;AASL;;;AAEI;;AACkB;;AAAA;AAAA;AAAP;AAAf;AAAe;AAAA;;AAAA;;AAAA;AAAf;;;AACuC;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAA/B;;AAAA;AAAW;;;AAAX;;AADO;;AAAA;AAAA;AAAA;;;;;AAEX;;AAAA;;AAAA;;AAAA;;AAAA;AAGJ;;;AAE8B;;AAAwB;;AAAxB;AAAT;;;AAAA;;AAAA;;AAAA;AAAV;AAAP;AAA6E;;AAAA;;AAAA;;;;AAnBjF;;;AAEQ;AAAA;;AAAA;;AAER;;;AAEe;AAAA;AAAA;AAAA;AAAa;;AAAA;;AAAA;;;AAAA;AAAb;AAAP",
+  "mappings": ";;;;;;;;;;;;;AAQA;;AAAA;AAAA;AAAA;;;AAAA;;;AAAA;;;;;;AAAA;;;;;;AAAA;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AALL;;;AAAA;;;AAKK;;;AAAA;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;;;AAJA;;AAAA;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AADL;;;AACK;;;AAAA;;;;;;;AASL;;;AAEI;;AACkB;;AAAA;AAAA;AAAP;AAAf;AAAe;AAAA;;AAAA;AAAf;;;AACuC;;AAAA;;;AADxB;AACwB;AAAA;AAAA;AAAA;AAA/B;;AAAA;AAAW;;;AAAX;;;;;AACJ;;AAAA;;AAAA;;AAAA;;AAAA;AAGJ;;;AAE8B;;AAAwB;;AAAxB;AAAT;;;AAAA;;AAAA;;AAAA;AAAV;AAAP;AAA6E;;AAAA;;AAAA;;;;AAnBjF;;;AAEQ;AAAA;;AAAA;;AAER;;;AAEe;AAAA;AAAA;AAAA;AAAa;;AAAA;;AAAA;;;AAAA;AAAb;AAAP",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -471,78 +471,58 @@
       ]
     },
     "118": {
-      "op": "intc_0 // 0",
-      "defined_out": [
-        "computed#0",
-        "idx#0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "computed#0",
-        "tmp%0#0",
-        "idx#0"
-      ]
-    },
-    "119": {
       "block": "compute_root_hash_for_header@1",
       "stack_in": [
         "computed#0",
-        "tmp%0#0",
-        "idx#0"
+        "tmp%0#0"
       ],
-      "op": "frame_dig 2",
+      "op": "intc_0 // 0",
       "defined_out": [
-        "idx#0"
+        "0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
-        "idx#0"
+        "0"
+      ]
+    },
+    "119": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "computed#0",
+        "tmp%0#0",
+        "0",
+        "tmp%0#0"
       ]
     },
     "121": {
-      "op": "frame_dig 1",
-      "defined_out": [
-        "idx#0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "computed#0",
-        "tmp%0#0",
-        "idx#0",
-        "idx#0",
-        "tmp%0#0"
-      ]
-    },
-    "123": {
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "idx#0",
         "tmp%0#0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "continue_looping%0#0"
       ]
     },
-    "124": {
+    "122": {
       "op": "bz compute_root_hash_after_for@4",
       "stack_out": [
         "computed#0",
-        "tmp%0#0",
-        "idx#0"
+        "tmp%0#0"
       ]
     },
-    "127": {
+    "125": {
       "block": "compute_root_hash_for_body@2",
       "stack_in": [
         "computed#0",
-        "tmp%0#0",
-        "idx#0"
+        "tmp%0#0"
       ],
       "op": "frame_dig -2",
       "defined_out": [
@@ -551,11 +531,10 @@
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "proof#0 (copy)"
       ]
     },
-    "129": {
+    "127": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0"
@@ -563,188 +542,126 @@
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "array_head_and_tail%0#0"
       ]
     },
-    "132": {
-      "op": "frame_dig 2",
+    "130": {
+      "op": "intc_0 // 0",
       "defined_out": [
-        "array_head_and_tail%0#0",
-        "idx#0"
+        "0",
+        "array_head_and_tail%0#0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "array_head_and_tail%0#0",
-        "idx#0"
+        "0"
       ]
     },
-    "134": {
+    "131": {
       "op": "intc_2 // 32",
       "defined_out": [
+        "0",
         "32",
-        "array_head_and_tail%0#0",
-        "idx#0"
+        "array_head_and_tail%0#0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "array_head_and_tail%0#0",
-        "idx#0",
+        "0",
         "32"
       ]
     },
-    "135": {
+    "132": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
-        "idx#0",
         "item_offset%0#0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0"
       ]
     },
-    "136": {
+    "133": {
       "op": "intc_2 // 32",
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "32"
       ]
     },
-    "137": {
+    "134": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
-        "idx#0",
         "tmp%1#0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "tmp%1#0"
       ]
     },
-    "138": {
+    "135": {
       "op": "frame_dig 0",
       "defined_out": [
         "computed#0",
-        "idx#0",
         "tmp%1#0"
       ],
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "tmp%1#0",
         "computed#0"
       ]
     },
-    "140": {
+    "137": {
       "op": "swap",
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "computed#0",
         "tmp%1#0"
       ]
     },
-    "141": {
+    "138": {
       "callsub": "examples.merkle.contract.hash_pair",
       "op": "callsub hash_pair",
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "computed#0"
       ]
     },
-    "144": {
+    "141": {
       "op": "frame_bury 0",
       "defined_out": [
-        "computed#0",
-        "idx#0"
+        "computed#0"
       ],
       "stack_out": [
         "computed#0",
-        "tmp%0#0",
-        "idx#0"
+        "tmp%0#0"
       ]
     },
-    "146": {
+    "143": {
       "block": "compute_root_hash_for_footer@3",
       "stack_in": [
         "computed#0",
-        "tmp%0#0",
-        "idx#0"
+        "tmp%0#0"
       ],
-      "op": "frame_dig 2",
-      "defined_out": [
-        "idx#0"
-      ],
-      "stack_out": [
-        "computed#0",
-        "tmp%0#0",
-        "idx#0",
-        "idx#0"
-      ]
-    },
-    "148": {
-      "op": "intc_1 // 1",
-      "defined_out": [
-        "1",
-        "idx#0"
-      ],
-      "stack_out": [
-        "computed#0",
-        "tmp%0#0",
-        "idx#0",
-        "idx#0",
-        "1"
-      ]
-    },
-    "149": {
-      "op": "+",
-      "stack_out": [
-        "computed#0",
-        "tmp%0#0",
-        "idx#0",
-        "idx#0"
-      ]
-    },
-    "150": {
-      "op": "frame_bury 2",
-      "defined_out": [
-        "idx#0"
-      ],
-      "stack_out": [
-        "computed#0",
-        "tmp%0#0",
-        "idx#0"
-      ]
-    },
-    "152": {
       "op": "b compute_root_hash_for_header@1"
     },
-    "155": {
+    "146": {
       "block": "compute_root_hash_after_for@4",
       "stack_in": [
         "computed#0",
-        "tmp%0#0",
-        "idx#0"
+        "tmp%0#0"
       ],
       "op": "frame_dig 0",
       "defined_out": [
@@ -753,11 +670,10 @@
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "computed#0"
       ]
     },
-    "157": {
+    "148": {
       "op": "frame_dig -2",
       "defined_out": [
         "computed#0",
@@ -766,22 +682,21 @@
       "stack_out": [
         "computed#0",
         "tmp%0#0",
-        "idx#0",
         "computed#0",
         "proof#0 (copy)"
       ]
     },
-    "159": {
-      "op": "frame_bury 1"
+    "150": {
+      "op": "uncover 3"
     },
-    "161": {
-      "op": "frame_bury 0"
+    "152": {
+      "op": "uncover 3"
     },
-    "163": {
+    "154": {
       "retsub": true,
       "op": "retsub"
     },
-    "164": {
+    "155": {
       "subroutine": "examples.merkle.contract.hash_pair",
       "params": {
         "a#0": "bytes",
@@ -791,7 +706,7 @@
       "stack_in": [],
       "op": "proto 2 1"
     },
-    "167": {
+    "158": {
       "block": "hash_pair_block@0",
       "stack_in": [],
       "op": "frame_dig -2",
@@ -802,7 +717,7 @@
         "reinterpret_biguint%0#0"
       ]
     },
-    "169": {
+    "160": {
       "op": "frame_dig -1",
       "defined_out": [
         "reinterpret_biguint%0#0",
@@ -813,7 +728,7 @@
         "reinterpret_biguint%1#0"
       ]
     },
-    "171": {
+    "162": {
       "op": "b<",
       "defined_out": [
         "tmp%0#0"
@@ -822,11 +737,11 @@
         "tmp%0#0"
       ]
     },
-    "172": {
+    "163": {
       "op": "bz hash_pair_ternary_false@2",
       "stack_out": []
     },
-    "175": {
+    "166": {
       "block": "hash_pair_ternary_true@1",
       "stack_in": [],
       "op": "frame_dig -2",
@@ -837,7 +752,7 @@
         "a#0 (copy)"
       ]
     },
-    "177": {
+    "168": {
       "op": "frame_dig -1",
       "defined_out": [
         "a#0 (copy)",
@@ -848,7 +763,7 @@
         "b#0 (copy)"
       ]
     },
-    "179": {
+    "170": {
       "op": "concat",
       "defined_out": [
         "ternary_result%0#0"
@@ -857,7 +772,7 @@
         "ternary_result%0#0"
       ]
     },
-    "180": {
+    "171": {
       "block": "hash_pair_ternary_merge@3",
       "stack_in": [
         "ternary_result%0#0"
@@ -870,11 +785,11 @@
         "tmp%1#0"
       ]
     },
-    "181": {
+    "172": {
       "retsub": true,
       "op": "retsub"
     },
-    "182": {
+    "173": {
       "block": "hash_pair_ternary_false@2",
       "stack_in": [],
       "op": "frame_dig -1",
@@ -885,7 +800,7 @@
         "b#0 (copy)"
       ]
     },
-    "184": {
+    "175": {
       "op": "frame_dig -2",
       "defined_out": [
         "a#0 (copy)",
@@ -896,7 +811,7 @@
         "a#0 (copy)"
       ]
     },
-    "186": {
+    "177": {
       "op": "concat",
       "defined_out": [
         "ternary_result%0#0"
@@ -905,10 +820,10 @@
         "ternary_result%0#0"
       ]
     },
-    "187": {
+    "178": {
       "op": "b hash_pair_ternary_merge@3"
     },
-    "190": {
+    "181": {
       "subroutine": "examples.merkle.contract.MerkleTree.create",
       "params": {
         "root#0": "bytes"
@@ -917,7 +832,7 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "193": {
+    "184": {
       "block": "create_block@0",
       "stack_in": [],
       "op": "bytec_0 // \"root\"",
@@ -928,7 +843,7 @@
         "\"root\""
       ]
     },
-    "194": {
+    "185": {
       "op": "frame_dig -1",
       "defined_out": [
         "\"root\"",
@@ -939,15 +854,15 @@
         "root#0 (copy)"
       ]
     },
-    "196": {
+    "187": {
       "op": "app_global_put",
       "stack_out": []
     },
-    "197": {
+    "188": {
       "retsub": true,
       "op": "retsub"
     },
-    "198": {
+    "189": {
       "subroutine": "examples.merkle.contract.MerkleTree.verify",
       "params": {
         "proof#0": "bytes",
@@ -957,7 +872,7 @@
       "stack_in": [],
       "op": "proto 2 1"
     },
-    "201": {
+    "192": {
       "block": "verify_block@0",
       "stack_in": [],
       "op": "intc_0 // 0",
@@ -968,7 +883,7 @@
         "0"
       ]
     },
-    "202": {
+    "193": {
       "op": "bytec_0 // \"root\"",
       "defined_out": [
         "\"root\"",
@@ -979,7 +894,7 @@
         "\"root\""
       ]
     },
-    "203": {
+    "194": {
       "op": "app_global_get_ex",
       "defined_out": [
         "maybe_exists%0#0",
@@ -990,14 +905,14 @@
         "maybe_exists%0#0"
       ]
     },
-    "204": {
+    "195": {
       "error": "check self.root exists",
       "op": "assert // check self.root exists",
       "stack_out": [
         "maybe_value%0#0"
       ]
     },
-    "205": {
+    "196": {
       "op": "frame_dig -2",
       "defined_out": [
         "maybe_value%0#0",
@@ -1008,7 +923,7 @@
         "proof#0 (copy)"
       ]
     },
-    "207": {
+    "198": {
       "op": "frame_dig -1",
       "defined_out": [
         "leaf#0 (copy)",
@@ -1021,7 +936,7 @@
         "leaf#0 (copy)"
       ]
     },
-    "209": {
+    "200": {
       "callsub": "examples.merkle.contract.compute_root_hash",
       "op": "callsub compute_root_hash",
       "defined_out": [
@@ -1035,14 +950,14 @@
         "compute_root_hash%1#0"
       ]
     },
-    "212": {
+    "203": {
       "op": "pop",
       "stack_out": [
         "maybe_value%0#0",
         "compute_root_hash%0#0"
       ]
     },
-    "213": {
+    "204": {
       "op": "==",
       "defined_out": [
         "tmp%0#0"
@@ -1051,7 +966,7 @@
         "tmp%0#0"
       ]
     },
-    "214": {
+    "205": {
       "retsub": true,
       "op": "retsub"
     }

@@ -308,6 +308,18 @@ def _iterate_urange_simple(
     loop_vars = assigner.assign_user_loop_vars(
         start, UInt64Constant(value=0, source_location=None)
     )
+
+    next_range_item = context.ssa.new_register(
+        "next_range_item", PrimitiveIRType.uint64, range_loc
+    )
+
+    assign_targets(
+        context,
+        source=start,
+        targets=[next_range_item],
+        assignment_location=range_loc,
+    )
+
     context.block_builder.goto(header)
     with context.block_builder.activate_open_block(header):
         (current_range_item,), current_range_index = loop_vars.refresh_assignment(context)
@@ -315,7 +327,7 @@ def _iterate_urange_simple(
             context,
             target="continue_looping",
             op=AVMOp.lt,
-            args=[current_range_item, stop],
+            args=[next_range_item, stop],
             source_location=range_loc,
         )
         context.block_builder.terminate(
@@ -328,6 +340,9 @@ def _iterate_urange_simple(
         )
 
         context.block_builder.activate_block(body)
+        context.ssa.write_variable(
+            current_range_item.name, context.block_builder.active_block, next_range_item
+        )
         with context.block_builder.enter_loop(on_continue=footer, on_break=next_block):
             loop_body.accept(context.visitor)
 
@@ -335,9 +350,9 @@ def _iterate_urange_simple(
         if context.block_builder.try_activate_block(footer):
             assign_intrinsic_op(
                 context,
-                target=current_range_item,
+                target=next_range_item,
                 op=AVMOp.add,
-                args=[current_range_item, step],
+                args=[next_range_item, step],
                 source_location=range_loc,
             )
             if current_range_index:
