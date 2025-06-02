@@ -3,7 +3,7 @@
   "sources": [
     "../leftover_branch.py"
   ],
-  "mappings": ";;;;;;;AAGA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;AAAA;;AAyBK;;AAAA;AAAA;AAAA;;AAAA;AAzBL;;;AAAA;;;AAyBK;;;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;;AAbA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AADL;;AAAA;;;;;;;;;AAmDW;AAAP;AAKO;AAAP;AAvDJ;;;;;;;AAEe;AAEc;;;AAAA;;AAAP;AAAN;;AAAM;;AAAA;;AAAA;AAAtB;;;AACmB;;;;;;;AAAnB;;;AACuB;;;;;;;AAAvB;;;AAC2B;;;;;;;AAA3B;;;AACoC;;;AAAR;;AAAA;;;;;;;AAJN;;AAAA;AAAA;AAAA;;;;;AAKP;;;AAAf;;;AAEQ;;AAAA;;AAAA;AAER;;;;;AAEe;AAEA;;;;;;;AAAf;;;AACmB;;;;;;;AAAnB;;;AACuB;;;;;;;AAAvB;;;AACgC;;;AAAR;;AAAA;;;;;;;AACT;;;AAAf;;;;AAGA;;;;;;;;;;AAMgB;AACK;AAEG;;AAAA;AAAA;AAAP;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAjB;;;AACyB;;AAAA;;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AACW;AAAA;AAAA;AAAA;;AAAoB;AAApB;AAAxB;;AACS;AAAL;;AAAK;;AAAA;;AAAA;AAArB;;;AACwB;;AAAA;;;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAR;AAAA;;AACG;;AAAA;;;;;;;;;AAAnB;;;AACoB;;AAAA;;AAAW;;;;;;;;;AAC/B;;;AACwB;;AAAS;AAAT;AAAA;AAAA;;AACwB;;AAAI;AAAJ;AAAX;AAAA;AAAb;;AAAA;AAAa;AAAA;AACV;;AAAA;;;;;;;;AAA3B;;;AAC4B;;AAAS;AAAT;AACA;;AAAc;AAAd;;;;;;;;;;;;;;;;;;;AATP;;AAAA;AAAA;AAAA;;;;;AAHJ;;AAAA;AAAA;AAAA;;;;;",
+  "mappings": ";;;;;;;AAGA;;AAAA;;;AAAA;;;;;;;;;;;;;;;;;AAAA;;;AAAA;;;;;;;;AAAA;;AAyBK;;AAAA;AAAA;AAAA;;AAAA;AAzBL;;;AAAA;;;AAyBK;;;AAAA;;AAXA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;;AAbA;;AAAA;AAAA;AAAA;;AAAA;AAAA;;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AADL;;AAAA;;;;;;;;;AAmDW;AAAP;AAKO;AAAP;AAvDJ;;;;;;;AAEe;AAEc;;;AAAA;;AAAP;AAAA;;AAAA;;AAAA;;AAAA;AAAtB;;;AACmB;;;;;;;AAAnB;;;AACuB;;;;;;;AAAvB;;;AAC2B;;;;;;;AAA3B;;;AACoC;;;AAAR;;AAAA;;;;;;;AAJN;;AAAA;AAAA;AAAA;;;;;AAKP;;;AAAf;;;AAEQ;;AAAA;;AAAA;AAER;;;;;AAEe;AAEA;;;;;;;AAAf;;;AACmB;;;;;;;AAAnB;;;AACuB;;;;;;;AAAvB;;;AACgC;;;AAAR;;AAAA;;;;;;;AACT;;;AAAf;;;;AAGA;;;;;;;;;;AAMgB;AACK;AAEG;;AAAA;AAAA;AAAP;AAAA;;AAAA;;AAAA;AAAA;AAAA;;AAAjB;;;AACyB;;AAAA;;;AAAA;;AAAA;AAAA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;;AACW;AAAA;AAAA;AAAA;;AAAoB;AAApB;AAAxB;;AACS;AAAA;;AAAA;;AAAA;;AAAA;AAArB;;;AACwB;;AAAA;;;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAR;AAAA;;AACG;;AAAA;;;;;;;;;AAAnB;;;AACoB;;AAAA;;AAAW;;;;;;;;;AAC/B;;;AACwB;;AAAS;AAAT;AAAA;AAAA;;AACwB;;AAAI;AAAJ;AAAX;AAAA;AAAb;;AAAA;AAAa;AAAA;AACV;;AAAA;;;;;;;;AAA3B;;;AAC4B;;AAAS;AAAT;AACA;;AAAc;AAAd;;;;;;;;;;;;;;;;;;;AATP;;AAAA;AAAA;AAAA;;;;;AAHJ;;AAAA;AAAA;AAAA;;;;;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -403,14 +403,14 @@
     "112": {
       "op": "pushbytes \"\"",
       "stack_out": [
-        "_i#0"
+        "ahuh#15"
       ]
     },
     "114": {
       "op": "dupn 2",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0"
       ]
     },
@@ -420,8 +420,8 @@
         "ahuh#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -429,8 +429,8 @@
     "117": {
       "block": "umm_while_top@1",
       "stack_in": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ],
@@ -440,8 +440,8 @@
         "tmp%0#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%0#0"
@@ -453,8 +453,8 @@
         "tmp%0#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -462,26 +462,26 @@
     "122": {
       "op": "intc_0 // 0",
       "defined_out": [
-        "_i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
-        "_i#0"
+        "next_range_item#0"
       ]
     },
     "123": {
-      "op": "frame_bury 0",
+      "op": "frame_bury 1",
       "defined_out": [
-        "_i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -489,48 +489,48 @@
     "125": {
       "block": "umm_for_header@3",
       "stack_in": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ],
-      "op": "frame_dig 0",
+      "op": "frame_dig 1",
       "defined_out": [
-        "_i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
-        "_i#0"
+        "next_range_item#0"
       ]
     },
     "127": {
       "op": "frame_dig 2",
       "defined_out": [
-        "_i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
-        "_i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ]
     },
     "129": {
       "op": "<",
       "defined_out": [
-        "_i#0",
         "continue_looping%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "continue_looping%0#0"
@@ -539,8 +539,8 @@
     "130": {
       "op": "bz umm_after_for@12",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -549,13 +549,13 @@
       "callsub": "test_cases.regression_tests.leftover_branch.hmm",
       "op": "callsub hmm",
       "defined_out": [
-        "_i#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%1#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%1#0"
@@ -564,14 +564,14 @@
     "136": {
       "op": "frame_dig 3",
       "defined_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%1#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%1#0",
@@ -579,16 +579,16 @@
       ]
     },
     "138": {
-      "op": "frame_bury 1",
+      "op": "frame_bury 0",
       "defined_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%1#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%1#0"
@@ -597,8 +597,8 @@
     "140": {
       "op": "bz umm_after_if_else@10",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -607,14 +607,14 @@
       "callsub": "test_cases.regression_tests.leftover_branch.hmm",
       "op": "callsub hmm",
       "defined_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%2#0"
@@ -623,8 +623,8 @@
     "146": {
       "op": "frame_dig 3",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%2#0",
@@ -632,10 +632,10 @@
       ]
     },
     "148": {
-      "op": "frame_bury 1",
+      "op": "frame_bury 0",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%2#0"
@@ -644,8 +644,8 @@
     "150": {
       "op": "bz umm_after_if_else@10",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -654,14 +654,14 @@
       "callsub": "test_cases.regression_tests.leftover_branch.hmm",
       "op": "callsub hmm",
       "defined_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%3#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%3#0"
@@ -670,8 +670,8 @@
     "156": {
       "op": "frame_dig 3",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%3#0",
@@ -679,10 +679,10 @@
       ]
     },
     "158": {
-      "op": "frame_bury 1",
+      "op": "frame_bury 0",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%3#0"
@@ -691,8 +691,8 @@
     "160": {
       "op": "bz umm_after_if_else@10",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -701,14 +701,14 @@
       "callsub": "test_cases.regression_tests.leftover_branch.hmm",
       "op": "callsub hmm",
       "defined_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%4#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%4#0"
@@ -717,15 +717,15 @@
     "166": {
       "op": "frame_dig 3",
       "defined_out": [
-        "_i#0",
         "ahuh#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%4#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%4#0",
@@ -735,18 +735,18 @@
     "168": {
       "op": "+",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "ahuh#15"
       ]
     },
     "169": {
-      "op": "frame_bury 1",
+      "op": "frame_bury 0",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -754,18 +754,18 @@
     "171": {
       "block": "umm_after_if_else@10",
       "stack_in": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ],
-      "op": "frame_dig 1",
+      "op": "frame_dig 0",
       "defined_out": [
         "ahuh#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "ahuh#0"
@@ -777,61 +777,61 @@
         "ahuh#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
     },
     "175": {
-      "op": "frame_dig 0",
+      "op": "frame_dig 1",
       "defined_out": [
-        "_i#0",
-        "ahuh#0"
+        "ahuh#0",
+        "next_range_item#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
-        "_i#0"
+        "next_range_item#0"
       ]
     },
     "177": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
-        "_i#0",
-        "ahuh#0"
+        "ahuh#0",
+        "next_range_item#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
-        "_i#0",
+        "next_range_item#0",
         "1"
       ]
     },
     "178": {
       "op": "+",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
-        "_i#0"
+        "next_range_item#0"
       ]
     },
     "179": {
-      "op": "frame_bury 0",
+      "op": "frame_bury 1",
       "defined_out": [
-        "_i#0",
-        "ahuh#0"
+        "ahuh#0",
+        "next_range_item#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -842,8 +842,8 @@
     "184": {
       "block": "umm_after_for@12",
       "stack_in": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ],
@@ -853,8 +853,8 @@
         "tmp%5#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "tmp%5#0"
@@ -863,8 +863,8 @@
     "187": {
       "op": "bz umm_while_top@1",
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0"
       ]
@@ -875,8 +875,8 @@
         "ahuh#0"
       ],
       "stack_out": [
-        "_i#0",
         "ahuh#15",
+        "next_range_item#0",
         "tmp%0#0",
         "ahuh#0",
         "ahuh#0"
@@ -1167,8 +1167,8 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16"
@@ -1196,8 +1196,8 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
@@ -1219,8 +1219,8 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
@@ -1232,7 +1232,7 @@
     "266": {
       "op": "intc_0 // 0",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "num_boosts#0",
         "tmp%0#0",
         "total#0"
@@ -1242,15 +1242,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "267": {
@@ -1260,41 +1260,41 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 12",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "269": {
       "op": "frame_dig 11",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1302,16 +1302,16 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%0#0"
       ]
     },
@@ -1319,7 +1319,7 @@
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1327,15 +1327,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
@@ -1346,15 +1346,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0",
         "continue_looping%0#0"
       ]
@@ -1363,7 +1363,7 @@
       "op": "frame_bury 3",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1371,15 +1371,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
@@ -1390,23 +1390,23 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "278": {
       "op": "frame_dig -2",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "nested_list#0 (copy)",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1414,15 +1414,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "nested_list#0 (copy)"
       ]
     },
@@ -1431,7 +1431,7 @@
       "defined_out": [
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1439,15 +1439,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0"
       ]
     },
@@ -1458,15 +1458,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "continue_looping%0#0"
       ]
@@ -1479,15 +1479,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0"
       ]
     },
@@ -1498,17 +1498,17 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "288": {
@@ -1517,7 +1517,7 @@
         "2",
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1525,17 +1525,17 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
-        "i#0",
+        "next_range_item#0",
         "2"
       ]
     },
@@ -1544,8 +1544,8 @@
       "defined_out": [
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
         "item_offset_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1553,15 +1553,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset_offset%0#0"
       ]
@@ -1572,8 +1572,8 @@
         "array_head_and_tail%0#0",
         "array_head_and_tail%0#0 (copy)",
         "continue_looping%0#0",
-        "i#0",
         "item_offset_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1581,15 +1581,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset_offset%0#0",
         "array_head_and_tail%0#0 (copy)"
@@ -1602,15 +1602,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "array_head_and_tail%0#0 (copy)",
         "item_offset_offset%0#0"
@@ -1621,8 +1621,8 @@
       "defined_out": [
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
         "item_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1630,15 +1630,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0"
       ]
@@ -1649,9 +1649,9 @@
         "array_head_and_tail%0#0",
         "array_head_and_tail%0#0 (copy)",
         "continue_looping%0#0",
-        "i#0",
         "item_offset%0#0",
         "item_offset%0#0 (copy)",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1659,15 +1659,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "array_head_and_tail%0#0 (copy)",
@@ -1679,9 +1679,9 @@
       "defined_out": [
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
         "item_length%0#0",
         "item_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1689,15 +1689,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "item_length%0#0"
@@ -1709,9 +1709,9 @@
         "8",
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
         "item_length%0#0",
         "item_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1719,15 +1719,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "item_length%0#0",
@@ -1739,9 +1739,9 @@
       "defined_out": [
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
         "item_length_in_bytes%0#0",
         "item_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1749,15 +1749,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "item_length_in_bytes%0#0"
@@ -1770,15 +1770,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "item_length_in_bytes%0#0",
@@ -1790,9 +1790,9 @@
       "defined_out": [
         "array_head_and_tail%0#0",
         "continue_looping%0#0",
-        "i#0",
         "item_head_tail_length%0#0",
         "item_offset%0#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1800,15 +1800,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%0#0",
         "item_offset%0#0",
         "item_head_tail_length%0#0"
@@ -1818,8 +1818,8 @@
       "op": "extract3",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1827,15 +1827,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "inner_list#0"
       ]
     },
@@ -1846,15 +1846,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "inner_list#0",
         "inner_list#0"
       ]
@@ -1863,8 +1863,8 @@
       "op": "frame_bury 1",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -1872,15 +1872,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "inner_list#0"
       ]
     },
@@ -1891,15 +1891,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "inner_list#0",
         "0"
       ]
@@ -1908,8 +1908,8 @@
       "op": "extract_uint16",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -1918,15 +1918,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%2#0"
       ]
     },
@@ -1937,15 +1937,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%2#0",
         "tmp%2#0"
       ]
@@ -1954,8 +1954,8 @@
       "op": "frame_bury 7",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -1964,15 +1964,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%2#0"
       ]
     },
@@ -1981,8 +1981,8 @@
       "defined_out": [
         "1",
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -1991,15 +1991,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%2#0",
         "1"
       ]
@@ -2008,9 +2008,9 @@
       "op": "-",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
         "last_inner_list_index#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -2019,25 +2019,25 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "last_inner_list_index#0"
       ]
     },
     "311": {
-      "op": "frame_bury 5",
+      "op": "frame_bury 4",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
         "last_inner_list_index#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -2046,25 +2046,25 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "313": {
       "op": "intc_0 // 0",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#0",
+        "next_range_item#2",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -2073,43 +2073,34 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0"
+        "next_range_item#0",
+        "next_range_item#2"
       ]
     },
     "314": {
-      "op": "frame_bury 4",
-      "defined_out": [
-        "continue_looping%0#0",
-        "i#0",
-        "inner_list#0",
-        "j#0",
-        "last_inner_list_index#0",
-        "tmp%0#0",
-        "tmp%2#0"
-      ],
+      "op": "frame_bury 5",
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "316": {
@@ -2119,41 +2110,41 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
-      "op": "frame_dig 4",
+      "op": "frame_dig 5",
       "defined_out": [
-        "j#0"
+        "next_range_item#2"
       ],
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0"
+        "next_range_item#0",
+        "next_range_item#2"
       ]
     },
     "318": {
       "op": "frame_dig 7",
       "defined_out": [
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2161,16 +2152,16 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0",
+        "next_range_item#0",
+        "next_range_item#2",
         "tmp%2#0"
       ]
     },
@@ -2178,7 +2169,7 @@
       "op": "<",
       "defined_out": [
         "continue_looping%1#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2186,15 +2177,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%1#0"
       ]
     },
@@ -2205,22 +2196,22 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "324": {
       "op": "frame_dig 1",
       "defined_out": [
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2228,15 +2219,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "inner_list#0"
       ]
     },
@@ -2245,7 +2236,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2253,15 +2244,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0"
       ]
     },
@@ -2272,15 +2263,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0",
         "array_head_and_tail%1#0"
       ]
@@ -2290,7 +2281,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2298,36 +2289,36 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0"
       ]
     },
     "332": {
-      "op": "frame_dig 4",
+      "op": "frame_dig 5",
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0",
-        "j#0"
+        "next_range_item#2"
       ]
     },
     "334": {
@@ -2336,7 +2327,7 @@
         "8",
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2344,17 +2335,17 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0",
-        "j#0",
+        "next_range_item#2",
         "8"
       ]
     },
@@ -2364,7 +2355,7 @@
         "array_head_and_tail%1#0",
         "inner_list#0",
         "item_offset%1#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0"
       ],
       "stack_out": [
@@ -2372,15 +2363,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0",
         "item_offset%1#0"
       ]
@@ -2392,15 +2383,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "array_head_and_tail%1#0",
         "item_offset%1#0",
         "8"
@@ -2412,7 +2403,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0",
         "value#0"
       ],
@@ -2421,15 +2412,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "value#0"
       ]
     },
@@ -2440,15 +2431,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "value#0",
         "value#0"
       ]
@@ -2458,7 +2449,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0",
         "value#0"
       ],
@@ -2467,15 +2458,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "value#0"
       ]
     },
@@ -2484,7 +2475,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "threshold#0 (copy)",
         "tmp%2#0",
         "value#0"
@@ -2494,15 +2485,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "value#0",
         "threshold#0 (copy)"
       ]
@@ -2512,7 +2503,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "tmp%2#0",
         "tmp%4#0",
         "value#0"
@@ -2522,15 +2513,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%4#0"
       ]
     },
@@ -2539,7 +2530,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "tmp%4#0",
@@ -2550,15 +2541,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%4#0",
         "num_boosts#15"
       ]
@@ -2568,7 +2559,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "tmp%4#0",
@@ -2579,15 +2570,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%4#0"
       ]
     },
@@ -2596,7 +2587,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "tmp%4#0",
@@ -2608,15 +2599,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%4#0",
         "total#16"
       ]
@@ -2626,7 +2617,7 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "tmp%4#0",
@@ -2638,15 +2629,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%4#0"
       ]
     },
@@ -2657,43 +2648,43 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "355": {
-      "op": "frame_dig 4",
+      "op": "frame_dig 5",
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0"
+        "next_range_item#0",
+        "next_range_item#2"
       ]
     },
     "357": {
-      "op": "frame_dig 5",
+      "op": "frame_dig 4",
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
@@ -2704,16 +2695,16 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0",
+        "next_range_item#0",
+        "next_range_item#2",
         "last_inner_list_index#0"
       ]
     },
@@ -2723,8 +2714,8 @@
         "array_head_and_tail%1#0",
         "has_next#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
@@ -2735,15 +2726,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "has_next#0"
       ]
     },
@@ -2754,15 +2745,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "has_next#0",
         "num_boosts#15"
       ]
@@ -2774,15 +2765,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "has_next#0"
       ]
     },
@@ -2793,15 +2784,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "has_next#0",
         "total#16"
       ]
@@ -2813,15 +2804,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "has_next#0"
       ]
     },
@@ -2832,15 +2823,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "371": {
@@ -2848,8 +2839,8 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#0",
@@ -2861,15 +2852,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0"
       ]
     },
@@ -2880,15 +2871,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "1"
       ]
@@ -2900,15 +2891,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0"
       ]
     },
@@ -2919,15 +2910,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "total#0"
       ]
@@ -2939,36 +2930,36 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0"
       ]
     },
     "378": {
-      "op": "frame_dig 4",
+      "op": "frame_dig 5",
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
-        "j#0"
+        "next_range_item#2"
       ]
     },
     "380": {
@@ -2978,17 +2969,17 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
-        "j#0",
+        "next_range_item#2",
         "1"
       ]
     },
@@ -2997,8 +2988,8 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "tmp%5#0",
@@ -3011,15 +3002,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "tmp%5#0"
       ]
@@ -3031,15 +3022,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "tmp%5#0",
         "8"
@@ -3051,8 +3042,8 @@
         "array_head_and_tail%1#0",
         "inner_list#0",
         "item_offset%2#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#0",
@@ -3064,15 +3055,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "item_offset%2#0"
       ]
@@ -3084,15 +3075,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "item_offset%2#0",
         "array_head_and_tail%1#0"
@@ -3105,15 +3096,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "array_head_and_tail%1#0",
         "item_offset%2#0"
@@ -3126,15 +3117,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "array_head_and_tail%1#0",
         "item_offset%2#0",
@@ -3147,8 +3138,8 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "next_value#0",
         "num_boosts#15",
         "tmp%2#0",
@@ -3161,15 +3152,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "next_value#0"
       ]
@@ -3181,15 +3172,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "next_value#0",
         "value#0"
@@ -3200,8 +3191,8 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "tmp%6#0",
@@ -3214,15 +3205,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "tmp%6#0"
       ]
@@ -3234,15 +3225,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "tmp%6#0",
         "num_boosts#15"
@@ -3255,15 +3246,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "tmp%6#0"
       ]
@@ -3275,15 +3266,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%6#0",
         "total#16"
       ]
@@ -3295,15 +3286,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%6#0"
       ]
     },
@@ -3314,15 +3305,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "402": {
@@ -3332,15 +3323,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0"
       ]
     },
@@ -3350,8 +3341,8 @@
         "2",
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#0",
@@ -3363,15 +3354,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "2"
       ]
@@ -3383,15 +3374,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0"
       ]
     },
@@ -3400,8 +3391,8 @@
       "defined_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#0",
         "num_boosts#15",
         "tmp%2#0",
@@ -3414,15 +3405,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "num_boosts#0"
       ]
@@ -3434,15 +3425,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "num_boosts#0",
         "1"
@@ -3455,15 +3446,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0",
         "num_boosts#15"
       ]
@@ -3475,15 +3466,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#16"
       ]
     },
@@ -3494,15 +3485,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "414": {
@@ -3512,15 +3503,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "b calculate_after_if_else@9",
       "defined_out": [
@@ -3537,15 +3528,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "b calculate_after_if_else@10",
       "defined_out": [
@@ -3562,15 +3553,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 6",
       "defined_out": [
@@ -3581,15 +3572,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "num_boosts#0"
       ]
     },
@@ -3603,15 +3594,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "424": {
@@ -3625,15 +3616,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
+        "next_range_item#0",
         "total#0"
       ]
     },
@@ -3648,21 +3639,21 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "428": {
-      "op": "frame_dig 4",
+      "op": "frame_dig 5",
       "defined_out": [
-        "j#0",
+        "next_range_item#2",
         "num_boosts#0",
         "total#0"
       ],
@@ -3671,23 +3662,23 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0"
+        "next_range_item#0",
+        "next_range_item#2"
       ]
     },
     "430": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
-        "j#0",
+        "next_range_item#2",
         "num_boosts#0",
         "total#0"
       ],
@@ -3696,16 +3687,16 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0",
+        "next_range_item#0",
+        "next_range_item#2",
         "1"
       ]
     },
@@ -3716,22 +3707,22 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "j#0"
+        "next_range_item#0",
+        "next_range_item#2"
       ]
     },
     "432": {
-      "op": "frame_bury 4",
+      "op": "frame_bury 5",
       "defined_out": [
-        "j#0",
+        "next_range_item#2",
         "num_boosts#0",
         "total#0"
       ],
@@ -3740,15 +3731,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "434": {
@@ -3761,58 +3752,58 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 12",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "439": {
       "op": "intc_1 // 1",
       "defined_out": [
         "1",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "1"
       ]
     },
@@ -3823,37 +3814,37 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "441": {
       "op": "frame_bury 12",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "array_head_and_tail%1#0",
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "443": {
@@ -3866,15 +3857,15 @@
         "inner_list#0",
         "value#0",
         "continue_looping%0#0",
-        "j#0",
         "last_inner_list_index#0",
+        "next_range_item#2",
         "num_boosts#15",
         "tmp%2#0",
         "total#16",
         "total#0",
         "num_boosts#0",
         "tmp%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "retsub": true,
       "op": "retsub"

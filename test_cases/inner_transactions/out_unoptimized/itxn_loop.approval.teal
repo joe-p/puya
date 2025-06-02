@@ -31,6 +31,11 @@ main_for_header@1:
     bz main_after_for@14
 
 main_for_body@2:
+    // inner_transactions/itxn_loop.py:27
+    // for i in urange(4):
+    dup
+    intc_0 // 0
+    +
     // inner_transactions/itxn_loop.py:20
     // note = Bytes(b"ABCDE")
     pushbytes 0x4142434445
@@ -38,8 +43,6 @@ main_for_body@2:
     // i_note = op.extract(note, 0, i)
     intc_0 // 0
     dig 2
-    dup
-    cover 3
     extract3
     bury 8
     // inner_transactions/itxn_loop.py:30

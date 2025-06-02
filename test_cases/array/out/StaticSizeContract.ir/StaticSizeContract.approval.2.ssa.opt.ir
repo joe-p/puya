@@ -170,27 +170,27 @@ subroutine test_cases.array.static_size.StaticSizeContract.test_array(x1: bytes[
         let encoded%0#0: (bytes[8],encoded_uint64,(encoded_uint64,encoded_uint64,bytes[32],bytes[16],bytes[64]))[] = encode<(bytes[8],encoded_uint64,(encoded_uint64,encoded_uint64,bytes[32],bytes[16],bytes[64]))>(0x0000000000000000, 0u, tmp%0#0, tmp%1#0, tmp%2#0, tmp%3#0, tmp%4#0, x1#0, y1#0, tmp%5#0, tmp%6#0, tmp%7#0, tmp%8#0, tmp%9#0, x2#0, y2#0, tmp%10#0, tmp%11#0, tmp%12#0, tmp%13#0, tmp%14#0)
         let path#0: (bytes[8],encoded_uint64,(encoded_uint64,encoded_uint64,bytes[32],bytes[16],bytes[64]))[]* = new()
         write(path#0, encoded%0#0)
-        let i#0: uint64 = 0u
+        let next_range_item#0: uint64 = 0u
         goto block@1
     block@1: // for_header_L49
-        let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@2)
-        let continue_looping%0#0: bool = (< i#1 3u)
+        let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@2)
+        let continue_looping%0#0: bool = (< next_range_item#1 3u)
         goto continue_looping%0#0 ? block@2 : block@4
     block@2: // for_body_L50
         let slot_contents%0#0: (bytes[8],encoded_uint64,(encoded_uint64,encoded_uint64,bytes[32],bytes[16],bytes[64]))[] = read(path#0)
-        let (tmp%15#0: bytes[8], tmp%16#0: uint64, tmp%17#0: uint64, tmp%18#0: uint64, tmp%19#0: bytes[32], tmp%20#0: bytes[16], tmp%21#0: bytes[64]) = slot_contents%0#0[i#1]
-        let i#2: uint64 = (+ i#1 1u)
-        let tmp%23#0: bool = (== tmp%18#0 i#2)
+        let (tmp%15#0: bytes[8], tmp%16#0: uint64, tmp%17#0: uint64, tmp%18#0: uint64, tmp%19#0: bytes[32], tmp%20#0: bytes[16], tmp%21#0: bytes[64]) = slot_contents%0#0[next_range_item#1]
+        let next_range_item#2: uint64 = (+ next_range_item#1 1u)
+        let tmp%23#0: bool = (== tmp%18#0 next_range_item#2)
         (assert tmp%23#0)
-        let (tmp%24#0: bytes[8], tmp%25#0: uint64, tmp%26#0: uint64, tmp%27#0: uint64, tmp%28#0: bytes[32], tmp%29#0: bytes[16], tmp%30#0: bytes[64]) = slot_contents%0#0[i#1]
+        let (tmp%24#0: bytes[8], tmp%25#0: uint64, tmp%26#0: uint64, tmp%27#0: uint64, tmp%28#0: bytes[32], tmp%29#0: bytes[16], tmp%30#0: bytes[64]) = slot_contents%0#0[next_range_item#1]
         let reinterpret_biguint%0#0: biguint = ((extract 0 8) tmp%29#0) // on error: Index access is out of bounds
-        let tmp%31#0: uint64 = (+ i#1 2u)
+        let tmp%31#0: uint64 = (+ next_range_item#1 2u)
         let tmp%32#0: biguint = (itob tmp%31#0)
         let tmp%33#0: bool = (b== reinterpret_biguint%0#0 tmp%32#0)
         (assert tmp%33#0)
-        let (tmp%34#0: bytes[8], tmp%35#0: uint64, tmp%36#0: uint64, tmp%37#0: uint64, tmp%38#0: bytes[32], tmp%39#0: bytes[16], tmp%40#0: bytes[64]) = slot_contents%0#0[i#1]
+        let (tmp%34#0: bytes[8], tmp%35#0: uint64, tmp%36#0: uint64, tmp%37#0: uint64, tmp%38#0: bytes[32], tmp%39#0: bytes[16], tmp%40#0: bytes[64]) = slot_contents%0#0[next_range_item#1]
         let reinterpret_biguint%1#0: biguint = ((extract 8 8) tmp%39#0) // on error: Index access is out of bounds
-        let tmp%43#0: uint64 = (* i#2 i#2)
+        let tmp%43#0: uint64 = (* next_range_item#2 next_range_item#2)
         let tmp%44#0: biguint = (itob tmp%43#0)
         let tmp%45#0: bool = (b== reinterpret_biguint%1#0 tmp%44#0)
         (assert tmp%45#0)
@@ -207,16 +207,16 @@ subroutine test_cases.array.static_size.StaticSizeContract.test_array(x1: bytes[
         let (last_point.x#0: bytes[8], last_point.y#0: uint64, last_point.other.a#0: uint64, last_point.other.b#0: uint64, last_point.other.c#0: bytes[32], last_point.other.d#0: bytes[16], last_point.other.e#0: biguint) = slot_contents%3#0[0u]
         let length#0: uint64 = 0u
         let tmp%0#1: uint64 = slot_contents%3#0.length
-        let point_idx#0: uint64 = 1u
+        let next_range_item#3: uint64 = 1u
         goto block@6
     block@6: // for_header_L169
-        let point_idx#1: uint64 = φ(point_idx#0 <- block@4, point_idx#2 <- block@13)
+        let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4, next_range_item#5 <- block@13)
         let length#3: uint64 = φ(length#0 <- block@4, length#4 <- block@13)
-        let continue_looping%0#1: bool = (< point_idx#1 tmp%0#1)
+        let continue_looping%0#1: bool = (< next_range_item#4 tmp%0#1)
         goto continue_looping%0#1 ? block@7 : block@14
     block@7: // for_body_L170
         let slot_contents%2#1: (bytes[8],encoded_uint64,(encoded_uint64,encoded_uint64,bytes[32],bytes[16],bytes[64]))[] = read(path#0)
-        let (point.x#0: bytes[8], point.y#0: uint64, point.other.a#0: uint64, point.other.b#0: uint64, point.other.c#0: bytes[32], point.other.d#0: bytes[16], point.other.e#0: biguint) = slot_contents%2#1[point_idx#1]
+        let (point.x#0: bytes[8], point.y#0: uint64, point.other.a#0: uint64, point.other.b#0: uint64, point.other.c#0: bytes[32], point.other.d#0: bytes[16], point.other.e#0: biguint) = slot_contents%2#1[next_range_item#4]
         let tmp%1#1: bool = (b< point.x#0 last_point.x#0)
         goto tmp%1#1 ? block@8 : block@9
     block@8: // if_body_L172
@@ -246,7 +246,7 @@ subroutine test_cases.array.static_size.StaticSizeContract.test_array(x1: bytes[
         let tmp%9#1: uint64 = (+ tmp%7#1 tmp%8#1)
         let tmp%10#1: uint64 = (sqrt tmp%9#1)
         let length#4: uint64 = (+ length#3 tmp%10#1)
-        let point_idx#2: uint64 = (+ point_idx#1 1u)
+        let next_range_item#5: uint64 = (+ next_range_item#4 1u)
         goto block@6
     block@14: // after_for_L169
         return length#3
@@ -300,20 +300,20 @@ subroutine test_cases.array.static_size.StaticSizeContract.test_bool_array(lengt
         let tmp%1#0: bool = (! tmp%0#0)
         (assert tmp%1#0)
         let tmp%2#0: uint64 = (+ length#0 1u)
-        let i#0: uint64 = 1u
+        let next_range_item#0: uint64 = 1u
         goto block@1
     block@1: // for_header_L80
-        let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@2)
-        let continue_looping%0#0: bool = (< i#1 tmp%2#0)
+        let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@2)
+        let continue_looping%0#0: bool = (< next_range_item#1 tmp%2#0)
         goto continue_looping%0#0 ? block@2 : block@4
     block@2: // for_body_L81
-        let tmp%3#0: uint64 = (% i#1 2u)
+        let tmp%3#0: uint64 = (% next_range_item#1 2u)
         let tmp%4#0: bool = (! tmp%3#0)
         let encoded%1#0: encoded_uint8[] = encode<encoded_uint8>(tmp%4#0)
         let slot_contents%1#0: encoded_uint8[] = read(arr#0)
         let extended%0#0: encoded_uint8[] = slot_contents%1#0.concat(encoded%1#0)
         write(arr#0, extended%0#0)
-        let i#2: uint64 = (+ i#1 1u)
+        let next_range_item#2: uint64 = (+ next_range_item#1 1u)
         goto block@1
     block@4: // after_for_L80
         let slot_contents%2#0: encoded_uint8[] = read(arr#0)
@@ -362,19 +362,19 @@ subroutine test_cases.array.static_size.StaticSizeContract.test_arc4_conversion(
         let tmp%1#0: bool = (! tmp%0#0)
         (assert tmp%1#0)
         let tmp%2#0: uint64 = (+ length#0 1u)
-        let i#0: uint64 = 1u
+        let next_range_item#0: uint64 = 1u
         goto block@1
     block@1: // for_header_L99
-        let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@2)
-        let continue_looping%0#0: bool = (< i#1 tmp%2#0)
+        let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@2)
+        let continue_looping%0#0: bool = (< next_range_item#1 tmp%2#0)
         goto continue_looping%0#0 ? block@2 : block@4
     block@2: // for_body_L100
-        let val_as_bytes%0#0: bytes[8] = (itob i#1)
+        let val_as_bytes%0#0: bytes[8] = (itob next_range_item#1)
         let encoded%1#0: bytes[8][] = encode<bytes[8]>(val_as_bytes%0#0)
         let slot_contents%1#0: bytes[8][] = read(arr#0)
         let extended%0#0: bytes[8][] = slot_contents%1#0.concat(encoded%1#0)
         write(arr#0, extended%0#0)
-        let i#2: uint64 = (+ i#1 1u)
+        let next_range_item#2: uint64 = (+ next_range_item#1 1u)
         goto block@1
     block@4: // after_for_L99
         let slot_contents%2#0: bytes[8][] = read(arr#0)

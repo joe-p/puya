@@ -8,8 +8,8 @@
  application/Reference                          175     143       -    |         92      76       - 
  arc4_conversions/CheckApp                      594     502     372    |        286     227     168 
  arc4_conversions/ReferenceReturn               460     380     327    |        232     171     147 
- arc4_conversions/Test                         3269    2467    2318    |       1618    1019    1012 
- arc4_dynamic_arrays/DynamicArray              2605    1428    1138    |       1685     561     488 
+ arc4_conversions/Test                         3275    2467    2318    |       1624    1019    1012 
+ arc4_dynamic_arrays/DynamicArray              2618    1429    1142    |       1696     561     489 
  arc4_numeric_comparisons/UIntNOrdering        1100       8       -    |        786       4       - 
  arc4_types/Arc4Address                          79      18       -    |         34      11       - 
  arc4_types/Arc4Arrays                          585     346       -    |        338     169       - 
@@ -18,7 +18,7 @@
  arc4_types/Arc4DynamicBytes                    377     179       -    |        213      94       - 
  arc4_types/Arc4DynamicStringArray              243      94       -    |        142      35       - 
  arc4_types/Arc4MutableParams                  1123     633       8    |        731     352       4 
- arc4_types/Arc4Mutation                       2776    1056    1053    |       1876     449     448 
+ arc4_types/Arc4Mutation                       2782    1058    1055    |       1880     450     449 
  arc4_types/Arc4NumericTypes                    755     186       -    |        250      26       - 
  arc4_types/Arc4RefTypes                         85      40       -    |         32      22       - 
  arc4_types/Arc4StringTypes                     349      35       -    |        149      13       - 
@@ -29,10 +29,10 @@
  arc4_types/UIntOverflow                        198     165     153    |        107      83      77 
  arc_28/EventEmitter                            172     124     102    |         92      58      48 
  arc_56                                         891     598     560    |        478     261     240 
- array                                         2724    1910    1875    |       1964    1232    1216 
- array/AbiCall                                  390     311     301    |        227     171     167 
- array/ImmutableArray                          5920    4440    4319    |       3882    2628    2584 
- array/StaticSize                              1906    1394    1359    |       1269     851     840 
+ array                                         2738    1910    1875    |       1978    1232    1216 
+ array/AbiCall                                  396     311     301    |        233     171     167 
+ array/ImmutableArray                          5989    4439    4318    |       3941    2627    2583 
+ array/StaticSize                              1919    1394    1359    |       1281     851     840 
  asset/Reference                                266     225       -    |        144     131       - 
  auction/Auction                                582     503     464    |        318     270     256 
  augmented_assignment/Augmented                 239     219       -    |        142     128       - 
@@ -70,7 +70,7 @@
  diamond_mro/GP                                 119      90      86    |         49      32      30 
  dup2_optimization_bug                           25      22       -    |         16      14       - 
  edverify/Verify                                 39      26       -    |         21      14       - 
- enumeration/Enumeration                        508     425       -    |        251     211       - 
+ enumeration/Enumeration                        512     425       -    |        255     211       - 
  everything                                     476     381     354    |        219     175     163 
  global_state/AppState                          468     381       -    |        195     135       - 
  group_side_effects/AppCall                      87      70      66    |         46      35      33 
@@ -89,30 +89,29 @@
  inner_transactions/FieldTuple                  653     533     525    |        335     258     254 
  inner_transactions/Greeter                     332     291     278    |        120      94      88 
  inner_transactions/ItxnNamedTuple              207     175     148    |        113      92      80 
- inner_transactions/itxn_loop                   191     182       -    |        100      90       - 
+ inner_transactions/itxn_loop                   191     182       -    |        101      90       - 
  inner_transactions_assignment                  556     351     343    |        291     190     186 
  intrinsics/ImmediateVariants                   162     159       -    |         96      91       - 
  intrinsics/Optimizations                       101      89       -    |         48      25       - 
  intrinsics/Overloaded                          100      21       -    |         69       9       - 
  iteration/IndexableIterationTest               746     669       -    |        334     285       - 
  iteration/TupleIterationTest                   510     417       -    |        162     116       - 
- iteration/URangeIterationTest                  951     581       -    |        497     236       - 
+ iteration/URangeIterationTest                  969     584       -    |        514     236       - 
  koopman                                         16       9       -    |         10       4       - 
- less_simple                                    158     143       -    |         89      75       - 
- literals/LiteralFolding                        276      93       -    |        185      51       - 
+ less_simple                                    167     143       -    |         97      75       - 
  local_state/LocalState                         405     259     253    |        180     102      92 
  local_state/LocalStateWithOffsets              353     261     255    |        147     102      92 
  log                                            150     130       -    |        110      75       - 
  logic_signature/always_allow                     4       -       -    |          2       -       - 
  logic_signature/pre_approved_sale              164     141       -    |         75      67       - 
- loop_else/LoopElse                             279     164       -    |        140      58       - 
+ loop_else/LoopElse                             286     164       -    |        146      58       - 
  match                                          454     420       -    |        103      84       - 
  match/Counter                                   60      45       -    |         32      24       - 
- merkle/MerkleTree                              217     167     163    |        112      83      85 
+ merkle/MerkleTree                              222     173     167    |        115      87      88 
  module_consts                                   52      50       -    |         12      11       - 
  named_tuples/NamedTuples                       383     240     230    |        217     125     121 
- nested_loops/Nested                            213     200       -    |        132     120       - 
- regression_tests/BranchElimination             530     451     445    |        286     237     237 
+ nested_loops/Nested                            244     198       -    |        156     119       - 
+ regression_tests/BranchElimination             534     451     445    |        291     237     237 
  regression_tests/ConstBigIntToIntOverflow      155     123     112    |         81      59      54 
  regression_tests/Issue118                      136     102      96    |         75      52      49 
  regression_tests/Issue194                       31       8       -    |         21       4       - 
@@ -123,15 +122,15 @@
  regression_tests/TealSwitchInlining             27      22      19    |         14      10       8 
  regression_tests/VRFVerifier                   217     154     156    |        110      74      76 
  reinterpret_cast                               128      80      76    |         67      37      35 
- scratch_slots                                   94      84       -    |         56      43       - 
- scratch_slots/2                                 94      84       -    |         56      43       - 
+ scratch_slots                                   96      84       -    |         59      43       - 
+ scratch_slots/2                                 96      84       -    |         59      43       - 
  scratch_slots/MyOther                            8       -       -    |          4       -       - 
  simple                                          74      12       -    |         48       7       - 
  simplish/Simplish                              740     652     653    |        253     204     203 
  size_of                                        128      48       -    |         88      23       - 
- ssa                                            264     166       -    |        157      97       - 
- ssa2                                            92      49       -    |         53      26       - 
- state_mutations                               1070     770     751    |        684     481     472 
+ ssa                                            267     166       -    |        159      97       - 
+ ssa2                                            93      49       -    |         55      26       - 
+ state_mutations                               1080     771     755    |        692     481     473 
  state_proxies/StateProxy                       348     287     267    |        176     137     127 
  state_totals                                    55      25       -    |         28      13       - 
  stress_tests/BruteForceRotationSearch          228       8       -    |        152       4       - 
@@ -146,7 +145,7 @@
  tictactoe/TicTacToe                            811     631     622    |        528     358     351 
  too_many_permutations                          109      71       -    |         62      39       - 
  transaction/Transaction                       1070     855     742    |        646     486     459 
- tuple_support/NestedTuples                    2923    1954    1738    |       1871    1098     962 
+ tuple_support/NestedTuples                    2927    1954    1738    |       1875    1098     962 
  tuple_support/TupleComparisons                 118      32       -    |         79      22       - 
  tuple_support/TupleSupport                     662     269       -    |        375     101       - 
  typed_abi_call/Greeter                        4985    4079    3880    |       2601    1889    1818 
@@ -157,6 +156,6 @@
  unassigned_expression/Unassigned               134      82       -    |         69      38       - 
  undefined_phi_args/Baddie                      319     282      92    |        174     157      47 
  unssa/UnSSA                                    411     266       -    |        234     153       - 
- voting/VotingRoundApp                         1575    1423    1411    |        722     618     619 
+ voting/VotingRoundApp                         1581    1423    1411    |        728     618     619 
  with_reentrancy/WithReentrancy                 245     214       -    |        126     108       - 
- Total                                        90066   53729   50133    |      45550   26132   24565 
+ Total                                        90023   53646   50054    |      45573   26084   24518 

@@ -583,9 +583,13 @@ close_for_header@6:
     bz close_after_for@11
 
 close_for_body@7:
+    // voting/voting.py:137
+    // for option_index in urange(question_options.native):
+    frame_dig 3
+    intc_0 // 0
+    +
     // voting/voting.py:138
     // if option_index > 0:
-    frame_dig 3
     intc_0 // 0
     >
     frame_dig 5
@@ -923,16 +927,22 @@ vote_for_header@1:
     bz vote_after_for@4
 
 vote_for_body@2:
+    // voting/voting.py:195
+    // for question_index in urange(questions_count):
+    frame_dig 2
+    intc_0 // 0
+    +
     // voting/voting.py:196-197
     // # Load the user's vote for this question
     // answer_option_index = answer_ids[question_index].native
     frame_dig -1
     extract 2 0
-    frame_dig 2
+    swap
     dup
-    cover 2
     intc_1 // 1
     *
+    uncover 2
+    swap
     intc_1 // 1
     extract3 // on error: Index access is out of bounds
     btoi

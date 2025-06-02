@@ -48,7 +48,7 @@ main_after_for@5:
     // iteration/iterate_urange.py:21
     // for i in reversed(urange(1, 7, 2)):
     intc_3 // 5
-    bury 1
+    bury 4
 
 main_for_body@9:
     // iteration/iterate_urange.py:20
@@ -56,7 +56,7 @@ main_for_body@9:
     bytec_0 // 0x206120622063
     // iteration/iterate_urange.py:22
     // log(values[i])
-    dig 1
+    dig 4
     dup
     cover 2
     intc_0 // 1
@@ -67,10 +67,10 @@ main_for_body@9:
     intc_0 // 1
     >
     bz main_after_for@12
-    dup
+    dig 3
     intc_2 // 2
     -
-    bury 1
+    bury 4
     b main_for_body@9
 
 main_after_for@12:
@@ -78,12 +78,12 @@ main_after_for@12:
     // log("test_forwards_with_forwards_index")
     pushbytes "test_forwards_with_forwards_index"
     log
+    intc_1 // 0
     // iteration/iterate_urange.py:29
     // for idx, i in uenumerate(urange(1, 7, 2)):
+    bury 3
     intc_0 // 1
     bury 1
-    intc_1 // 0
-    bury 4
 
 main_for_header@15:
     // iteration/iterate_urange.py:29
@@ -102,7 +102,7 @@ main_for_header@15:
     cover 2
     intc_0 // 1
     extract3
-    dig 5
+    dig 4
     dup
     cover 3
     swap
@@ -114,7 +114,7 @@ main_for_header@15:
     bury 2
     intc_0 // 1
     +
-    bury 4
+    bury 3
     b main_for_header@15
 
 main_after_for@18:
@@ -125,9 +125,9 @@ main_after_for@18:
     // iteration/iterate_urange.py:38
     // for idx, i in reversed(uenumerate(reversed(urange(1, 7, 2)))):
     intc_2 // 2
-    bury 4
+    bury 3
     intc_0 // 1
-    bury 1
+    bury 4
 
 main_for_body@22:
     // iteration/iterate_urange.py:37
@@ -135,12 +135,12 @@ main_for_body@22:
     bytec_0 // 0x206120622063
     // iteration/iterate_urange.py:39
     // self._log_with_index(idx, values[i])
-    dig 1
+    dig 4
     dup
     cover 2
     intc_0 // 1
     extract3
-    dig 5
+    dig 4
     swap
     callsub _log_with_index
     // iteration/iterate_urange.py:38
@@ -148,14 +148,14 @@ main_for_body@22:
     intc_3 // 5
     <
     bz main_after_for@25
-    dup
+    dig 3
     intc_2 // 2
     +
-    bury 1
-    dig 3
+    bury 4
+    dig 2
     intc_0 // 1
     -
-    bury 4
+    bury 3
     b main_for_body@22
 
 main_after_for@25:
@@ -166,9 +166,9 @@ main_after_for@25:
     // iteration/iterate_urange.py:47
     // for idx, i in uenumerate(reversed(urange(1, 7, 2))):
     intc_3 // 5
-    bury 1
-    intc_1 // 0
     bury 4
+    intc_1 // 0
+    bury 3
 
 main_for_body@29:
     // iteration/iterate_urange.py:46
@@ -176,12 +176,12 @@ main_for_body@29:
     bytec_0 // 0x206120622063
     // iteration/iterate_urange.py:48
     // self._log_with_index(idx, values[i])
-    dig 1
+    dig 4
     dup
     cover 2
     intc_0 // 1
     extract3
-    dig 5
+    dig 4
     swap
     callsub _log_with_index
     // iteration/iterate_urange.py:47
@@ -189,14 +189,14 @@ main_for_body@29:
     intc_0 // 1
     >
     bz main_after_for@32
-    dup
+    dig 3
     intc_2 // 2
     -
-    bury 1
-    dig 3
+    bury 4
+    dig 2
     intc_0 // 1
     +
-    bury 4
+    bury 3
     b main_for_body@29
 
 main_after_for@32:
@@ -207,9 +207,9 @@ main_after_for@32:
     // iteration/iterate_urange.py:56
     // for idx, i in reversed(uenumerate(urange(1, 7, 2))):
     intc_2 // 2
-    bury 4
+    bury 3
     intc_3 // 5
-    bury 1
+    bury 4
 
 main_for_body@36:
     // iteration/iterate_urange.py:55
@@ -217,12 +217,12 @@ main_for_body@36:
     bytec_0 // 0x206120622063
     // iteration/iterate_urange.py:57
     // self._log_with_index(idx, values[i])
-    dig 1
+    dig 4
     dup
     cover 2
     intc_0 // 1
     extract3
-    dig 5
+    dig 4
     swap
     callsub _log_with_index
     // iteration/iterate_urange.py:56
@@ -230,14 +230,14 @@ main_for_body@36:
     intc_0 // 1
     >
     bz main_after_for@39
-    dup
+    dig 3
     intc_2 // 2
     -
-    bury 1
-    dig 3
+    bury 4
+    dig 2
     intc_0 // 1
     -
-    bury 4
+    bury 3
     b main_for_body@36
 
 main_after_for@39:
@@ -270,12 +270,12 @@ main_for_header@42:
     b main_for_header@42
 
 main_after_for@45:
+    intc_1 // 0
     // iteration/iterate_urange.py:68
     // for idx, i in uenumerate(urange(0)):
+    bury 3
     intc_1 // 0
     bury 1
-    intc_1 // 0
-    bury 4
 
 main_for_header@51:
     // iteration/iterate_urange.py:68
@@ -286,7 +286,7 @@ main_for_header@51:
     bz main_after_for@54
     // iteration/iterate_urange.py:69
     // log(idx, i)
-    dig 3
+    dig 2
     dup
     itob
     dig 2
@@ -302,7 +302,7 @@ main_for_header@51:
     bury 2
     intc_0 // 1
     +
-    bury 4
+    bury 3
     b main_for_header@51
 
 main_after_for@54:
@@ -318,17 +318,17 @@ main_after_for@54:
     // log("test_tuple_target")
     pushbytes "test_tuple_target"
     log
+    intc_1 // 0
     // iteration/iterate_urange.py:89
     // for tup in uenumerate(urange(1)):
-    intc_1 // 0
     bury 2
     intc_1 // 0
-    bury 3
+    bury 1
 
 main_for_header@77:
     // iteration/iterate_urange.py:89
     // for tup in uenumerate(urange(1)):
-    dig 1
+    dup
     intc_0 // 1
     <
     bz main_after_for@80
@@ -337,12 +337,12 @@ main_for_header@77:
     pushbytes 0x74
     // iteration/iterate_urange.py:90
     // self._log_with_index(tup[0], values[tup[1]])
-    dig 2
+    dig 1
     dup
     cover 2
     intc_0 // 1
     extract3
-    dig 4
+    dig 3
     dup
     cover 3
     swap
@@ -351,10 +351,10 @@ main_for_header@77:
     // for tup in uenumerate(urange(1)):
     intc_0 // 1
     +
-    bury 3
+    bury 2
     intc_0 // 1
     +
-    bury 3
+    bury 2
     b main_for_header@77
 
 main_after_for@80:

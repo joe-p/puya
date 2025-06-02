@@ -304,18 +304,18 @@ main test_cases.tuple_support.nested_tuples.NestedTuples.__algopy_entrypoint_wit
         (assert tmp%45#0) // OnCompletion is not NoOp
         let tmp%46#0: uint64 = (txn ApplicationID)
         (assert tmp%46#0) // can only call when not creating
-        let i#0: uint64 = 0u
+        let next_range_item#0: uint64 = 0u
         goto block@23
     block@23: // for_header_L107
-        let continue_looping%0#0: bool = (< i#0 3u)
+        let continue_looping%0#0: bool = (< next_range_item#0 3u)
         goto continue_looping%0#0 ? block@24 : block@25
     block@24: // for_body_L108
-        let item_offset%0#0: uint64 = (* i#0 8u)
+        let item_offset%0#0: uint64 = (* next_range_item#0 8u)
         let reinterpret_biguint%0#0: biguint = (extract3 0x000000000000000000000000000000010000000000000002 item_offset%0#0 8u) // on error: Index access is out of bounds
-        let tmp%0#4: biguint = (itob i#0)
+        let tmp%0#4: biguint = (itob next_range_item#0)
         let tmp%1#2: bool = (b== reinterpret_biguint%0#0 tmp%0#4)
         (assert tmp%1#2)
-        let i#0: uint64 = (+ i#0 1u)
+        let next_range_item#0: uint64 = (+ next_range_item#0 1u)
         goto block@23
     block@25: // after_for_L107
         (log 0x151f7c750004001e00030000000000000000000000000000000100000000000000020000000000000000000c000e00000000)

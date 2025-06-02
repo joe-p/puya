@@ -3,7 +3,7 @@
   "sources": [
     "../contract.py"
   ],
-  "mappings": ";;;;;;;;;;AAKgE;;AAAY;AAAY;;AAAzC;;;AAAA;;AAAvC;;AAAA;AAAA;;AAE0B;;AAAnB;AAAP;AACmB;;AAAZ;AAAP;AACoB;AAAb;AAAP;AAGK;;;;;AAAe;;;;;AAAe;;;;;;;AAAiB;;;;;AADV;;;AAAA;;AAA1C;;AAAA;AAAA;;AAI0B;;AAAnB;AAAP;AACsB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAf;AAAP;AACoB;;AAAb;AAAP;AAE0D;;;;;;;;;AAAhB;;;AAAA;;AAA1C;;AAAA;AAAA;;AAE0B;;AAAnB;AAAP;AACsB;;;;;;;;;;;;;;;;AAAf;AAAP;AACoB;AAAb;AAAP;AAEO;AAAP;AAMR;;;;AAEsB;AACP;;AAGf;;AAAA;AAAQ;;AAAQ;;AAAA;;AAAA;AAAhB;;;AACQ;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;;AAAA;AAAA;;AAFQ;;AAAA;;AAAA;AAAA;;;;;AAIhB;;AAAA;AAAQ;;AAAA;;;AAAA;;AAA0B;;AAAA;;AAAA;AAAlC;;;AACQ;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;;AAAA;AAAA;;AACA;;AAAA;;AAAA;AAAA;;AAH0B;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;AAK9B;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;AAGJ;;;;AAEsB;AACJ;AACF;;AAER;;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;AAFR;;AAAA;;;;;;;;AAGQ;;;AAAA;;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;AACA;;AAAA;;AAAA;AAAA;;AAHR;;AAAA;;;;;;;;AAKI;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;AALI;;;AAAA;;;;;AAAA;;;;AAAA;;;;;AAAA;;;AAAA;;;;;;;;AAHA;;;;;;;;;AAAA;;;;;;;;AAAA;;;;;AAWR;;;;;AAEsB;AACJ;AACF;AAEhB;;AAAA;;AAAA;;AAAA;;AAAA;AAAA;;;AAAQ;;AAAA;;;AAAA;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;;;;;;;;;;AACR;;AAAA;AAAA;;;;;AAAA;;AAAA;;AAAA;AAAA;;;AAAQ;;AAAA;;AAAA;AAAA;;;AAAA;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;AACA;;AAAA;AAAA;;;;;;;;;;;AAEJ;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA",
+  "mappings": ";;;;;;;;;;AAKgE;;AAAY;AAAY;;AAAzC;;;AAAA;;AAAvC;;AAAA;AAAA;;AAE0B;;AAAnB;AAAP;AACmB;;AAAZ;AAAP;AACoB;AAAb;AAAP;AAGK;;;;;AAAe;;;;;AAAe;;;;;;;AAAiB;;;;;AADV;;;AAAA;;AAA1C;;AAAA;AAAA;;AAI0B;;AAAnB;AAAP;AACsB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAf;AAAP;AACoB;;AAAb;AAAP;AAE0D;;;;;;;;;AAAhB;;;AAAA;;AAA1C;;AAAA;AAAA;;AAE0B;;AAAnB;AAAP;AACsB;;;;;;;;;;;;;;;;AAAf;AAAP;AACoB;AAAb;AAAP;AAEO;AAAP;AAMR;;;;AAEsB;AACP;;AAGf;;AAAA;AAAgB;;AAAA;;AAAA;;AAAA;AAAhB;;;AAAgB;;AAAA;AAAA;AACR;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;;AAFQ;;AAAA;;AAAA;AAAA;;;;;AAIhB;;AAAA;;AAAQ;;AAA0B;;AAAA;;AAAA;;AAAA;;AAAA;AAAlC;;;AAAkC;;AAAA;AAAA;AAC1B;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;;AACA;;AAAA;;AAAA;AAAA;;AAH0B;;AAAA;;AAAA;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;AAK9B;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;AAGJ;;;;AAEsB;AACJ;AACF;;AAER;;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;AAFR;;AAAA;;;;;;;;AAGQ;;;AAAA;;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;AACA;;AAAA;;AAAA;AAAA;;AAHR;;AAAA;;;;;;;;AAKI;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;AALI;;;AAAA;;;;;AAAA;;;;AAAA;;;;;AAAA;;;AAAA;;;;;;;;AAHA;;;;;;;;;AAAA;;;;;;;;AAAA;;;;;AAWR;;;;;AAEsB;AACJ;AACF;AAEhB;;AAAA;;AAAA;;AAAA;;AAAA;AAAA;;;AAAQ;;AAAA;;;AAAA;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;;;;;;;;;;AACR;;AAAA;AAAA;;;;;AAAA;;AAAA;;AAAA;AAAA;;;AAAQ;;AAAA;;AAAA;AAAA;;;AAAA;AACA;;AAAmB;AAAnB;AAAA;;AACA;;AAAA;AAAA;AAAA;;AACA;;AAAA;AAAA;;;;;;;;;;;AAEJ;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA;;AAAA",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -608,16 +608,16 @@
       "op": "frame_dig -3",
       "defined_out": [
         "index_sum#0",
-        "item#0",
         "item_sum#0",
-        "iteration_count#0"
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
     "166": {
@@ -627,25 +627,25 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 4",
       "defined_out": [
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "168": {
       "op": "frame_dig -2",
       "defined_out": [
-        "item#0",
+        "next_range_item#0",
         "stop#0 (copy)"
       ],
       "stack_out": [
@@ -653,8 +653,8 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "stop#0 (copy)"
       ]
     },
@@ -662,14 +662,14 @@
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
@@ -680,7 +680,7 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
     "174": {
@@ -690,192 +690,233 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
-      "op": "frame_dig 1",
+      "op": "frame_dig 4",
       "defined_out": [
-        "iteration_count#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "iteration_count#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "176": {
-      "op": "intc_0 // 1",
+      "op": "intc_1 // 0",
       "defined_out": [
-        "1",
-        "iteration_count#0"
+        "0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "iteration_count#0",
-        "1"
+        "next_range_item#0",
+        "next_range_item#0",
+        "0"
       ]
     },
     "177": {
       "op": "+",
+      "defined_out": [
+        "item#2",
+        "next_range_item#0"
+      ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "iteration_count#0"
+        "next_range_item#0",
+        "item#2"
       ]
     },
     "178": {
-      "op": "frame_bury 1",
+      "op": "frame_dig 1",
       "defined_out": [
-        "iteration_count#0"
+        "item#2",
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0",
+        "item#2",
+        "iteration_count#0"
       ]
     },
     "180": {
-      "op": "frame_dig 2",
+      "op": "intc_0 // 1",
       "defined_out": [
-        "item_sum#0",
-        "iteration_count#0"
+        "1",
+        "item#2",
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item_sum#0"
-      ]
-    },
-    "182": {
-      "op": "frame_dig 4",
-      "defined_out": [
-        "item#0",
-        "item_sum#0",
-        "iteration_count#0"
-      ],
-      "stack_out": [
-        "index#0",
+        "next_range_item#0",
+        "item#2",
         "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "item_sum#0",
-        "item#0"
+        "1"
       ]
     },
-    "184": {
+    "181": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item_sum#0"
+        "next_range_item#0",
+        "item#2",
+        "iteration_count#0"
       ]
     },
-    "185": {
-      "op": "frame_bury 2",
+    "182": {
+      "op": "frame_bury 1",
       "defined_out": [
-        "item#0",
-        "item_sum#0",
-        "iteration_count#0"
+        "item#2",
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0",
+        "item#2"
+      ]
+    },
+    "184": {
+      "op": "frame_dig 2",
+      "defined_out": [
+        "item#2",
+        "item_sum#0",
+        "iteration_count#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "item#2",
+        "item_sum#0"
+      ]
+    },
+    "186": {
+      "op": "+",
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "item_sum#0"
       ]
     },
     "187": {
+      "op": "frame_bury 2",
+      "defined_out": [
+        "item_sum#0",
+        "iteration_count#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0"
+      ]
+    },
+    "189": {
       "block": "enumerate_urange_for_footer@3",
       "stack_in": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 4",
       "defined_out": [
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0"
-      ]
-    },
-    "189": {
-      "op": "frame_dig -1",
-      "defined_out": [
-        "item#0",
-        "step#0 (copy)"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "item#0",
-        "step#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "191": {
+      "op": "frame_dig -1",
+      "defined_out": [
+        "next_range_item#0",
+        "step#0 (copy)"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "step#0 (copy)"
+      ]
+    },
+    "193": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
-    "192": {
+    "194": {
       "op": "frame_bury 4",
       "defined_out": [
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
-    "194": {
+    "196": {
       "op": "b enumerate_urange_for_header@1"
     },
-    "197": {
+    "199": {
       "block": "enumerate_urange_after_for@4",
       "stack_in": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig -1",
       "defined_out": [
@@ -886,11 +927,11 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "step#0 (copy)"
       ]
     },
-    "199": {
+    "201": {
       "error": "Step cannot be zero",
       "op": "assert // Step cannot be zero",
       "stack_out": [
@@ -898,338 +939,379 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
-      ]
-    },
-    "200": {
-      "op": "frame_dig -3",
-      "defined_out": [
-        "item#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
     "202": {
-      "op": "frame_bury 4",
-      "defined_out": [
-        "item#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0"
-      ]
-    },
-    "204": {
       "op": "intc_1 // 0",
       "defined_out": [
-        "index#0",
-        "item#0"
+        "index#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "index#0"
       ]
     },
-    "205": {
+    "203": {
       "op": "frame_bury 0",
       "defined_out": [
-        "index#0",
-        "item#0"
+        "index#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
+      ]
+    },
+    "205": {
+      "op": "frame_dig -3",
+      "defined_out": [
+        "index#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "207": {
+      "op": "frame_bury 4",
+      "defined_out": [
+        "index#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0"
+      ]
+    },
+    "209": {
       "block": "enumerate_urange_for_header@5",
       "stack_in": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 4",
       "defined_out": [
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0"
-      ]
-    },
-    "209": {
-      "op": "frame_dig -2",
-      "defined_out": [
-        "item#0",
-        "stop#0 (copy)"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "item#0",
-        "stop#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "211": {
-      "op": "<",
+      "op": "frame_dig -2",
       "defined_out": [
-        "continue_looping%1#0",
-        "item#0"
+        "next_range_item#0",
+        "stop#0 (copy)"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "stop#0 (copy)"
+      ]
+    },
+    "213": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%1#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
         "continue_looping%1#0"
       ]
     },
-    "212": {
+    "214": {
       "op": "bz enumerate_urange_after_for@8",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
-    "215": {
+    "217": {
       "block": "enumerate_urange_for_body@6",
       "stack_in": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
-      "op": "frame_dig 1",
+      "op": "frame_dig 4",
       "defined_out": [
-        "iteration_count#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "219": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "0"
+      ]
+    },
+    "220": {
+      "op": "+",
+      "defined_out": [
+        "item#2",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "item#2"
+      ]
+    },
+    "221": {
+      "op": "frame_dig 1",
+      "defined_out": [
+        "item#2",
+        "iteration_count#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "item#2",
         "iteration_count#0"
       ]
     },
-    "217": {
+    "223": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
-        "iteration_count#0"
+        "item#2",
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
+        "item#2",
         "iteration_count#0",
         "1"
       ]
     },
-    "218": {
+    "224": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
+        "item#2",
         "iteration_count#0"
-      ]
-    },
-    "219": {
-      "op": "frame_bury 1",
-      "defined_out": [
-        "iteration_count#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0"
-      ]
-    },
-    "221": {
-      "op": "frame_dig 2",
-      "defined_out": [
-        "item_sum#0",
-        "iteration_count#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "item_sum#0"
-      ]
-    },
-    "223": {
-      "op": "frame_dig 4",
-      "defined_out": [
-        "item#0",
-        "item_sum#0",
-        "iteration_count#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "item_sum#0",
-        "item#0"
       ]
     },
     "225": {
+      "op": "frame_bury 1",
+      "defined_out": [
+        "item#2",
+        "iteration_count#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "item#2"
+      ]
+    },
+    "227": {
+      "op": "frame_dig 2",
+      "defined_out": [
+        "item#2",
+        "item_sum#0",
+        "iteration_count#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "item#2",
+        "item_sum#0"
+      ]
+    },
+    "229": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "item_sum#0"
       ]
     },
-    "226": {
+    "230": {
       "op": "frame_bury 2",
       "defined_out": [
-        "item#0",
         "item_sum#0",
-        "iteration_count#0"
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
-    "228": {
+    "232": {
       "op": "frame_dig 3",
       "defined_out": [
         "index_sum#0",
-        "item#0",
         "item_sum#0",
-        "iteration_count#0"
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "index_sum#0"
       ]
     },
-    "230": {
+    "234": {
       "op": "frame_dig 0",
       "defined_out": [
         "index#0",
         "index_sum#0",
-        "item#0",
         "item_sum#0",
-        "iteration_count#0"
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "index_sum#0",
         "index#0"
       ]
     },
-    "232": {
+    "236": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "index_sum#0"
       ]
     },
-    "233": {
+    "237": {
       "op": "frame_bury 3",
       "defined_out": [
         "index#0",
         "index_sum#0",
-        "item#0",
         "item_sum#0",
-        "iteration_count#0"
+        "iteration_count#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
-    "235": {
+    "239": {
       "block": "enumerate_urange_for_footer@7",
       "stack_in": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 4",
       "defined_out": [
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
-    "237": {
+    "241": {
       "op": "frame_dig -1",
       "defined_out": [
-        "item#0",
+        "next_range_item#0",
         "step#0 (copy)"
       ],
       "stack_out": [
@@ -1237,103 +1319,103 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "step#0 (copy)"
       ]
     },
-    "239": {
+    "243": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
-        "item#0"
-      ]
-    },
-    "240": {
-      "op": "frame_bury 4",
-      "defined_out": [
-        "item#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0"
-      ]
-    },
-    "242": {
-      "op": "frame_dig 0",
-      "defined_out": [
-        "index#0",
-        "item#0"
-      ],
-      "stack_out": [
-        "index#0",
-        "iteration_count#0",
-        "item_sum#0",
-        "index_sum#0",
-        "item#0",
-        "index#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "244": {
+      "op": "frame_bury 4",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0"
+      ]
+    },
+    "246": {
+      "op": "frame_dig 0",
+      "defined_out": [
+        "index#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "index#0",
+        "iteration_count#0",
+        "item_sum#0",
+        "index_sum#0",
+        "next_range_item#0",
+        "index#0"
+      ]
+    },
+    "248": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
         "index#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "index#0",
         "1"
       ]
     },
-    "245": {
+    "249": {
       "op": "+",
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "index#0"
       ]
     },
-    "246": {
+    "250": {
       "op": "frame_bury 0",
       "defined_out": [
         "index#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ]
     },
-    "248": {
+    "252": {
       "op": "b enumerate_urange_for_header@5"
     },
-    "251": {
+    "255": {
       "block": "enumerate_urange_after_for@8",
       "stack_in": [
         "index#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 1",
       "defined_out": [
@@ -1344,11 +1426,11 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "iteration_count#0"
       ]
     },
-    "253": {
+    "257": {
       "op": "frame_dig 2",
       "defined_out": [
         "item_sum#0",
@@ -1359,12 +1441,12 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "iteration_count#0",
         "item_sum#0"
       ]
     },
-    "255": {
+    "259": {
       "op": "frame_dig 3",
       "defined_out": [
         "index_sum#0",
@@ -1376,26 +1458,26 @@
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0",
-        "item#0",
+        "next_range_item#0",
         "iteration_count#0",
         "item_sum#0",
         "index_sum#0"
       ]
     },
-    "257": {
+    "261": {
       "op": "frame_bury 2"
     },
-    "259": {
+    "263": {
       "op": "frame_bury 1"
     },
-    "261": {
+    "265": {
       "op": "frame_bury 0"
     },
-    "263": {
+    "267": {
       "retsub": true,
       "op": "retsub"
     },
-    "264": {
+    "268": {
       "subroutine": "test_cases.enumeration.contract.enumerate_tuple",
       "params": {
         "tup.0#0": "bytes",
@@ -1407,13 +1489,13 @@
       "stack_in": [],
       "op": "proto 4 3"
     },
-    "267": {
+    "271": {
       "op": "bytec_0 // \"\"",
       "stack_out": [
         "index#0"
       ]
     },
-    "268": {
+    "272": {
       "block": "enumerate_tuple_block@0",
       "stack_in": [
         "index#0"
@@ -1427,7 +1509,7 @@
         "iteration_count#0"
       ]
     },
-    "269": {
+    "273": {
       "op": "bytec_0 // 0x",
       "defined_out": [
         "item_concat#0",
@@ -1439,7 +1521,7 @@
         "item_concat#0"
       ]
     },
-    "270": {
+    "274": {
       "op": "intc_1 // 0",
       "defined_out": [
         "index_sum#0",
@@ -1453,7 +1535,7 @@
         "index_sum#0"
       ]
     },
-    "271": {
+    "275": {
       "op": "dup",
       "defined_out": [
         "index_sum#0",
@@ -1469,7 +1551,7 @@
         "loop_counter%0#0"
       ]
     },
-    "272": {
+    "276": {
       "op": "frame_dig -4",
       "defined_out": [
         "index_sum#0",
@@ -1487,7 +1569,7 @@
         "item#0"
       ]
     },
-    "274": {
+    "278": {
       "block": "enumerate_tuple_for_body@1",
       "stack_in": [
         "index#0",
@@ -1511,7 +1593,7 @@
         "iteration_count#0"
       ]
     },
-    "276": {
+    "280": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1528,7 +1610,7 @@
         "1"
       ]
     },
-    "277": {
+    "281": {
       "op": "+",
       "stack_out": [
         "index#0",
@@ -1540,7 +1622,7 @@
         "iteration_count#0"
       ]
     },
-    "278": {
+    "282": {
       "op": "frame_bury 1",
       "defined_out": [
         "iteration_count#0"
@@ -1554,7 +1636,7 @@
         "item#0"
       ]
     },
-    "280": {
+    "284": {
       "op": "frame_dig 2",
       "defined_out": [
         "item_concat#0",
@@ -1570,7 +1652,7 @@
         "item_concat#0"
       ]
     },
-    "282": {
+    "286": {
       "op": "swap",
       "defined_out": [
         "item#0",
@@ -1587,7 +1669,7 @@
         "item#0"
       ]
     },
-    "283": {
+    "287": {
       "op": "concat",
       "stack_out": [
         "index#0",
@@ -1598,7 +1680,7 @@
         "item_concat#0"
       ]
     },
-    "284": {
+    "288": {
       "op": "frame_bury 2",
       "defined_out": [
         "item_concat#0",
@@ -1612,7 +1694,7 @@
         "loop_counter%0#0"
       ]
     },
-    "286": {
+    "290": {
       "block": "enumerate_tuple_for_footer@2",
       "stack_in": [
         "index#0",
@@ -1634,7 +1716,7 @@
         "loop_counter%0#0"
       ]
     },
-    "288": {
+    "292": {
       "op": "switch enumerate_tuple_for_header_1@3 enumerate_tuple_for_header_2@4 enumerate_tuple_for_header_3@5",
       "stack_out": [
         "index#0",
@@ -1644,7 +1726,7 @@
         "loop_counter%0#0"
       ]
     },
-    "296": {
+    "300": {
       "block": "enumerate_tuple_after_for@6",
       "stack_in": [
         "index#0",
@@ -1666,7 +1748,7 @@
         "item#0"
       ]
     },
-    "298": {
+    "302": {
       "op": "intc_1 // 0",
       "defined_out": [
         "index#0",
@@ -1682,7 +1764,7 @@
         "index#0"
       ]
     },
-    "299": {
+    "303": {
       "op": "frame_bury 0",
       "defined_out": [
         "index#0",
@@ -1697,7 +1779,7 @@
         "item#0"
       ]
     },
-    "301": {
+    "305": {
       "block": "enumerate_tuple_for_body@7",
       "stack_in": [
         "index#0",
@@ -1721,7 +1803,7 @@
         "iteration_count#0"
       ]
     },
-    "303": {
+    "307": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1738,7 +1820,7 @@
         "1"
       ]
     },
-    "304": {
+    "308": {
       "op": "+",
       "stack_out": [
         "index#0",
@@ -1750,7 +1832,7 @@
         "iteration_count#0"
       ]
     },
-    "305": {
+    "309": {
       "op": "frame_bury 1",
       "defined_out": [
         "iteration_count#0"
@@ -1764,7 +1846,7 @@
         "item#0"
       ]
     },
-    "307": {
+    "311": {
       "op": "frame_dig 2",
       "defined_out": [
         "item_concat#0",
@@ -1780,7 +1862,7 @@
         "item_concat#0"
       ]
     },
-    "309": {
+    "313": {
       "op": "swap",
       "defined_out": [
         "item#0",
@@ -1797,7 +1879,7 @@
         "item#0"
       ]
     },
-    "310": {
+    "314": {
       "op": "concat",
       "stack_out": [
         "index#0",
@@ -1808,7 +1890,7 @@
         "item_concat#0"
       ]
     },
-    "311": {
+    "315": {
       "op": "frame_bury 2",
       "defined_out": [
         "item_concat#0",
@@ -1822,7 +1904,7 @@
         "loop_counter%0#0"
       ]
     },
-    "313": {
+    "317": {
       "op": "frame_dig 3",
       "defined_out": [
         "index_sum#0",
@@ -1838,7 +1920,7 @@
         "index_sum#0"
       ]
     },
-    "315": {
+    "319": {
       "op": "frame_dig 0",
       "defined_out": [
         "index#0",
@@ -1856,7 +1938,7 @@
         "index#0"
       ]
     },
-    "317": {
+    "321": {
       "op": "+",
       "stack_out": [
         "index#0",
@@ -1867,7 +1949,7 @@
         "index_sum#0"
       ]
     },
-    "318": {
+    "322": {
       "op": "frame_bury 3",
       "defined_out": [
         "index#0",
@@ -1883,7 +1965,7 @@
         "loop_counter%0#0"
       ]
     },
-    "320": {
+    "324": {
       "block": "enumerate_tuple_for_footer@8",
       "stack_in": [
         "index#0",
@@ -1905,7 +1987,7 @@
         "index#0"
       ]
     },
-    "322": {
+    "326": {
       "op": "switch enumerate_tuple_for_header_1@9 enumerate_tuple_for_header_2@10 enumerate_tuple_for_header_3@11",
       "stack_out": [
         "index#0",
@@ -1915,7 +1997,7 @@
         "loop_counter%0#0"
       ]
     },
-    "330": {
+    "334": {
       "block": "enumerate_tuple_after_for@12",
       "stack_in": [
         "index#0",
@@ -1937,7 +2019,7 @@
         "iteration_count#0"
       ]
     },
-    "332": {
+    "336": {
       "op": "frame_dig 2",
       "defined_out": [
         "item_concat#0",
@@ -1953,7 +2035,7 @@
         "item_concat#0"
       ]
     },
-    "334": {
+    "338": {
       "op": "frame_dig 3",
       "defined_out": [
         "index_sum#0",
@@ -1971,20 +2053,20 @@
         "index_sum#0"
       ]
     },
-    "336": {
+    "340": {
       "op": "frame_bury 2"
     },
-    "338": {
+    "342": {
       "op": "frame_bury 1"
     },
-    "340": {
+    "344": {
       "op": "frame_bury 0"
     },
-    "342": {
+    "346": {
       "retsub": true,
       "op": "retsub"
     },
-    "343": {
+    "347": {
       "block": "enumerate_tuple_for_header_3@11",
       "stack_in": [
         "index#0",
@@ -2006,7 +2088,7 @@
         "item#0"
       ]
     },
-    "345": {
+    "349": {
       "op": "intc_2 // 3",
       "defined_out": [
         "index#0",
@@ -2022,7 +2104,7 @@
         "index#0"
       ]
     },
-    "346": {
+    "350": {
       "op": "frame_bury 0",
       "defined_out": [
         "index#0",
@@ -2037,10 +2119,10 @@
         "item#0"
       ]
     },
-    "348": {
+    "352": {
       "op": "b enumerate_tuple_for_body@7"
     },
-    "351": {
+    "355": {
       "block": "enumerate_tuple_for_header_2@10",
       "stack_in": [
         "index#0",
@@ -2062,7 +2144,7 @@
         "item#0"
       ]
     },
-    "353": {
+    "357": {
       "op": "pushint 2 // 2",
       "defined_out": [
         "index#0",
@@ -2078,7 +2160,7 @@
         "index#0"
       ]
     },
-    "355": {
+    "359": {
       "op": "frame_bury 0",
       "defined_out": [
         "index#0",
@@ -2093,10 +2175,10 @@
         "item#0"
       ]
     },
-    "357": {
+    "361": {
       "op": "b enumerate_tuple_for_body@7"
     },
-    "360": {
+    "364": {
       "block": "enumerate_tuple_for_header_1@9",
       "stack_in": [
         "index#0",
@@ -2118,7 +2200,7 @@
         "item#0"
       ]
     },
-    "362": {
+    "366": {
       "op": "intc_0 // 1",
       "defined_out": [
         "index#0",
@@ -2134,7 +2216,7 @@
         "index#0"
       ]
     },
-    "363": {
+    "367": {
       "op": "frame_bury 0",
       "defined_out": [
         "index#0",
@@ -2149,10 +2231,10 @@
         "item#0"
       ]
     },
-    "365": {
+    "369": {
       "op": "b enumerate_tuple_for_body@7"
     },
-    "368": {
+    "372": {
       "block": "enumerate_tuple_for_header_3@5",
       "stack_in": [
         "index#0",
@@ -2174,7 +2256,7 @@
         "loop_counter%0#0"
       ]
     },
-    "369": {
+    "373": {
       "op": "frame_bury 4",
       "defined_out": [
         "loop_counter%0#0"
@@ -2187,7 +2269,7 @@
         "loop_counter%0#0"
       ]
     },
-    "371": {
+    "375": {
       "op": "frame_dig -1",
       "defined_out": [
         "item#0",
@@ -2202,10 +2284,10 @@
         "item#0"
       ]
     },
-    "373": {
+    "377": {
       "op": "b enumerate_tuple_for_body@1"
     },
-    "376": {
+    "380": {
       "block": "enumerate_tuple_for_header_2@4",
       "stack_in": [
         "index#0",
@@ -2227,7 +2309,7 @@
         "loop_counter%0#0"
       ]
     },
-    "378": {
+    "382": {
       "op": "frame_bury 4",
       "defined_out": [
         "loop_counter%0#0"
@@ -2240,7 +2322,7 @@
         "loop_counter%0#0"
       ]
     },
-    "380": {
+    "384": {
       "op": "frame_dig -2",
       "defined_out": [
         "item#0",
@@ -2255,10 +2337,10 @@
         "item#0"
       ]
     },
-    "382": {
+    "386": {
       "op": "b enumerate_tuple_for_body@1"
     },
-    "385": {
+    "389": {
       "block": "enumerate_tuple_for_header_1@3",
       "stack_in": [
         "index#0",
@@ -2280,7 +2362,7 @@
         "loop_counter%0#0"
       ]
     },
-    "386": {
+    "390": {
       "op": "frame_bury 4",
       "defined_out": [
         "loop_counter%0#0"
@@ -2293,7 +2375,7 @@
         "loop_counter%0#0"
       ]
     },
-    "388": {
+    "392": {
       "op": "frame_dig -3",
       "defined_out": [
         "item#0",
@@ -2308,10 +2390,10 @@
         "item#0"
       ]
     },
-    "390": {
+    "394": {
       "op": "b enumerate_tuple_for_body@1"
     },
-    "393": {
+    "397": {
       "subroutine": "test_cases.enumeration.contract.enumerate_bytes",
       "params": {
         "bytes_#0": "bytes"
@@ -2320,20 +2402,20 @@
       "stack_in": [],
       "op": "proto 1 3"
     },
-    "396": {
+    "400": {
       "op": "bytec_0 // \"\"",
       "stack_out": [
         "bytes_length%1#0"
       ]
     },
-    "397": {
+    "401": {
       "op": "dup",
       "stack_out": [
         "bytes_length%1#0",
         "item_index_internal%1#0"
       ]
     },
-    "398": {
+    "402": {
       "block": "enumerate_bytes_block@0",
       "stack_in": [
         "bytes_length%1#0",
@@ -2349,7 +2431,7 @@
         "iteration_count#0"
       ]
     },
-    "399": {
+    "403": {
       "op": "bytec_0 // 0x",
       "defined_out": [
         "item_concat#0",
@@ -2362,7 +2444,7 @@
         "item_concat#0"
       ]
     },
-    "400": {
+    "404": {
       "op": "intc_1 // 0",
       "defined_out": [
         "index_sum#0",
@@ -2377,7 +2459,7 @@
         "index_sum#0"
       ]
     },
-    "401": {
+    "405": {
       "op": "frame_dig -1",
       "defined_out": [
         "bytes_#0 (copy)",
@@ -2394,7 +2476,7 @@
         "bytes_#0 (copy)"
       ]
     },
-    "403": {
+    "407": {
       "op": "len",
       "defined_out": [
         "bytes_length%0#0",
@@ -2411,7 +2493,7 @@
         "bytes_length%0#0"
       ]
     },
-    "404": {
+    "408": {
       "op": "intc_1 // 0",
       "defined_out": [
         "bytes_length%0#0",
@@ -2430,7 +2512,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "405": {
+    "409": {
       "block": "enumerate_bytes_for_header@1",
       "stack_in": [
         "bytes_length%1#0",
@@ -2456,7 +2538,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "407": {
+    "411": {
       "op": "frame_dig 5",
       "defined_out": [
         "bytes_length%0#0",
@@ -2474,7 +2556,7 @@
         "bytes_length%0#0"
       ]
     },
-    "409": {
+    "413": {
       "op": "<",
       "defined_out": [
         "bytes_length%0#0",
@@ -2492,7 +2574,7 @@
         "continue_looping%0#0"
       ]
     },
-    "410": {
+    "414": {
       "op": "bz enumerate_bytes_after_for@4",
       "stack_out": [
         "bytes_length%1#0",
@@ -2504,7 +2586,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "413": {
+    "417": {
       "block": "enumerate_bytes_for_body@2",
       "stack_in": [
         "bytes_length%1#0",
@@ -2530,7 +2612,7 @@
         "bytes_#0 (copy)"
       ]
     },
-    "415": {
+    "419": {
       "op": "frame_dig 6",
       "defined_out": [
         "bytes_#0 (copy)",
@@ -2548,7 +2630,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "417": {
+    "421": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -2568,7 +2650,7 @@
         "1"
       ]
     },
-    "418": {
+    "422": {
       "op": "extract3",
       "defined_out": [
         "item#0",
@@ -2585,7 +2667,7 @@
         "item#0"
       ]
     },
-    "419": {
+    "423": {
       "op": "frame_dig 2",
       "defined_out": [
         "item#0",
@@ -2604,7 +2686,7 @@
         "iteration_count#0"
       ]
     },
-    "421": {
+    "425": {
       "op": "intc_0 // 1",
       "stack_out": [
         "bytes_length%1#0",
@@ -2619,7 +2701,7 @@
         "1"
       ]
     },
-    "422": {
+    "426": {
       "op": "+",
       "stack_out": [
         "bytes_length%1#0",
@@ -2633,7 +2715,7 @@
         "iteration_count#0"
       ]
     },
-    "423": {
+    "427": {
       "op": "frame_bury 2",
       "defined_out": [
         "item#0",
@@ -2651,7 +2733,7 @@
         "item#0"
       ]
     },
-    "425": {
+    "429": {
       "op": "frame_dig 3",
       "defined_out": [
         "item#0",
@@ -2671,7 +2753,7 @@
         "item_concat#0"
       ]
     },
-    "427": {
+    "431": {
       "op": "swap",
       "stack_out": [
         "bytes_length%1#0",
@@ -2685,7 +2767,7 @@
         "item#0"
       ]
     },
-    "428": {
+    "432": {
       "op": "concat",
       "stack_out": [
         "bytes_length%1#0",
@@ -2698,7 +2780,7 @@
         "item_concat#0"
       ]
     },
-    "429": {
+    "433": {
       "op": "frame_bury 3",
       "defined_out": [
         "item_concat#0",
@@ -2715,7 +2797,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "431": {
+    "435": {
       "block": "enumerate_bytes_for_footer@3",
       "stack_in": [
         "bytes_length%1#0",
@@ -2741,7 +2823,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "433": {
+    "437": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -2759,7 +2841,7 @@
         "1"
       ]
     },
-    "434": {
+    "438": {
       "op": "+",
       "stack_out": [
         "bytes_length%1#0",
@@ -2772,7 +2854,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "435": {
+    "439": {
       "op": "frame_bury 6",
       "defined_out": [
         "item_index_internal%0#0"
@@ -2787,10 +2869,10 @@
         "item_index_internal%0#0"
       ]
     },
-    "437": {
+    "441": {
       "op": "b enumerate_bytes_for_header@1"
     },
-    "440": {
+    "444": {
       "block": "enumerate_bytes_after_for@4",
       "stack_in": [
         "bytes_length%1#0",
@@ -2816,7 +2898,7 @@
         "bytes_#0 (copy)"
       ]
     },
-    "442": {
+    "446": {
       "op": "len",
       "defined_out": [
         "bytes_length%1#0"
@@ -2832,7 +2914,7 @@
         "bytes_length%1#0"
       ]
     },
-    "443": {
+    "447": {
       "op": "frame_bury 0",
       "defined_out": [
         "bytes_length%1#0"
@@ -2847,7 +2929,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "445": {
+    "449": {
       "op": "intc_1 // 0",
       "defined_out": [
         "bytes_length%1#0",
@@ -2864,7 +2946,7 @@
         "item_index_internal%1#0"
       ]
     },
-    "446": {
+    "450": {
       "op": "frame_bury 1",
       "defined_out": [
         "bytes_length%1#0",
@@ -2880,7 +2962,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "448": {
+    "452": {
       "block": "enumerate_bytes_for_header@5",
       "stack_in": [
         "bytes_length%1#0",
@@ -2906,7 +2988,7 @@
         "item_index_internal%1#0"
       ]
     },
-    "450": {
+    "454": {
       "op": "frame_dig 0",
       "defined_out": [
         "bytes_length%1#0",
@@ -2924,7 +3006,7 @@
         "bytes_length%1#0"
       ]
     },
-    "452": {
+    "456": {
       "op": "<",
       "defined_out": [
         "bytes_length%1#0",
@@ -2942,7 +3024,7 @@
         "continue_looping%1#0"
       ]
     },
-    "453": {
+    "457": {
       "op": "bz enumerate_bytes_after_for@8",
       "stack_out": [
         "bytes_length%1#0",
@@ -2954,7 +3036,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "456": {
+    "460": {
       "block": "enumerate_bytes_for_body@6",
       "stack_in": [
         "bytes_length%1#0",
@@ -2980,7 +3062,7 @@
         "bytes_#0 (copy)"
       ]
     },
-    "458": {
+    "462": {
       "op": "frame_dig 1",
       "defined_out": [
         "bytes_#0 (copy)",
@@ -2998,7 +3080,7 @@
         "item_index_internal%1#0"
       ]
     },
-    "460": {
+    "464": {
       "op": "dup",
       "defined_out": [
         "bytes_#0 (copy)",
@@ -3018,7 +3100,7 @@
         "item_index_internal%1#0 (copy)"
       ]
     },
-    "461": {
+    "465": {
       "op": "cover 2",
       "stack_out": [
         "bytes_length%1#0",
@@ -3033,7 +3115,7 @@
         "item_index_internal%1#0 (copy)"
       ]
     },
-    "463": {
+    "467": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -3055,7 +3137,7 @@
         "1"
       ]
     },
-    "464": {
+    "468": {
       "op": "extract3",
       "defined_out": [
         "index#0",
@@ -3074,7 +3156,7 @@
         "item#0"
       ]
     },
-    "465": {
+    "469": {
       "op": "frame_dig 2",
       "defined_out": [
         "index#0",
@@ -3095,7 +3177,7 @@
         "iteration_count#0"
       ]
     },
-    "467": {
+    "471": {
       "op": "intc_0 // 1",
       "stack_out": [
         "bytes_length%1#0",
@@ -3111,7 +3193,7 @@
         "1"
       ]
     },
-    "468": {
+    "472": {
       "op": "+",
       "stack_out": [
         "bytes_length%1#0",
@@ -3126,7 +3208,7 @@
         "iteration_count#0"
       ]
     },
-    "469": {
+    "473": {
       "op": "frame_bury 2",
       "defined_out": [
         "index#0",
@@ -3146,7 +3228,7 @@
         "item#0"
       ]
     },
-    "471": {
+    "475": {
       "op": "frame_dig 3",
       "defined_out": [
         "index#0",
@@ -3168,7 +3250,7 @@
         "item_concat#0"
       ]
     },
-    "473": {
+    "477": {
       "op": "swap",
       "stack_out": [
         "bytes_length%1#0",
@@ -3183,7 +3265,7 @@
         "item#0"
       ]
     },
-    "474": {
+    "478": {
       "op": "concat",
       "stack_out": [
         "bytes_length%1#0",
@@ -3197,7 +3279,7 @@
         "item_concat#0"
       ]
     },
-    "475": {
+    "479": {
       "op": "frame_bury 3",
       "defined_out": [
         "index#0",
@@ -3216,7 +3298,7 @@
         "index#0"
       ]
     },
-    "477": {
+    "481": {
       "op": "frame_dig 4",
       "defined_out": [
         "index#0",
@@ -3237,7 +3319,7 @@
         "index_sum#0"
       ]
     },
-    "479": {
+    "483": {
       "op": "+",
       "stack_out": [
         "bytes_length%1#0",
@@ -3250,7 +3332,7 @@
         "index_sum#0"
       ]
     },
-    "480": {
+    "484": {
       "op": "frame_bury 4",
       "defined_out": [
         "index_sum#0",
@@ -3268,7 +3350,7 @@
         "item_index_internal%0#0"
       ]
     },
-    "482": {
+    "486": {
       "block": "enumerate_bytes_for_footer@7",
       "stack_in": [
         "bytes_length%1#0",
@@ -3294,7 +3376,7 @@
         "item_index_internal%1#0"
       ]
     },
-    "484": {
+    "488": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -3312,7 +3394,7 @@
         "1"
       ]
     },
-    "485": {
+    "489": {
       "op": "+",
       "stack_out": [
         "bytes_length%1#0",
@@ -3325,7 +3407,7 @@
         "item_index_internal%1#0"
       ]
     },
-    "486": {
+    "490": {
       "op": "frame_bury 1",
       "defined_out": [
         "item_index_internal%1#0"
@@ -3340,10 +3422,10 @@
         "item_index_internal%0#0"
       ]
     },
-    "488": {
+    "492": {
       "op": "b enumerate_bytes_for_header@5"
     },
-    "491": {
+    "495": {
       "block": "enumerate_bytes_after_for@8",
       "stack_in": [
         "bytes_length%1#0",
@@ -3369,7 +3451,7 @@
         "iteration_count#0"
       ]
     },
-    "493": {
+    "497": {
       "op": "frame_dig 3",
       "defined_out": [
         "item_concat#0",
@@ -3387,7 +3469,7 @@
         "item_concat#0"
       ]
     },
-    "495": {
+    "499": {
       "op": "frame_dig 4",
       "defined_out": [
         "index_sum#0",
@@ -3407,16 +3489,16 @@
         "index_sum#0"
       ]
     },
-    "497": {
+    "501": {
       "op": "frame_bury 2"
     },
-    "499": {
+    "503": {
       "op": "frame_bury 1"
     },
-    "501": {
+    "505": {
       "op": "frame_bury 0"
     },
-    "503": {
+    "507": {
       "retsub": true,
       "op": "retsub"
     }

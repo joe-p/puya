@@ -348,10 +348,19 @@ def _iterate_urange_simple(
         )
 
         context.block_builder.activate_block(body)
-        context.ssa.write_variable(
-            current_range_item.name, context.block_builder.active_block, next_range_item
+
+        # FIXME: This causes tangled phi node with the user variable
+        # context.ssa.write_variable(
+        #     current_range_item.name, context.block_builder.active_block, next_range_item
+        # )
+
+        assign_intrinsic_op(
+            context,
+            target=current_range_item,
+            op=AVMOp.add,
+            args=[next_range_item, 0],
+            source_location=range_loc,
         )
-        (current_range_item,), current_range_index = loop_vars.refresh_assignment(context)
 
         with context.block_builder.enter_loop(on_continue=footer, on_break=next_block):
             loop_body.accept(context.visitor)

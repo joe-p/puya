@@ -3,28 +3,28 @@ main test_cases.enumeration.contract.EnumerationContract.approval_program:
         let iteration_count#3: uint64 = 0u
         let item_sum#1: uint64 = 0u
         let index_sum#3: uint64 = 0u
-        let item#0: uint64 = 10u
+        let next_range_item#0: uint64 = 10u
         goto block@2
     block@2: // for_header_L38
-        let continue_looping%0#0: bool = (< item#0 21u)
+        let continue_looping%0#0: bool = (< next_range_item#0 21u)
         goto continue_looping%0#0 ? block@3 : block@5
     block@3: // for_body_L39
         let iteration_count#3: uint64 = (+ iteration_count#3 1u)
-        let item_sum#1: uint64 = (+ item_sum#1 item#0)
-        let item#0: uint64 = (+ item#0 5u)
+        let item_sum#1: uint64 = (+ item_sum#1 next_range_item#0)
+        let next_range_item#0: uint64 = (+ next_range_item#0 5u)
         goto block@2
     block@5: // after_for_L38
-        let item#0: uint64 = 10u
         let index#0: uint64 = 0u
+        let next_range_item#0: uint64 = 10u
         goto block@6
     block@6: // for_header_L42
-        let continue_looping%1#0: bool = (< item#0 21u)
+        let continue_looping%1#0: bool = (< next_range_item#0 21u)
         goto continue_looping%1#0 ? block@7 : block@9
     block@7: // for_body_L43
         let iteration_count#3: uint64 = (+ iteration_count#3 1u)
-        let item_sum#1: uint64 = (+ item_sum#1 item#0)
+        let item_sum#1: uint64 = (+ item_sum#1 next_range_item#0)
         let index_sum#3: uint64 = (+ index_sum#3 index#0)
-        let item#0: uint64 = (+ item#0 5u)
+        let next_range_item#0: uint64 = (+ next_range_item#0 5u)
         let index#0: uint64 = (+ index#0 1u)
         goto block@6
     block@9: // after_for_L42

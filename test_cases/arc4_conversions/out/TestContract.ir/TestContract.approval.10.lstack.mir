@@ -1270,12 +1270,12 @@ subroutine test_array_dynamic_encoding:
         byte 0x                                                                                      0x
         v-store new_head#0
         int 0                                                                                        0
-        v-store head_offset#0
+        v-store next_range_item#0
         b test_array_dynamic_encoding_for_header@6
 
     test_array_dynamic_encoding_for_header@6:
-        v-load head_offset#0                                                                         head_offset#0
-        int 0                                                                                        head_offset#0,0
+        v-load next_range_item#0                                                                     next_range_item#0
+        int 0                                                                                        next_range_item#0,0
         <                                                                                            continue_looping%0#0
         l-load continue_looping%0#0 0                                                                continue_looping%0#0
         bz test_array_dynamic_encoding_after_for@8 ; b test_array_dynamic_encoding_for_body@7 
@@ -1286,55 +1286,55 @@ subroutine test_array_dynamic_encoding:
         //     my_dyn_struct(UInt64(1)), my_dyn_struct(UInt64(2)), my_dyn_struct(UInt64(3))
         // )
         byte 0x                                                                                      0x
-        v-load head_offset#0                                                                         0x,head_offset#0
-        l-store-copy head_offset#0 1                                                                 head_offset#0,0x,head_offset#0 (copy)
-        extract_uint16                                                                               head_offset#0,item_offset#0
-        int 6                                                                                        head_offset#0,item_offset#0,6
-        l-load item_offset#0 1                                                                       head_offset#0,6,item_offset#0
-        +                                                                                            head_offset#0,tmp%1#1
-        l-load tmp%1#1 0                                                                             head_offset#0,tmp%1#1
-        itob                                                                                         head_offset#0,tmp%2#1
-        l-load tmp%2#1 0                                                                             head_offset#0,tmp%2#1
-        extract 6 2                                                                                  head_offset#0,tmp%3#1
-        v-load new_head#0                                                                            head_offset#0,tmp%3#1,new_head#0
-        l-load tmp%3#1 1                                                                             head_offset#0,new_head#0,tmp%3#1
-        concat                                                                                       head_offset#0,new_head#0
-        v-store new_head#0                                                                           head_offset#0
-        l-load head_offset#0 0                                                                       head_offset#0
-        int 2                                                                                        head_offset#0,2
-        +                                                                                            head_offset#0
-        v-store head_offset#0
+        v-load next_range_item#0                                                                     0x,next_range_item#0
+        l-store-copy next_range_item#0 1                                                             next_range_item#0,0x,next_range_item#0 (copy)
+        extract_uint16                                                                               next_range_item#0,item_offset#0
+        int 6                                                                                        next_range_item#0,item_offset#0,6
+        l-load item_offset#0 1                                                                       next_range_item#0,6,item_offset#0
+        +                                                                                            next_range_item#0,tmp%1#1
+        l-load tmp%1#1 0                                                                             next_range_item#0,tmp%1#1
+        itob                                                                                         next_range_item#0,tmp%2#1
+        l-load tmp%2#1 0                                                                             next_range_item#0,tmp%2#1
+        extract 6 2                                                                                  next_range_item#0,tmp%3#1
+        v-load new_head#0                                                                            next_range_item#0,tmp%3#1,new_head#0
+        l-load tmp%3#1 1                                                                             next_range_item#0,new_head#0,tmp%3#1
+        concat                                                                                       next_range_item#0,new_head#0
+        v-store new_head#0                                                                           next_range_item#0
+        l-load next_range_item#0 0                                                                   next_range_item#0
+        int 2                                                                                        next_range_item#0,2
+        +                                                                                            next_range_item#0
+        v-store next_range_item#0
         b test_array_dynamic_encoding_for_header@6
 
     test_array_dynamic_encoding_after_for@8:
         int 0                                                                                        0
-        v-store head_offset#0
+        v-store next_range_item#0
         b test_array_dynamic_encoding_for_header@9
 
     test_array_dynamic_encoding_for_header@9:
-        v-load head_offset#0                                                                         head_offset#0
-        int 6                                                                                        head_offset#0,6
+        v-load next_range_item#0                                                                     next_range_item#0
+        int 6                                                                                        next_range_item#0,6
         <                                                                                            continue_looping%1#0
         l-load continue_looping%1#0 0                                                                continue_looping%1#0
         bz test_array_dynamic_encoding_after_for@11 ; b test_array_dynamic_encoding_for_body@10 
 
     test_array_dynamic_encoding_for_body@10:
         v-load new_head_and_tail#0                                                                   new_head_and_tail#0
-        v-load head_offset#0                                                                         new_head_and_tail#0,head_offset#0
-        l-store-copy head_offset#0 1                                                                 head_offset#0,new_head_and_tail#0,head_offset#0 (copy)
-        extract_uint16                                                                               head_offset#0,item_offset#0
-        l-load item_offset#0 0                                                                       head_offset#0,item_offset#0
-        itob                                                                                         head_offset#0,tmp%6#1
-        l-load tmp%6#1 0                                                                             head_offset#0,tmp%6#1
-        extract 6 2                                                                                  head_offset#0,tmp%7#1
-        v-load new_head#0                                                                            head_offset#0,tmp%7#1,new_head#0
-        l-load tmp%7#1 1                                                                             head_offset#0,new_head#0,tmp%7#1
-        concat                                                                                       head_offset#0,new_head#0
-        v-store new_head#0                                                                           head_offset#0
-        l-load head_offset#0 0                                                                       head_offset#0
-        int 2                                                                                        head_offset#0,2
-        +                                                                                            head_offset#0
-        v-store head_offset#0
+        v-load next_range_item#0                                                                     new_head_and_tail#0,next_range_item#0
+        l-store-copy next_range_item#0 1                                                             next_range_item#0,new_head_and_tail#0,next_range_item#0 (copy)
+        extract_uint16                                                                               next_range_item#0,item_offset#0
+        l-load item_offset#0 0                                                                       next_range_item#0,item_offset#0
+        itob                                                                                         next_range_item#0,tmp%6#1
+        l-load tmp%6#1 0                                                                             next_range_item#0,tmp%6#1
+        extract 6 2                                                                                  next_range_item#0,tmp%7#1
+        v-load new_head#0                                                                            next_range_item#0,tmp%7#1,new_head#0
+        l-load tmp%7#1 1                                                                             next_range_item#0,new_head#0,tmp%7#1
+        concat                                                                                       next_range_item#0,new_head#0
+        v-store new_head#0                                                                           next_range_item#0
+        l-load next_range_item#0 0                                                                   next_range_item#0
+        int 2                                                                                        next_range_item#0,2
+        +                                                                                            next_range_item#0
+        v-store next_range_item#0
         b test_array_dynamic_encoding_for_header@9
 
     test_array_dynamic_encoding_after_for@11:

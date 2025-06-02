@@ -968,21 +968,24 @@ subroutine test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tupl
         let twm.arr#2: bytes = concat_result%1#0
         (assert 1u) // Step cannot be zero
         let i#0: uint64 = 0u
+        let next_range_item#0: uint64 = 0u
         goto block@1
     block@1: // for_header_L107
         let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@3)
-        let continue_looping%0#0: bool = (< i#1 3u)
+        let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3)
+        let continue_looping%0#0: bool = (< next_range_item#1 3u)
         goto continue_looping%0#0 ? block@2 : block@4
     block@2: // for_body_L108
+        let i#2: uint64 = (+ next_range_item#1 0u)
         let array_head_and_tail%0#0: bytes = ((extract 2 0) twm.arr#2)
-        let item_offset%0#0: uint64 = (* i#1 8u)
+        let item_offset%0#0: uint64 = (* i#2 8u)
         let reinterpret_biguint%0#0: biguint = (extract3 array_head_and_tail%0#0 item_offset%0#0 8u) // on error: Index access is out of bounds
-        let tmp%0#0: biguint = (itob i#1)
+        let tmp%0#0: biguint = (itob i#2)
         let tmp%1#0: bool = (b== reinterpret_biguint%0#0 tmp%0#0)
         (assert tmp%1#0)
         goto block@3
     block@3: // for_footer_L107
-        let i#2: uint64 = (+ i#1 1u)
+        let next_range_item#2: uint64 = (+ next_range_item#1 1u)
         goto block@1
     block@4: // after_for_L107
         return twm.arr#2 twm.child.a#0 twm.child.b#0 twm.child.c#0

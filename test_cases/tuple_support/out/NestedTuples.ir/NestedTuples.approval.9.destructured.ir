@@ -585,18 +585,18 @@ subroutine test_cases.tuple_support.nested_tuples.NestedTuples.load_tuple_from_l
 
 subroutine test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tuple() -> <bytes, uint64, bytes, bytes>:
     block@0: // L95
-        let i#0: uint64 = 0u
+        let next_range_item#0: uint64 = 0u
         goto block@1
     block@1: // for_header_L107
-        let continue_looping%0#0: bool = (< i#0 3u)
+        let continue_looping%0#0: bool = (< next_range_item#0 3u)
         goto continue_looping%0#0 ? block@2 : block@4
     block@2: // for_body_L108
-        let item_offset%0#0: uint64 = (* i#0 8u)
+        let item_offset%0#0: uint64 = (* next_range_item#0 8u)
         let reinterpret_biguint%0#0: biguint = (extract3 0x000000000000000000000000000000010000000000000002 item_offset%0#0 8u) // on error: Index access is out of bounds
-        let tmp%0#0: biguint = (itob i#0)
+        let tmp%0#0: biguint = (itob next_range_item#0)
         let tmp%1#0: bool = (b== reinterpret_biguint%0#0 tmp%0#0)
         (assert tmp%1#0)
-        let i#0: uint64 = (+ i#0 1u)
+        let next_range_item#0: uint64 = (+ next_range_item#0 1u)
         goto block@1
     block@4: // after_for_L107
         return 0x0003000000000000000000000000000000010000000000000002 0u 0x ""

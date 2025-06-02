@@ -3,7 +3,7 @@
   "sources": [
     "../contract.py"
   ],
-  "mappings": ";;;;;;;;;;;;;AAQA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;;AAAA;AALL;;;AAAA;;;AAKK;;;AAAA;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AADL;;;AACK;;;AAAA;;AAAL;;;AAEQ;AAAA;;AAAA;;AAER;;;AAEe;AAAA;AAAA;AAAA;AAMO;;AAAA;AAAA;AAAP;;;AAAf;;AAAA;;;AACuC;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAMT;;AAAA;AAAT;;;AAAA;;AAAA;AAAA;AAAV;AAAA;;AAPI;AAAA;;;;;AAOkE;;AAAA;;;;AAblE;;AAAA;;AAAA;AAAP;;AAAA",
+  "mappings": ";;;;;;;;;;;;;AAQA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;;AAAA;AALL;;;AAAA;;;AAKK;;;AAAA;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AADL;;;AACK;;;AAAA;;AAAL;;;AAEQ;AAAA;;AAAA;;AAER;;;AAEe;AAAA;AAAA;AAAA;AAMO;;AAAA;AAAA;AAAP;;;AAAA;;AAAA;;AAAA;AAAf;;;AACuC;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAMT;;AAAA;AAAT;;;AAAA;;AAAA;AAAA;AAAV;AAAA;;AAPI;;AAAA;AAAA;AAAA;;;;;AAOkE;;AAAA;;;;AAblE;;AAAA;;AAAA;AAAP;;AAAA",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -442,8 +442,22 @@
         "next_range_item#0",
         "computed#1"
       ],
+      "op": "frame_dig 2",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "tmp%0#1",
+        "next_range_item#0",
+        "computed#1",
+        "next_range_item#0"
+      ]
+    },
+    "115": {
       "op": "frame_dig 1",
       "defined_out": [
+        "next_range_item#0",
         "tmp%0#1"
       ],
       "stack_out": [
@@ -451,10 +465,26 @@
         "tmp%0#1",
         "next_range_item#0",
         "computed#1",
+        "next_range_item#0",
         "tmp%0#1"
       ]
     },
-    "115": {
+    "117": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "next_range_item#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "maybe_value%0#0",
+        "tmp%0#1",
+        "next_range_item#0",
+        "computed#1",
+        "continue_looping%0#0"
+      ]
+    },
+    "118": {
       "op": "bz verify_after_for@7",
       "stack_out": [
         "maybe_value%0#0",
@@ -463,9 +493,10 @@
         "computed#1"
       ]
     },
-    "118": {
+    "121": {
       "op": "frame_dig -2",
       "defined_out": [
+        "next_range_item#0",
         "proof#0 (copy)",
         "tmp%0#1"
       ],
@@ -477,10 +508,11 @@
         "proof#0 (copy)"
       ]
     },
-    "120": {
+    "123": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
+        "next_range_item#0",
         "tmp%0#1"
       ],
       "stack_out": [
@@ -491,13 +523,8 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "123": {
+    "126": {
       "op": "frame_dig 2",
-      "defined_out": [
-        "array_head_and_tail%0#0",
-        "next_range_item#0",
-        "tmp%0#1"
-      ],
       "stack_out": [
         "maybe_value%0#0",
         "tmp%0#1",
@@ -507,7 +534,7 @@
         "next_range_item#0"
       ]
     },
-    "125": {
+    "128": {
       "op": "intc_2 // 32",
       "defined_out": [
         "32",
@@ -525,7 +552,7 @@
         "32"
       ]
     },
-    "126": {
+    "129": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -542,7 +569,7 @@
         "item_offset%0#0"
       ]
     },
-    "127": {
+    "130": {
       "op": "intc_2 // 32",
       "stack_out": [
         "maybe_value%0#0",
@@ -554,7 +581,7 @@
         "32"
       ]
     },
-    "128": {
+    "131": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -570,7 +597,7 @@
         "b#0"
       ]
     },
-    "129": {
+    "132": {
       "op": "dup",
       "defined_out": [
         "b#0",
@@ -586,7 +613,7 @@
         "b#0"
       ]
     },
-    "130": {
+    "133": {
       "op": "frame_dig 3",
       "defined_out": [
         "b#0",
@@ -604,7 +631,7 @@
         "computed#1"
       ]
     },
-    "132": {
+    "135": {
       "op": "b>",
       "defined_out": [
         "b#0",
@@ -622,7 +649,7 @@
         "tmp%0#0"
       ]
     },
-    "133": {
+    "136": {
       "op": "bz verify_ternary_false@5",
       "stack_out": [
         "maybe_value%0#0",
@@ -632,7 +659,7 @@
         "b#0"
       ]
     },
-    "136": {
+    "139": {
       "op": "frame_dig 3",
       "stack_out": [
         "maybe_value%0#0",
@@ -643,7 +670,7 @@
         "computed#1"
       ]
     },
-    "138": {
+    "141": {
       "op": "swap",
       "stack_out": [
         "maybe_value%0#0",
@@ -654,7 +681,7 @@
         "b#0"
       ]
     },
-    "139": {
+    "142": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -670,7 +697,7 @@
         "ternary_result%0#0"
       ]
     },
-    "140": {
+    "143": {
       "block": "verify_ternary_merge@6",
       "stack_in": [
         "maybe_value%0#0",
@@ -691,7 +718,7 @@
         "computed#1"
       ]
     },
-    "141": {
+    "144": {
       "op": "frame_bury 3",
       "defined_out": [
         "computed#1"
@@ -703,8 +730,8 @@
         "computed#1"
       ]
     },
-    "143": {
-      "op": "intc_1 // 1",
+    "146": {
+      "op": "frame_dig 2",
       "defined_out": [
         "computed#1",
         "next_range_item#0"
@@ -717,7 +744,28 @@
         "next_range_item#0"
       ]
     },
-    "144": {
+    "148": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "maybe_value%0#0",
+        "tmp%0#1",
+        "next_range_item#0",
+        "computed#1",
+        "next_range_item#0",
+        "1"
+      ]
+    },
+    "149": {
+      "op": "+",
+      "stack_out": [
+        "maybe_value%0#0",
+        "tmp%0#1",
+        "next_range_item#0",
+        "computed#1",
+        "next_range_item#0"
+      ]
+    },
+    "150": {
       "op": "frame_bury 2",
       "defined_out": [
         "computed#1",
@@ -730,10 +778,10 @@
         "computed#1"
       ]
     },
-    "146": {
+    "152": {
       "op": "b verify_for_header@2"
     },
-    "149": {
+    "155": {
       "block": "verify_ternary_false@5",
       "stack_in": [
         "maybe_value%0#0",
@@ -756,7 +804,7 @@
         "computed#1"
       ]
     },
-    "151": {
+    "157": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -770,10 +818,10 @@
         "ternary_result%0#0"
       ]
     },
-    "152": {
+    "158": {
       "op": "b verify_ternary_merge@6"
     },
-    "155": {
+    "161": {
       "block": "verify_after_for@7",
       "stack_in": [
         "maybe_value%0#0",
@@ -793,7 +841,7 @@
         "maybe_value%0#0"
       ]
     },
-    "157": {
+    "163": {
       "op": "frame_dig 3",
       "defined_out": [
         "computed#1",
@@ -808,7 +856,7 @@
         "computed#1"
       ]
     },
-    "159": {
+    "165": {
       "op": "==",
       "defined_out": [
         "computed#1",
@@ -823,10 +871,10 @@
         "tmp%0#0"
       ]
     },
-    "160": {
+    "166": {
       "op": "frame_bury 0"
     },
-    "162": {
+    "168": {
       "retsub": true,
       "op": "retsub"
     }

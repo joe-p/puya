@@ -113,17 +113,22 @@ compute_root_hash_block@0:
 compute_root_hash_for_header@1:
     // merkle/contract.py:22
     // for idx in urange(proof.length):
-    intc_0 // 0
+    frame_dig 2
     frame_dig 1
     <
     bz compute_root_hash_after_for@4
 
 compute_root_hash_for_body@2:
+    // merkle/contract.py:22
+    // for idx in urange(proof.length):
+    frame_dig 2
+    intc_0 // 0
+    +
     // merkle/contract.py:23
     // computed = hash_pair(computed, proof[idx].bytes)
     frame_dig -2
     extract 2 0
-    frame_dig 2
+    swap
     intc_2 // 32
     *
     intc_2 // 32
@@ -136,7 +141,7 @@ compute_root_hash_for_body@2:
 compute_root_hash_for_footer@3:
     // merkle/contract.py:22
     // for idx in urange(proof.length):
-    intc_0 // 0
+    frame_dig 2
     intc_1 // 1
     +
     frame_bury 2

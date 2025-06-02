@@ -143,7 +143,7 @@ class BraunSSA:
                     )
             if replacement_memory.name != variable:
                 raise InternalError(
-                    "Tangled phi web created during SSA construction",
+                    f"Tangled phi web created during SSA construction: {replacement_memory.name} {variable}",
                     replacement_memory.source_location,
                 )
             if removed_phi.register == result:

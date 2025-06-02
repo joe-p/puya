@@ -3,7 +3,7 @@
   "sources": [
     "../contract.py"
   ],
-  "mappings": ";;;AA2ByB;;AACR;;AAAjB;AAAwB;;AAAP;AAAU;;AAAV;;;;;AAAjB;;;AACY;;AAAc;AACX;AAAA;AAAA;;;;;AAAf;;;AACgB;AAAA;;;;;;;;AACgB;;;AAAjB;AAAf;;;;;;;;;AAEQ;AANS;AAAA;;AAAA;AAAA;;",
+  "mappings": ";;;;;;;;AA2ByB;AACR;AAAjB;AAAwB;AAAP;AAAU;;AAAV;;;;;AAAjB;;;AAAiB;AAAA;AAAA;AAAA;AAAA;;AACL;AAAc;AACX;AAAA;AAAA;;;;;AAAf;;;AACgB;;AAAA;;AAAA;;;;;;;;AACgB;;;AAAjB;AAAf;;;;;;;;;AAEQ;AANS;AAAA;AAAA;AAAA;;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -11,483 +11,623 @@
       "params": {},
       "block": "main",
       "stack_in": [],
+      "op": "intcblock 1 0"
+    },
+    "5": {
       "op": "pushbytes \"\"",
       "stack_out": [
+        "i#2"
+      ]
+    },
+    "7": {
+      "op": "dup",
+      "stack_out": [
+        "i#2",
         "sum_of_squares#10"
       ]
     },
-    "3": {
+    "8": {
       "block": "main_block@0",
       "stack_in": [
+        "i#2",
         "sum_of_squares#10"
       ],
-      "op": "pushint 0 // 0",
+      "op": "intc_1 // 0",
       "defined_out": [
         "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0"
       ]
     },
-    "5": {
-      "op": "pushint 1 // 1",
+    "9": {
+      "op": "intc_0 // 1",
       "defined_out": [
         "1",
         "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
         "1"
       ]
     },
-    "7": {
+    "10": {
       "error": "Step cannot be zero",
       "op": "assert // Step cannot be zero",
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0"
-      ]
-    },
-    "8": {
-      "op": "pushint 1 // 1",
-      "defined_out": [
-        "i#0",
-        "sum_of_squares#0"
-      ],
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0"
-      ]
-    },
-    "10": {
-      "block": "main_for_header@1",
-      "stack_in": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0",
-        "i#0"
       ]
     },
     "11": {
-      "op": "pushint 100 // 100",
+      "op": "intc_0 // 1",
       "defined_out": [
-        "100",
-        "i#0"
+        "next_range_item#0",
+        "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
-        "100"
+        "next_range_item#0"
+      ]
+    },
+    "12": {
+      "block": "main_for_header@1",
+      "stack_in": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "13": {
+      "op": "pushint 100 // 100",
+      "defined_out": [
+        "100",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "100"
+      ]
+    },
+    "15": {
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
-      ]
-    },
-    "14": {
-      "op": "dig 2",
-      "defined_out": [
-        "continue_looping%0#0",
-        "i#0",
-        "sum_of_squares#10"
-      ],
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0",
-        "continue_looping%0#0",
-        "sum_of_squares#10"
       ]
     },
     "16": {
-      "op": "bury 4",
+      "op": "dig 2",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "continue_looping%0#0"
+        "next_range_item#0",
+        "continue_looping%0#0",
+        "sum_of_squares#10"
       ]
     },
     "18": {
-      "op": "bz main_after_for@8",
+      "op": "bury 4",
+      "defined_out": [
+        "continue_looping%0#0",
+        "next_range_item#0",
+        "sum_of_squares#10"
+      ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0",
+        "continue_looping%0#0"
       ]
     },
-    "21": {
-      "block": "main_for_body@2",
-      "stack_in": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0"
-      ],
-      "op": "dupn 2",
-      "defined_out": [
-        "i#0",
-        "i#0 (copy)"
-      ],
+    "20": {
+      "op": "bz main_after_for@8",
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
-        "i#0 (copy)"
+        "next_range_item#0"
       ]
     },
     "23": {
-      "op": "sqrt",
-      "defined_out": [
-        "i#0",
-        "square_root#0"
-      ],
-      "stack_out": [
+      "block": "main_for_body@2",
+      "stack_in": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
-        "square_root#0"
+        "next_range_item#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "24": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "0"
+      ]
+    },
+    "25": {
+      "op": "+",
+      "defined_out": [
+        "i#2",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "i#2"
+      ]
+    },
+    "26": {
+      "op": "dup",
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "i#2",
+        "i#2"
+      ]
+    },
+    "27": {
+      "op": "bury 5",
+      "defined_out": [
+        "i#2",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "i#2"
+      ]
+    },
+    "29": {
       "op": "dup",
       "defined_out": [
-        "i#0",
+        "i#2",
+        "i#2 (copy)",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "i#2",
+        "i#2 (copy)"
+      ]
+    },
+    "30": {
+      "op": "sqrt",
+      "defined_out": [
+        "i#2",
+        "next_range_item#0",
+        "square_root#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "i#2",
+        "square_root#0"
+      ]
+    },
+    "31": {
+      "op": "dup",
+      "defined_out": [
+        "i#2",
+        "next_range_item#0",
         "square_root#0",
         "square_root#0 (copy)"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#2",
         "square_root#0 (copy)",
         "square_root#0"
       ]
     },
-    "25": {
+    "32": {
       "op": "*",
       "defined_out": [
-        "i#0",
+        "i#2",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#2",
         "tmp%0#0"
       ]
     },
-    "26": {
+    "33": {
       "op": "==",
       "defined_out": [
-        "i#0",
+        "i#2",
+        "next_range_item#0",
         "tmp%1#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%1#0"
       ]
     },
-    "27": {
+    "34": {
       "op": "dig 2",
       "defined_out": [
-        "i#0",
+        "i#2",
+        "next_range_item#0",
         "sum_of_squares#10",
         "tmp%1#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%1#0",
         "sum_of_squares#10"
       ]
     },
-    "29": {
+    "36": {
       "op": "bury 4",
       "defined_out": [
-        "i#0",
+        "i#2",
+        "next_range_item#0",
         "sum_of_squares#10",
         "tmp%1#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%1#0"
-      ]
-    },
-    "31": {
-      "op": "bz main_after_if_else@4",
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0"
-      ]
-    },
-    "34": {
-      "block": "main_if_body@3",
-      "stack_in": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0"
-      ],
-      "op": "dup2",
-      "defined_out": [
-        "i#0",
-        "sum_of_squares#0"
-      ],
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0",
-        "sum_of_squares#0",
-        "i#0"
-      ]
-    },
-    "35": {
-      "op": "+",
-      "defined_out": [
-        "i#0",
-        "sum_of_squares#0",
-        "sum_of_squares#10"
-      ],
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0",
-        "sum_of_squares#10"
-      ]
-    },
-    "36": {
-      "op": "bury 3",
-      "defined_out": [
-        "i#0",
-        "sum_of_squares#0",
-        "sum_of_squares#10"
-      ],
-      "stack_out": [
-        "sum_of_squares#10",
-        "sum_of_squares#0",
-        "i#0"
       ]
     },
     "38": {
-      "block": "main_after_if_else@4",
-      "stack_in": [
+      "op": "bz main_after_if_else@4",
+      "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
+      ]
+    },
+    "41": {
+      "block": "main_if_body@3",
+      "stack_in": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0"
+      ],
+      "op": "dig 1",
+      "defined_out": [
+        "sum_of_squares#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "sum_of_squares#0"
+      ]
+    },
+    "43": {
+      "op": "dig 4",
+      "defined_out": [
+        "i#2",
+        "sum_of_squares#0"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "sum_of_squares#0",
+        "i#2"
+      ]
+    },
+    "45": {
+      "op": "+",
+      "defined_out": [
+        "i#2",
+        "sum_of_squares#0",
+        "sum_of_squares#10"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0",
+        "sum_of_squares#10"
+      ]
+    },
+    "46": {
+      "op": "bury 3",
+      "defined_out": [
+        "i#2",
+        "sum_of_squares#0",
+        "sum_of_squares#10"
+      ],
+      "stack_out": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0"
+      ]
+    },
+    "48": {
+      "block": "main_after_if_else@4",
+      "stack_in": [
+        "i#2",
+        "sum_of_squares#10",
+        "sum_of_squares#0",
+        "next_range_item#0"
       ],
       "op": "dig 2",
       "defined_out": [
         "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ]
     },
-    "40": {
+    "50": {
       "op": "dup",
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0",
         "sum_of_squares#0"
       ]
     },
-    "41": {
+    "51": {
       "op": "bury 3",
       "defined_out": [
         "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ]
     },
-    "43": {
+    "53": {
       "op": "pushint 200 // 200",
       "defined_out": [
         "200",
         "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0",
         "200"
       ]
     },
-    "46": {
+    "56": {
       "op": ">",
       "defined_out": [
         "sum_of_squares#0",
         "tmp%2#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%2#0"
       ]
     },
-    "47": {
+    "57": {
       "op": "bz main_after_if_else@6",
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "50": {
+    "60": {
       "block": "main_if_body@5",
       "stack_in": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dig 1",
       "defined_out": [
         "sum_of_squares#10"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10"
       ]
     },
-    "52": {
+    "62": {
       "op": "bury 3",
       "defined_out": [
         "sum_of_squares#10"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "54": {
+    "64": {
       "block": "main_after_for@8",
       "stack_in": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dig 2",
       "defined_out": [
         "sum_of_squares#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ]
     },
-    "56": {
+    "66": {
       "op": "return",
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "57": {
+    "67": {
       "block": "main_for_footer@7",
       "stack_in": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dup",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
-    "58": {
-      "op": "pushint 1 // 1",
+    "68": {
+      "op": "intc_0 // 1",
       "defined_out": [
         "1",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "1"
       ]
     },
-    "60": {
+    "69": {
       "op": "+",
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
-    "61": {
+    "70": {
       "op": "bury 1",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#2",
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "63": {
+    "72": {
       "op": "b main_for_header@1"
     }
   }

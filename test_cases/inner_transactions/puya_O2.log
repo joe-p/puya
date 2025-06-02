@@ -90,6 +90,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -102,6 +104,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added head_and_tail#0 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0) in block@0
 debug: Added head_and_tail#1 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) (head_and_tail#1) with head_and_tail#0
@@ -216,6 +220,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'array_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -230,6 +236,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
 debug: Added array_head_and_tail#1 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) (array_head_and_tail#1) with array_head_and_tail#0
@@ -252,6 +260,8 @@ debug: Replaced trivial Phi node: let new_items_count#1: uint64 = φ(new_items_c
 debug: Terminated block@4
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@5
 debug: Created Phi assignment: let head_offset#4: uint64 = undefined while trying to resolve 'head_offset' in block@5
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@5
+debug: Created Phi assignment: let next_range_item#4: uint64 = undefined while trying to resolve 'next_range_item' in block@5
 debug: Terminated block@5
 debug: Sealing block@6
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@5
@@ -266,6 +276,8 @@ debug: Terminated block@7
 debug: Sealing block@5
 debug: Added head_offset#3 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4) in block@4
 debug: Added head_offset#5 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4, head_offset#5 <- block@7) in block@7
+debug: Added next_range_item#3 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4) in block@4
+debug: Added next_range_item#5 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4, next_range_item#5 <- block@7) in block@7
 debug: Created Phi assignment: let new_head_and_tail#2: bytes = undefined while trying to resolve 'new_head_and_tail' in block@1
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
@@ -321,6 +333,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -335,6 +349,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
 debug: Added new_item_length#0 to Phi node: let new_item_length#1: uint64 = φ(new_item_length#0 <- block@0) in block@0
@@ -357,6 +373,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'tail_offset' in an unsealed block creating an incomplete Phi: block@1
@@ -369,6 +387,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#3 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#3 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added tail_offset#0 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0) in block@0
 debug: Added tail_offset#2 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0, tail_offset#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
@@ -489,6 +509,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'i' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let i#1: uint64 = undefined while trying to resolve 'i' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'note' in an unsealed block creating an incomplete Phi: block@1
@@ -651,7 +673,25 @@ debug: Sealing block@13
 debug: Terminated block@13
 debug: Sealing block@1
 debug: Added i#0 to Phi node: let i#1: uint64 = φ(i#0 <- block@0) in block@0
+debug: Created Phi assignment: let i#3: uint64 = undefined while trying to resolve 'i' in block@11
+debug: Created Phi assignment: let i#4: uint64 = undefined while trying to resolve 'i' in block@7
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3) in block@3
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4) in block@4
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5) in block@5
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6) in block@6
+debug: Replacing trivial Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6) (i#4) with i#2
+debug: Deleting Phi assignment: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6)
+debug: Replaced trivial Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6) (i#4) with i#2 in current definition for 1 blocks
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7) in block@7
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8) in block@8
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9) in block@9
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10) in block@10
+debug: Replacing trivial Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10) (i#3) with i#2
+debug: Deleting Phi assignment: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10)
+debug: Replaced trivial Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10) (i#3) with i#2 in current definition for 1 blocks
 debug: Added i#2 to Phi node: let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@13) in block@13
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@13) in block@13
 debug: Added note#0 to Phi node: let note#1: bytes = φ(note#0 <- block@0) in block@0
 debug: Created Phi assignment: let note#2: bytes = undefined while trying to resolve 'note' in block@11
 debug: Created Phi assignment: let note#3: bytes = undefined while trying to resolve 'note' in block@7
@@ -753,6 +793,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'i' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let i#1: uint64 = undefined while trying to resolve 'i' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'note' in an unsealed block creating an incomplete Phi: block@1
@@ -915,7 +957,25 @@ debug: Sealing block@13
 debug: Terminated block@13
 debug: Sealing block@1
 debug: Added i#0 to Phi node: let i#1: uint64 = φ(i#0 <- block@0) in block@0
+debug: Created Phi assignment: let i#3: uint64 = undefined while trying to resolve 'i' in block@11
+debug: Created Phi assignment: let i#4: uint64 = undefined while trying to resolve 'i' in block@7
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3) in block@3
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4) in block@4
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5) in block@5
+debug: Added i#2 to Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6) in block@6
+debug: Replacing trivial Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6) (i#4) with i#2
+debug: Deleting Phi assignment: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6)
+debug: Replaced trivial Phi node: let i#4: uint64 = φ(i#2 <- block@3, i#2 <- block@4, i#2 <- block@5, i#2 <- block@6) (i#4) with i#2 in current definition for 1 blocks
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7) in block@7
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8) in block@8
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9) in block@9
+debug: Added i#2 to Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10) in block@10
+debug: Replacing trivial Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10) (i#3) with i#2
+debug: Deleting Phi assignment: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10)
+debug: Replaced trivial Phi node: let i#3: uint64 = φ(i#2 <- block@7, i#2 <- block@8, i#2 <- block@9, i#2 <- block@10) (i#3) with i#2 in current definition for 1 blocks
 debug: Added i#2 to Phi node: let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@13) in block@13
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@13) in block@13
 debug: Added note#0 to Phi node: let note#1: bytes = φ(note#0 <- block@0) in block@0
 debug: Created Phi assignment: let note#2: bytes = undefined while trying to resolve 'note' in block@11
 debug: Created Phi assignment: let note#3: bytes = undefined while trying to resolve 'note' in block@7
@@ -3474,6 +3534,7 @@ debug: selected i_note#0 from equivalence set
 debug: Copy propagation made 3 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable i#1
 debug: Removing unused variable note#0
 debug: Removing unused variable app_params#0
 debug: Removing unused variable app_params%%param_Fee_idx_0#0
@@ -3599,11 +3660,12 @@ debug: Removing unused variable app_txn.StateProofPK#0
 debug: Removing unused variable app_txn.NumApprovalProgramPages#0
 debug: Removing unused variable app_txn.NumClearStateProgramPages#0
 debug: Optimizer: Intrinsic Simplifier
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizer: Simplify Control Ops
 debug: simplifying a switch with constants into goto nth
-debug: simplified terminator of block@2 from switch i#1 {1u => block@3, 2u => block@4, 3u => block@5, * => block@6} to goto_nth [block@6, block@3, block@4, block@5][i#1] else goto block@6
+debug: simplified terminator of block@2 from switch next_range_item#1 {1u => block@3, 2u => block@4, 3u => block@5, * => block@6} to goto_nth [block@6, block@3, block@4, block@5][next_range_item#1] else goto block@6
 debug: Optimizer: Remove Linear Jump
 debug: Replaced predecessor block@12 with block@11 in block@13
 debug: Merged linear block@12 into block@11
@@ -3620,8 +3682,11 @@ debug: Optimizer: Perform Subroutine Inlining
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Copy Propagation
+debug: Found equivalence set: next_range_item#1, i#2
+debug: selected next_range_item#1 from equivalence set
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable i#0
 debug: Removing unused variable is_ApplicationArgs_count_gte_1%0#0
 debug: Optimizer: Intrinsic Simplifier
 debug: Optimizer: Inner Txn Field Replacer
@@ -3727,29 +3792,29 @@ debug: Coalescing app_params%%param_ApplicationArgs_idx_1#0 with [app_params%%pa
 debug: Coalescing app_params%%param_ApplicationArgs_idx_0#0 with [app_params%%param_ApplicationArgs_idx_0#5, app_params%%param_ApplicationArgs_idx_0#8, app_params%%param_ApplicationArgs_idx_0#4, app_params%%param_ApplicationArgs_idx_0#13, app_params%%param_ApplicationArgs_idx_0#1, app_params%%param_ApplicationArgs_idx_0#2, app_params%%param_ApplicationArgs_idx_0#3]
 debug: Coalescing app_params%%param_Note_idx_0#0 with [app_params%%param_Note_idx_0#9, app_params%%param_Note_idx_0#6, app_params%%param_Note_idx_0#11, app_params%%param_Note_idx_0#5]
 debug: Coalescing app_params%%ApplicationArgs_length#0 with [app_params%%ApplicationArgs_length#8, app_params%%ApplicationArgs_length#5, app_params%%ApplicationArgs_length#1, app_params%%ApplicationArgs_length#13, app_params%%ApplicationArgs_length#2, app_params%%ApplicationArgs_length#3, app_params%%ApplicationArgs_length#4]
-debug: Coalescing i#0 with [i#5, i#1, i#2]
+debug: Coalescing next_range_item#0 with [next_range_item#5, next_range_item#1, next_range_item#2]
 debug: Coalescing resulted in 98 replacement/s
 debug: Sequentializing parallel copies in test_cases.inner_transactions.itxn_loop.MyContract.approval_program
-debug: loc: {i#0=i#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
-debug: pred: {i#0=i#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
+debug: loc: {next_range_item#0=next_range_item#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
+debug: pred: {next_range_item#0=next_range_item#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
 debug: ready: 
-debug: to_do: i#0, app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0
+debug: to_do: next_range_item#0, app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0
 debug: * to_do app_params%%param_Note_idx_0#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_2#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_1#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_0#0
 debug: * to_do app_params%%ApplicationArgs_length#0
-debug: * to_do i#0
-debug: loc: {i#0=i#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
-debug: pred: {i#0=i#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
+debug: pred: {next_range_item#0=next_range_item#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
 debug: ready: 
-debug: to_do: i#0, app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0
+debug: to_do: next_range_item#0, app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0
 debug: * to_do app_params%%param_Note_idx_0#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_2#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_1#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_0#0
 debug: * to_do app_params%%ApplicationArgs_length#0
-debug: * to_do i#0
+debug: * to_do next_range_item#0
 debug: loc: {app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=None, i_note#0=i_note#0}
 debug: pred: {app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=i_note#0}
 debug: ready: app_params%%param_Note_idx_0#0
@@ -3801,16 +3866,16 @@ debug: * to_do app_params%%param_ApplicationArgs_idx_2#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_1#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_0#0
 debug: * to_do app_params%%ApplicationArgs_length#0
-debug: loc: {i#0=i#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
-debug: pred: {i#0=i#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
+debug: loc: {next_range_item#0=next_range_item#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
+debug: pred: {next_range_item#0=next_range_item#0, app_params%%ApplicationArgs_length#0=app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0=app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0=app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0=app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0=app_params%%param_Note_idx_0#0}
 debug: ready: 
-debug: to_do: i#0, app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0
+debug: to_do: next_range_item#0, app_params%%ApplicationArgs_length#0, app_params%%param_ApplicationArgs_idx_0#0, app_params%%param_ApplicationArgs_idx_1#0, app_params%%param_ApplicationArgs_idx_2#0, app_params%%param_Note_idx_0#0
 debug: * to_do app_params%%param_Note_idx_0#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_2#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_1#0
 debug: * to_do app_params%%param_ApplicationArgs_idx_0#0
 debug: * to_do app_params%%ApplicationArgs_length#0
-debug: * to_do i#0
+debug: * to_do next_range_item#0
 debug: Performing post-SSA optimizations at level 2
 debug: Removing jump block block@6
 debug: branching to block@6 will be replaced with block@7
@@ -3825,8 +3890,8 @@ debug: Performing post-SSA optimizations at level 2
 debug: Output IR to inner_transactions/out_O2/itxn_loop.ir/itxn_loop.clear.0.destructured.ir
 debug: Inserted main_for_header@1.ops[3]: 'l-store-copy continue_looping%0#0 0'
 debug: Replaced main_for_header@1.ops[5]: 'v-load continue_looping%0#0' with 'l-load continue_looping%0#0'
-debug: Inserted main_for_body@2.ops[3]: 'l-store-copy i#0 2'
-debug: Replaced main_for_body@2.ops[6]: 'v-load i#0' with 'l-load i#0'
+debug: Inserted main_for_body@2.ops[3]: 'l-store-copy next_range_item#0 2'
+debug: Replaced main_for_body@2.ops[6]: 'v-load next_range_item#0' with 'l-load next_range_item#0'
 debug: Inserted main_set_ApplicationArgs_0_to_0@8.ops[5]: 'l-store-copy is_ApplicationArgs_count_gte_2%0#0 0'
 debug: Replaced main_set_ApplicationArgs_0_to_0@8.ops[7]: 'v-load is_ApplicationArgs_count_gte_2%0#0' with 'l-load is_ApplicationArgs_count_gte_2%0#0'
 debug: Inserted main_set_ApplicationArgs_1_to_1@9.ops[5]: 'l-store-copy is_ApplicationArgs_count_gte_3%0#0 0'
@@ -3839,7 +3904,7 @@ debug: Inserted main_next_field@11.ops[17]: 'l-store-copy app_txn.NumAppArgs#0 1
 debug: Replaced main_next_field@11.ops[21]: 'v-load app_txn.NumAppArgs#0' with 'l-load app_txn.NumAppArgs#0'
 debug: Found 4 edge set/s for test_cases.inner_transactions.itxn_loop.MyContract.approval_program
 debug: test_cases.inner_transactions.itxn_loop.MyContract.approval_program f-stack entry: ['i_note#0']
-debug: test_cases.inner_transactions.itxn_loop.MyContract.approval_program f-stack on first store: ['app_params%%param_ApplicationArgs_idx_2#0', 'app_params%%param_ApplicationArgs_idx_1#0', 'app_params%%param_ApplicationArgs_idx_0#0', 'app_params%%param_Note_idx_0#0', 'app_params%%ApplicationArgs_length#0', 'i#0']
+debug: test_cases.inner_transactions.itxn_loop.MyContract.approval_program f-stack on first store: ['app_params%%param_ApplicationArgs_idx_2#0', 'app_params%%param_ApplicationArgs_idx_1#0', 'app_params%%param_ApplicationArgs_idx_0#0', 'app_params%%param_Note_idx_0#0', 'app_params%%ApplicationArgs_length#0', 'next_range_item#0']
 inner_transactions/itxn_loop.py:19 debug: optimizing TEAL subroutine ops test_cases.inner_transactions.itxn_loop.MyContract.approval_program() -> uint64:
 inner_transactions/itxn_loop.py:19 debug: optimizing TEAL subroutine blocks test_cases.inner_transactions.itxn_loop.MyContract.approval_program() -> uint64:
 debug: inlining single reference block main_block@0 into main

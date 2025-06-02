@@ -32,7 +32,8 @@ main algopy.arc4.ARC4Contract.approval_program:
         let computed#1: bytes = leaf#0
         goto block@11
     block@11: // for_header_L22
-        goto tmp%0#1 ? block@12 : block@16
+        let continue_looping%0#0: bool = (< next_range_item#0 tmp%0#1)
+        goto continue_looping%0#0 ? block@12 : block@16
     block@12: // for_body_L23
         let array_head_and_tail%0#0: bytes = ((extract 2 0) proof#0)
         let item_offset%0#0: uint64 = (* next_range_item#0 32u)
@@ -47,7 +48,7 @@ main algopy.arc4.ARC4Contract.approval_program:
         goto block@15
     block@15: // ternary_merge_L29
         let computed#1: bytes = (sha256 ternary_result%0#0)
-        let next_range_item#0: uint64 = 1u
+        let next_range_item#0: uint64 = (+ next_range_item#0 1u)
         goto block@11
     block@16: // after_for_L22
         let tmp%0#0: bool = (== maybe_value%0#0 computed#1)

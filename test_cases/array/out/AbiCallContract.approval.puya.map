@@ -309,9 +309,9 @@
     "78": {
       "op": "intc_0 // 0",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "new_head#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -319,7 +319,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "79": {
@@ -329,25 +329,25 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 4",
       "defined_out": [
-        "head_offset#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "81": {
       "op": "frame_dig 3",
       "defined_out": [
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -355,8 +355,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%0#0"
       ]
     },
@@ -364,7 +364,7 @@
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -372,7 +372,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
@@ -383,14 +383,14 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "87": {
       "op": "frame_dig -3",
       "defined_out": [
         "array_head_and_tail#0 (copy)",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -398,7 +398,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "array_head_and_tail#0 (copy)"
       ]
     },
@@ -409,17 +409,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "array_head_and_tail#0 (copy)",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "91": {
       "op": "dup",
       "defined_out": [
         "array_head_and_tail#0 (copy)",
-        "head_offset#0",
-        "head_offset#0 (copy)",
+        "next_range_item#0",
+        "next_range_item#0 (copy)",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -427,10 +427,10 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "array_head_and_tail#0 (copy)",
-        "head_offset#0 (copy)",
-        "head_offset#0 (copy)"
+        "next_range_item#0 (copy)",
+        "next_range_item#0 (copy)"
       ]
     },
     "92": {
@@ -440,17 +440,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "array_head_and_tail#0 (copy)",
-        "head_offset#0 (copy)"
+        "next_range_item#0 (copy)"
       ]
     },
     "94": {
       "op": "extract_uint16",
       "defined_out": [
-        "head_offset#0",
         "item_offset#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -458,17 +458,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "item_offset#0"
       ]
     },
     "95": {
       "op": "frame_dig 2",
       "defined_out": [
-        "head_offset#0",
         "item_offset#0",
         "item_offset_adjustment#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -476,8 +476,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "item_offset#0",
         "item_offset_adjustment#0"
       ]
@@ -485,8 +485,8 @@
     "97": {
       "op": "+",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%1#0"
       ],
@@ -495,16 +495,16 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%1#0"
       ]
     },
     "98": {
       "op": "itob",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%2#0"
       ],
@@ -513,16 +513,16 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%2#0"
       ]
     },
     "99": {
       "op": "extract 6 2",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%3#0"
       ],
@@ -531,17 +531,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%3#0"
       ]
     },
     "102": {
       "op": "frame_dig 1",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "new_head#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tmp%3#0"
       ],
@@ -550,8 +550,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%3#0",
         "new_head#0"
       ]
@@ -563,8 +563,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "new_head#0",
         "tmp%3#0"
       ]
@@ -576,17 +576,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "new_head#0"
       ]
     },
     "106": {
       "op": "frame_bury 1",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "new_head#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -594,17 +594,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "108": {
       "op": "intc_2 // 2",
       "defined_out": [
         "2",
-        "head_offset#0",
         "item_offset_adjustment#0",
         "new_head#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -612,8 +612,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "2"
       ]
     },
@@ -624,16 +624,16 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "110": {
       "op": "frame_bury 4",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "new_head#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
@@ -641,7 +641,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "112": {
@@ -654,7 +654,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig -3",
       "defined_out": [
@@ -665,7 +665,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "array_head_and_tail#0 (copy)"
       ]
     },
@@ -679,7 +679,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "item_offset_adjustment#2"
       ]
     },
@@ -693,36 +693,36 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "120": {
       "op": "intc_0 // 0",
       "defined_out": [
-        "head_offset#0",
-        "item_offset_adjustment#2"
+        "item_offset_adjustment#2",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "121": {
       "op": "frame_bury 4",
       "defined_out": [
-        "head_offset#0",
-        "item_offset_adjustment#2"
+        "item_offset_adjustment#2",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "123": {
@@ -732,34 +732,34 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig 4",
       "defined_out": [
-        "head_offset#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "125": {
       "op": "frame_dig 2",
       "defined_out": [
-        "head_offset#0",
-        "item_offset_adjustment#0"
+        "item_offset_adjustment#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "item_offset_adjustment#0"
       ]
     },
@@ -767,15 +767,15 @@
       "op": "<",
       "defined_out": [
         "continue_looping%1#0",
-        "head_offset#0",
-        "item_offset_adjustment#0"
+        "item_offset_adjustment#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "continue_looping%1#0"
       ]
     },
@@ -786,22 +786,22 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "131": {
       "op": "frame_dig -1",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
-        "new_head_and_tail#0 (copy)"
+        "new_head_and_tail#0 (copy)",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "new_head_and_tail#0 (copy)"
       ]
     },
@@ -812,28 +812,28 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "new_head_and_tail#0 (copy)",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "135": {
       "op": "dup",
       "defined_out": [
-        "head_offset#0",
-        "head_offset#0 (copy)",
         "item_offset_adjustment#0",
-        "new_head_and_tail#0 (copy)"
+        "new_head_and_tail#0 (copy)",
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "new_head_and_tail#0 (copy)",
-        "head_offset#0 (copy)",
-        "head_offset#0 (copy)"
+        "next_range_item#0 (copy)",
+        "next_range_item#0 (copy)"
       ]
     },
     "136": {
@@ -843,44 +843,44 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "new_head_and_tail#0 (copy)",
-        "head_offset#0 (copy)"
+        "next_range_item#0 (copy)"
       ]
     },
     "138": {
       "op": "extract_uint16",
       "defined_out": [
-        "head_offset#0",
         "item_offset#0",
-        "item_offset_adjustment#0"
+        "item_offset_adjustment#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "item_offset#0"
       ]
     },
     "139": {
       "op": "frame_dig 0",
       "defined_out": [
-        "head_offset#0",
         "item_offset#0",
         "item_offset_adjustment#0",
-        "item_offset_adjustment#2"
+        "item_offset_adjustment#2",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "item_offset#0",
         "item_offset_adjustment#2"
       ]
@@ -888,9 +888,9 @@
     "141": {
       "op": "+",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
+        "next_range_item#0",
         "tmp%5#0"
       ],
       "stack_out": [
@@ -898,17 +898,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%5#0"
       ]
     },
     "142": {
       "op": "itob",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
+        "next_range_item#0",
         "tmp%6#0"
       ],
       "stack_out": [
@@ -916,17 +916,17 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%6#0"
       ]
     },
     "143": {
       "op": "extract 6 2",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
+        "next_range_item#0",
         "tmp%7#0"
       ],
       "stack_out": [
@@ -934,18 +934,18 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%7#0"
       ]
     },
     "146": {
       "op": "frame_dig 1",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
         "new_head#0",
+        "next_range_item#0",
         "tmp%7#0"
       ],
       "stack_out": [
@@ -953,8 +953,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%7#0",
         "new_head#0"
       ]
@@ -966,8 +966,8 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "new_head#0",
         "tmp%7#0"
       ]
@@ -979,44 +979,44 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "new_head#0"
       ]
     },
     "150": {
       "op": "frame_bury 1",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
-        "new_head#0"
+        "new_head#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "152": {
       "op": "intc_2 // 2",
       "defined_out": [
         "2",
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
-        "new_head#0"
+        "new_head#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "2"
       ]
     },
@@ -1027,24 +1027,24 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
-        "head_offset#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "154": {
       "op": "frame_bury 4",
       "defined_out": [
-        "head_offset#0",
         "item_offset_adjustment#0",
         "item_offset_adjustment#2",
-        "new_head#0"
+        "new_head#0",
+        "next_range_item#0"
       ],
       "stack_out": [
         "item_offset_adjustment#2",
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ]
     },
     "156": {
@@ -1057,7 +1057,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0"
+        "next_range_item#0"
       ],
       "op": "frame_dig -4",
       "defined_out": [
@@ -1068,7 +1068,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "array_items_count#0 (copy)"
       ]
     },
@@ -1083,7 +1083,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "array_items_count#0 (copy)",
         "new_items_count#0 (copy)"
       ]
@@ -1098,7 +1098,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%8#0"
       ]
     },
@@ -1112,7 +1112,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%9#0"
       ]
     },
@@ -1126,7 +1126,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%10#0"
       ]
     },
@@ -1141,7 +1141,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%10#0",
         "new_head#0"
       ]
@@ -1157,7 +1157,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%11#0"
       ]
     },
@@ -1173,7 +1173,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%11#0",
         "array_head_and_tail#0 (copy)"
       ]
@@ -1191,7 +1191,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%11#0",
         "array_head_and_tail#0 (copy)",
         "tmp%0#0"
@@ -1211,7 +1211,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%11#0",
         "array_head_and_tail#0 (copy)",
         "tmp%0#0",
@@ -1232,7 +1232,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%11#0",
         "tmp%14#0"
       ]
@@ -1250,7 +1250,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0"
       ]
     },
@@ -1268,7 +1268,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0",
         "new_head_and_tail#0 (copy)"
       ]
@@ -1287,7 +1287,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0",
         "tmp%17#0"
       ]
@@ -1299,7 +1299,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0",
         "tmp%17#0",
         "new_head_and_tail#0 (copy)"
@@ -1321,7 +1321,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0",
         "tmp%17#0",
         "new_head_and_tail#0 (copy)",
@@ -1335,7 +1335,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0",
         "new_head_and_tail#0 (copy)",
         "item_offset_adjustment#0",
@@ -1357,7 +1357,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%15#0",
         "tmp%18#0"
       ]
@@ -1376,7 +1376,7 @@
         "new_head#0",
         "item_offset_adjustment#0",
         "tmp%0#0",
-        "head_offset#0",
+        "next_range_item#0",
         "tmp%19#0"
       ]
     },

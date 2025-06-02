@@ -4,7 +4,7 @@
     "../base.py",
     "../iterate_urange.py"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;;AAOY;;;;;;;;;;;;;;;AAAJ;ACKgB;AAAP;AAAU;;AAAV;AAAjB;;;AADiB;AAED;;AAAA;AAAA;;AAAA;AAAA;AAAJ;AADkB;AAAb;AAAA;;;;;ADHL;;;;;;;;;;;;;;;AAAJ;ACWkB;AAAA;;AADT;AAED;;AAAA;AAAA;;AAAA;AAAA;AAAJ;AADqB;AAAP;AAA1B;;;AAA0B;AAAa;AAAb;AAAA;;;;;ADTd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;ACiBgC;AAA5B;;;AAAA;;AAAqB;AAAU;;AAAV;AAAjC;;;AADiB;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;AAAA;AAAA;;;AADkC;AAAb;AAAA;;AAAA;AAAA;AAAA;;;;;ADfrB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;ACwB2C;AAAA;;AAAO;AAA9C;;AADK;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;;AADuC;AAAA;AAAnD;;;AAAmD;AAAa;AAAb;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;ADtBvC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;AC+BkC;AAAA;;;AAA9B;;AADK;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;;AADqC;AAAP;AAA1C;;;AAA0C;AAAa;AAAb;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;AD7B9B;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;ACsCkC;AAAA;;AAAA;AAAA;;AADzB;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;;AADqC;AAAP;AAA1C;;;AAA0C;AAAa;AAAb;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;ADpC9B;;;;;;;;;;;;AAAJ;AC4CS;AAAL;;AAAK;AAAO;AAAP;AAAjB;;;AACgB;;AAAA;AAAJ;AADK;AAAA;AAAA;;;;;AAIgB;AAArB;;;AAAA;;AAAqB;AAAO;AAAP;AAAjC;;;AACgB;;AAAA;AAAA;AAAK;;AAAA;AAAA;;AAAA;AAAA;AAAT;AADqB;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;;AD9CrB;;;;;;;;;;;;AAAJ;AC4DQ;;;AAAJ;AD1DA;;;;;;;;;;;;;;;;;;;AAAJ;ACiEsB;AAAlB;;;AAAA;;AAAkB;;AAAO;AAAP;AAA9B;;;AADiB;;;AAEwB;;AAAA;AAAA;;AAAA;AAAA;AAA7B;;AAAA;AAAA;;AAAA;AAAA;;;AADkB;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;;AD/Df;AAAP;AAKR;;;AAEiB;;;;;;;;;;;;AACL;;AAAA;AAAA;AAAwB;;;AAAX;AAAA;;AAAA;AAAjB;",
+  "mappings": ";;;;;;;;;;;;;;;;;;;;AAOY;;;;;;;;;;;;;;;AAAJ;ACKgB;AAAP;AAAU;;AAAV;AAAjB;;;AADiB;AAED;;AAAA;AAAA;;AAAA;AAAA;AAAJ;AADkB;AAAb;AAAA;;;;;ADHL;;;;;;;;;;;;;;;AAAJ;ACWkB;AAAA;;AADT;AAED;;AAAA;AAAA;;AAAA;AAAA;AAAJ;AADqB;AAAP;AAA1B;;;AAA0B;;AAAa;AAAb;AAAA;;;;;ADTd;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;;ACiBI;;AAA4B;AAAP;;AAAA;AAAU;;AAAV;AAAjC;;;AADiB;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;AAAA;AAAA;;;AADkC;AAAb;AAAA;;AAAA;AAAA;AAAA;;;;;ADfrB;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;ACwB2C;AAAA;;AAAO;AAA9C;;AADK;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;;AADuC;AAAA;AAAnD;;;AAAmD;;AAAa;AAAb;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;ADtBvC;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;AC+BkC;AAAA;;;AAA9B;;AADK;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;;AADqC;AAAP;AAA1C;;;AAA0C;;AAAa;AAAb;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;AD7B9B;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAJ;ACsCkC;AAAA;;AAAA;AAAA;;AADzB;AAEqB;;AAAA;AAAA;;AAAA;AAAA;AAA1B;;AAAA;AAAA;;;AADqC;AAAP;AAA1C;;;AAA0C;;AAAa;AAAb;AAAA;;AAAA;;AAAA;AAAA;AAAA;;;;;ADpC9B;;;;;;;;;;;;AAAJ;AC4CS;AAAA;;AAAA;AAAO;AAAP;AAAjB;;;AACgB;;AAAA;AAAJ;AADK;AAAA;AAAA;;;;;;AAIL;;AAAqB;AAAA;;AAAA;AAAO;AAAP;AAAjC;;;AACgB;;AAAA;AAAA;AAAK;;AAAA;AAAA;;AAAA;AAAA;AAAT;AADqB;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;;AD9CrB;;;;;;;;;;;;AAAJ;AC4DQ;;;AAAJ;AD1DA;;;;;;;;;;;;;;;;;;;AAAJ;;ACiEI;;AAAkB;AAAA;;AAAA;AAAO;AAAP;AAA9B;;;AADiB;;;AAEwB;;AAAA;AAAA;;AAAA;AAAA;AAA7B;;AAAA;AAAA;;AAAA;AAAA;;;AADkB;AAAA;AAAA;;AAAA;AAAA;AAAA;;;;;AD/Df;AAAP;AAKR;;;AAEiB;;;;;;;;;;;;AACL;;AAAA;AAAA;AAAwB;;;AAAX;AAAA;;AAAA;AAAjB;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -20,15 +20,15 @@
     "16": {
       "op": "pushbytes \"\"",
       "stack_out": [
-        "idx#0"
+        "i#4"
       ]
     },
     "18": {
       "op": "dupn 2",
       "stack_out": [
+        "i#4",
         "idx#0",
-        "tup.0#0",
-        "tup.1#0"
+        "tup.0#0"
       ]
     },
     "20": {
@@ -37,64 +37,64 @@
         "\"test_forwards\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
         "\"test_forwards\""
       ]
     },
     "35": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
-        "tup.0#0",
-        "tup.1#0"
+        "tup.0#0"
       ]
     },
     "36": {
       "op": "intc_0 // 1",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "37": {
       "block": "main_for_header@2",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dup",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "38": {
       "op": "pushint 7 // 7",
       "defined_out": [
         "7",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "7"
       ]
     },
@@ -102,77 +102,77 @@
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
     "41": {
       "op": "bz main_after_for@5",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "44": {
       "op": "bytec_0 // 0x206120622063",
       "defined_out": [
         "0x206120622063",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063"
       ]
     },
     "45": {
       "op": "dig 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "47": {
       "op": "dup",
       "defined_out": [
         "0x206120622063",
-        "i#0",
-        "i#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)",
-        "i#0 (copy)"
+        "next_range_item#0 (copy)",
+        "next_range_item#0 (copy)"
       ]
     },
     "48": {
       "op": "cover 2",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)"
+        "next_range_item#0 (copy)"
       ]
     },
     "50": {
@@ -180,80 +180,80 @@
       "defined_out": [
         "0x206120622063",
         "1",
-        "i#0",
-        "i#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)",
+        "next_range_item#0 (copy)",
         "1"
       ]
     },
     "51": {
       "op": "extract3",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%0#0"
       ]
     },
     "52": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "53": {
       "op": "intc_2 // 2",
       "defined_out": [
         "2",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "2"
       ]
     },
     "54": {
       "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "55": {
       "op": "bury 1",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "57": {
@@ -262,119 +262,119 @@
     "60": {
       "block": "main_after_for@5",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_reversed\"",
       "defined_out": [
         "\"test_reversed\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_reversed\""
       ]
     },
     "75": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "76": {
       "op": "intc_3 // 5",
       "defined_out": [
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "77": {
-      "op": "bury 1",
+      "op": "bury 4",
       "defined_out": [
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "79": {
       "block": "main_for_body@9",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "bytec_0 // 0x206120622063",
       "defined_out": [
         "0x206120622063"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063"
       ]
     },
     "80": {
-      "op": "dig 1",
+      "op": "dig 4",
       "defined_out": [
         "0x206120622063",
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0"
+        "i#4"
       ]
     },
     "82": {
       "op": "dup",
       "defined_out": [
         "0x206120622063",
-        "i#0",
-        "i#0 (copy)"
+        "i#4",
+        "i#4 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)",
-        "i#0 (copy)"
+        "i#4 (copy)",
+        "i#4 (copy)"
       ]
     },
     "83": {
       "op": "cover 2",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "0x206120622063",
-        "i#0 (copy)"
+        "i#4 (copy)"
       ]
     },
     "85": {
@@ -382,53 +382,53 @@
       "defined_out": [
         "0x206120622063",
         "1",
-        "i#0",
-        "i#0 (copy)"
+        "i#4",
+        "i#4 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "0x206120622063",
-        "i#0 (copy)",
+        "i#4 (copy)",
         "1"
       ]
     },
     "86": {
       "op": "extract3",
       "defined_out": [
-        "i#0",
+        "i#4",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "tmp%0#0"
       ]
     },
     "87": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "88": {
       "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "1"
       ]
     },
@@ -436,2462 +436,2478 @@
       "op": ">",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
     "90": {
       "op": "bz main_after_for@12",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "93": {
-      "op": "dup",
+      "op": "dig 3",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "94": {
-      "op": "intc_2 // 2",
-      "defined_out": [
-        "2",
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "2"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "95": {
-      "op": "-",
+      "op": "intc_2 // 2",
+      "defined_out": [
+        "2",
+        "i#4"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4",
+        "2"
       ]
     },
     "96": {
-      "op": "bury 1",
-      "defined_out": [
-        "i#0"
-      ],
+      "op": "-",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
-    "98": {
-      "op": "b main_for_body@9"
-    },
-    "101": {
-      "block": "main_after_for@12",
-      "stack_in": [
+    "97": {
+      "op": "bury 4",
+      "defined_out": [
+        "i#4"
+      ],
+      "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
+      ]
+    },
+    "99": {
+      "op": "b main_for_body@9"
+    },
+    "102": {
+      "block": "main_after_for@12",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_forwards_with_forwards_index\"",
       "defined_out": [
         "\"test_forwards_with_forwards_index\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_forwards_with_forwards_index\""
       ]
     },
-    "136": {
+    "137": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "137": {
-      "op": "intc_0 // 1",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "138": {
-      "op": "bury 1",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "140": {
       "op": "intc_1 // 0",
       "defined_out": [
-        "i#0",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
+      ]
+    },
+    "139": {
+      "op": "bury 3",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ]
     },
     "141": {
-      "op": "bury 4",
+      "op": "intc_0 // 1",
       "defined_out": [
-        "i#0",
-        "idx#0"
+        "idx#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
-    "143": {
-      "block": "main_for_header@15",
-      "stack_in": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ],
-      "op": "dup",
+    "142": {
+      "op": "bury 1",
       "defined_out": [
-        "i#0"
+        "idx#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "144": {
+      "block": "main_for_header@15",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "145": {
       "op": "pushint 7 // 7",
       "defined_out": [
         "7",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "7"
       ]
     },
-    "146": {
+    "147": {
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
-    "147": {
+    "148": {
       "op": "bz main_after_for@18",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "150": {
-      "op": "bytec_0 // 0x206120622063",
-      "defined_out": [
-        "0x206120622063",
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x206120622063"
+        "next_range_item#0"
       ]
     },
     "151": {
-      "op": "dig 1",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x206120622063",
-        "i#0"
-      ]
-    },
-    "153": {
-      "op": "dup",
+      "op": "bytec_0 // 0x206120622063",
       "defined_out": [
         "0x206120622063",
-        "i#0",
-        "i#0 (copy)"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
+        "0x206120622063"
+      ]
+    },
+    "152": {
+      "op": "dig 1",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)",
-        "i#0 (copy)"
+        "next_range_item#0"
       ]
     },
     "154": {
-      "op": "cover 2",
+      "op": "dup",
+      "defined_out": [
+        "0x206120622063",
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)"
+        "next_range_item#0 (copy)",
+        "next_range_item#0 (copy)"
       ]
     },
-    "156": {
+    "155": {
+      "op": "cover 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "0x206120622063",
+        "next_range_item#0 (copy)"
+      ]
+    },
+    "157": {
       "op": "intc_0 // 1",
       "defined_out": [
         "0x206120622063",
         "1",
-        "i#0",
-        "i#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)",
+        "next_range_item#0 (copy)",
         "1"
-      ]
-    },
-    "157": {
-      "op": "extract3",
-      "defined_out": [
-        "i#0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "tmp%0#0"
       ]
     },
     "158": {
-      "op": "dig 5",
+      "op": "extract3",
       "defined_out": [
-        "i#0",
-        "idx#0",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "tmp%0#0",
-        "idx#0"
+        "next_range_item#0",
+        "next_range_item#0",
+        "tmp%0#0"
       ]
     },
-    "160": {
-      "op": "dup",
+    "159": {
+      "op": "dig 4",
       "defined_out": [
-        "i#0",
         "idx#0",
-        "idx#0 (copy)",
+        "next_range_item#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%0#0",
-        "idx#0 (copy)",
-        "idx#0 (copy)"
+        "idx#0"
       ]
     },
     "161": {
-      "op": "cover 3",
+      "op": "dup",
+      "defined_out": [
+        "idx#0",
+        "idx#0 (copy)",
+        "next_range_item#0",
+        "tmp%0#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "tmp%0#0",
+        "idx#0 (copy)",
+        "idx#0 (copy)"
+      ]
+    },
+    "162": {
+      "op": "cover 3",
+      "stack_out": [
+        "i#4",
         "idx#0",
-        "i#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0",
+        "next_range_item#0",
         "tmp%0#0",
         "idx#0 (copy)"
       ]
     },
-    "163": {
+    "164": {
       "op": "swap",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0 (copy)",
         "tmp%0#0"
       ]
     },
-    "164": {
+    "165": {
       "callsub": "test_cases.iteration.base.IterationTestBase._log_with_index",
       "op": "callsub _log_with_index",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0"
-      ]
-    },
-    "167": {
-      "op": "intc_2 // 2",
-      "defined_out": [
-        "2",
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "i#0",
-        "2"
+        "next_range_item#0"
       ]
     },
     "168": {
-      "op": "+",
+      "op": "intc_2 // 2",
+      "defined_out": [
+        "2",
+        "idx#0",
+        "next_range_item#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0"
+        "next_range_item#0",
+        "2"
       ]
     },
     "169": {
-      "op": "bury 2",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
+      "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
+        "idx#0",
+        "next_range_item#0"
+      ]
+    },
+    "170": {
+      "op": "bury 2",
+      "defined_out": [
+        "idx#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
-    "171": {
+    "172": {
       "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
         "1"
       ]
     },
-    "172": {
+    "173": {
       "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
-    "173": {
-      "op": "bury 4",
+    "174": {
+      "op": "bury 3",
       "defined_out": [
-        "i#0",
-        "idx#0"
+        "idx#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "175": {
+    "176": {
       "op": "b main_for_header@15"
     },
-    "178": {
+    "179": {
       "block": "main_after_for@18",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_forwards_with_reverse_index\"",
       "defined_out": [
         "\"test_forwards_with_reverse_index\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_forwards_with_reverse_index\""
       ]
     },
-    "212": {
+    "213": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "213": {
+    "214": {
       "op": "intc_2 // 2",
       "defined_out": [
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
-    "214": {
-      "op": "bury 4",
+    "215": {
+      "op": "bury 3",
       "defined_out": [
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "216": {
-      "op": "intc_0 // 1",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "217": {
-      "op": "bury 1",
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
-    "219": {
-      "block": "main_for_body@22",
-      "stack_in": [
+    "218": {
+      "op": "bury 4",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
+      ]
+    },
+    "220": {
+      "block": "main_for_body@22",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ],
       "op": "bytec_0 // 0x206120622063",
       "defined_out": [
         "0x206120622063"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063"
       ]
     },
-    "220": {
-      "op": "dig 1",
+    "221": {
+      "op": "dig 4",
       "defined_out": [
         "0x206120622063",
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0"
-      ]
-    },
-    "222": {
-      "op": "dup",
-      "defined_out": [
-        "0x206120622063",
-        "i#0",
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x206120622063",
-        "i#0 (copy)",
-        "i#0 (copy)"
+        "i#4"
       ]
     },
     "223": {
-      "op": "cover 2",
+      "op": "dup",
+      "defined_out": [
+        "0x206120622063",
+        "i#4",
+        "i#4 (copy)"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)"
+        "i#4 (copy)",
+        "i#4 (copy)"
       ]
     },
-    "225": {
+    "224": {
+      "op": "cover 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4",
+        "0x206120622063",
+        "i#4 (copy)"
+      ]
+    },
+    "226": {
       "op": "intc_0 // 1",
       "defined_out": [
         "0x206120622063",
         "1",
-        "i#0",
-        "i#0 (copy)"
+        "i#4",
+        "i#4 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "0x206120622063",
-        "i#0 (copy)",
+        "i#4 (copy)",
         "1"
       ]
     },
-    "226": {
+    "227": {
       "op": "extract3",
       "defined_out": [
-        "i#0",
+        "i#4",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "tmp%0#0"
       ]
     },
-    "227": {
-      "op": "dig 5",
+    "228": {
+      "op": "dig 4",
       "defined_out": [
-        "i#0",
+        "i#4",
         "idx#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "tmp%0#0",
         "idx#0"
       ]
     },
-    "229": {
+    "230": {
       "op": "swap",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "idx#0",
         "tmp%0#0"
       ]
     },
-    "230": {
+    "231": {
       "callsub": "test_cases.iteration.base.IterationTestBase._log_with_index",
       "op": "callsub _log_with_index",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "233": {
-      "op": "intc_3 // 5",
-      "defined_out": [
-        "5",
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "5"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "234": {
-      "op": "<",
+      "op": "intc_3 // 5",
       "defined_out": [
-        "continue_looping%0#0",
-        "i#0",
+        "5",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "continue_looping%0#0"
+        "next_range_item#0",
+        "i#4",
+        "5"
       ]
     },
     "235": {
-      "op": "bz main_after_for@25",
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "i#4",
+        "idx#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "continue_looping%0#0"
       ]
     },
-    "238": {
-      "op": "dup",
+    "236": {
+      "op": "bz main_after_for@25",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "239": {
-      "op": "intc_2 // 2",
-      "defined_out": [
-        "2",
-        "i#0",
-        "idx#0"
-      ],
+      "op": "dig 3",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "2"
-      ]
-    },
-    "240": {
-      "op": "+",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "241": {
-      "op": "bury 1",
+      "op": "intc_2 // 2",
       "defined_out": [
-        "i#0",
+        "2",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4",
+        "2"
+      ]
+    },
+    "242": {
+      "op": "+",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "243": {
-      "op": "dig 3",
+      "op": "bury 4",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
+        "next_range_item#0"
       ]
     },
     "245": {
-      "op": "intc_0 // 1",
+      "op": "dig 2",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "1"
-      ]
-    },
-    "246": {
-      "op": "-",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
     "247": {
-      "op": "bury 4",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
+      "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "idx#0",
+        "1"
+      ]
+    },
+    "248": {
+      "op": "-",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0"
       ]
     },
     "249": {
-      "op": "b main_for_body@22"
-    },
-    "252": {
-      "block": "main_after_for@25",
-      "stack_in": [
+      "op": "bury 3",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
+      ]
+    },
+    "251": {
+      "op": "b main_for_body@22"
+    },
+    "254": {
+      "block": "main_after_for@25",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_reverse_with_forwards_index\"",
       "defined_out": [
         "\"test_reverse_with_forwards_index\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_reverse_with_forwards_index\""
       ]
     },
-    "286": {
+    "288": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "287": {
+    "289": {
       "op": "intc_3 // 5",
       "defined_out": [
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "288": {
-      "op": "bury 1",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "290": {
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
-      ]
-    },
-    "291": {
       "op": "bury 4",
       "defined_out": [
-        "i#0",
+        "i#4"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "292": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "idx#0"
       ]
     },
     "293": {
-      "block": "main_for_body@29",
-      "stack_in": [
+      "op": "bury 3",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
+      ]
+    },
+    "295": {
+      "block": "main_for_body@29",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ],
       "op": "bytec_0 // 0x206120622063",
       "defined_out": [
         "0x206120622063"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063"
       ]
     },
-    "294": {
-      "op": "dig 1",
+    "296": {
+      "op": "dig 4",
       "defined_out": [
         "0x206120622063",
-        "i#0"
+        "i#4"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0"
+        "i#4"
       ]
     },
-    "296": {
+    "298": {
       "op": "dup",
       "defined_out": [
         "0x206120622063",
-        "i#0",
-        "i#0 (copy)"
+        "i#4",
+        "i#4 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)",
-        "i#0 (copy)"
-      ]
-    },
-    "297": {
-      "op": "cover 2",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "0x206120622063",
-        "i#0 (copy)"
+        "i#4 (copy)",
+        "i#4 (copy)"
       ]
     },
     "299": {
+      "op": "cover 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4",
+        "0x206120622063",
+        "i#4 (copy)"
+      ]
+    },
+    "301": {
       "op": "intc_0 // 1",
       "defined_out": [
         "0x206120622063",
         "1",
-        "i#0",
-        "i#0 (copy)"
+        "i#4",
+        "i#4 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "0x206120622063",
-        "i#0 (copy)",
+        "i#4 (copy)",
         "1"
       ]
     },
-    "300": {
+    "302": {
       "op": "extract3",
       "defined_out": [
-        "i#0",
+        "i#4",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "tmp%0#0"
       ]
     },
-    "301": {
-      "op": "dig 5",
+    "303": {
+      "op": "dig 4",
       "defined_out": [
-        "i#0",
+        "i#4",
         "idx#0",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "tmp%0#0",
         "idx#0"
       ]
     },
-    "303": {
+    "305": {
       "op": "swap",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "idx#0",
         "tmp%0#0"
       ]
     },
-    "304": {
+    "306": {
       "callsub": "test_cases.iteration.base.IterationTestBase._log_with_index",
       "op": "callsub _log_with_index",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "307": {
-      "op": "intc_0 // 1",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "1"
-      ]
-    },
-    "308": {
-      "op": ">",
-      "defined_out": [
-        "continue_looping%0#0",
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "continue_looping%0#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "309": {
-      "op": "bz main_after_for@32",
+      "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4",
+        "1"
       ]
     },
-    "312": {
-      "op": "dup",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "313": {
-      "op": "intc_2 // 2",
+    "310": {
+      "op": ">",
       "defined_out": [
-        "2",
-        "i#0",
+        "continue_looping%0#0",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "2"
+        "next_range_item#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "311": {
+      "op": "bz main_after_for@32",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ]
     },
     "314": {
-      "op": "-",
+      "op": "dig 3",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
-    "315": {
-      "op": "bury 1",
+    "316": {
+      "op": "intc_2 // 2",
       "defined_out": [
-        "i#0",
+        "2",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4",
+        "2"
       ]
     },
     "317": {
-      "op": "dig 3",
+      "op": "-",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4"
+      ]
+    },
+    "318": {
+      "op": "bury 4",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "320": {
+      "op": "dig 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
-    "319": {
+    "322": {
       "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
         "1"
       ]
     },
-    "320": {
+    "323": {
       "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
-    "321": {
-      "op": "bury 4",
+    "324": {
+      "op": "bury 3",
       "defined_out": [
-        "i#0",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "323": {
+    "326": {
       "op": "b main_for_body@29"
     },
-    "326": {
+    "329": {
       "block": "main_after_for@32",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_reverse_with_reverse_index\"",
       "defined_out": [
         "\"test_reverse_with_reverse_index\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_reverse_with_reverse_index\""
       ]
     },
-    "359": {
+    "362": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "360": {
+    "363": {
       "op": "intc_2 // 2",
       "defined_out": [
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
-      ]
-    },
-    "361": {
-      "op": "bury 4",
-      "defined_out": [
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "363": {
-      "op": "intc_3 // 5",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
       ]
     },
     "364": {
-      "op": "bury 1",
+      "op": "bury 3",
+      "defined_out": [
+        "idx#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "366": {
-      "block": "main_for_body@36",
-      "stack_in": [
+      "op": "intc_3 // 5",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
+      ]
+    },
+    "367": {
+      "op": "bury 4",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "369": {
+      "block": "main_for_body@36",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ],
       "op": "bytec_0 // 0x206120622063",
       "defined_out": [
         "0x206120622063"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063"
       ]
     },
-    "367": {
-      "op": "dig 1",
-      "defined_out": [
-        "0x206120622063",
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x206120622063",
-        "i#0"
-      ]
-    },
-    "369": {
-      "op": "dup",
-      "defined_out": [
-        "0x206120622063",
-        "i#0",
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x206120622063",
-        "i#0 (copy)",
-        "i#0 (copy)"
-      ]
-    },
     "370": {
-      "op": "cover 2",
+      "op": "dig 4",
+      "defined_out": [
+        "0x206120622063",
+        "i#4"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
         "0x206120622063",
-        "i#0 (copy)"
+        "i#4"
       ]
     },
     "372": {
+      "op": "dup",
+      "defined_out": [
+        "0x206120622063",
+        "i#4",
+        "i#4 (copy)"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "0x206120622063",
+        "i#4 (copy)",
+        "i#4 (copy)"
+      ]
+    },
+    "373": {
+      "op": "cover 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4",
+        "0x206120622063",
+        "i#4 (copy)"
+      ]
+    },
+    "375": {
       "op": "intc_0 // 1",
       "defined_out": [
         "0x206120622063",
         "1",
-        "i#0",
-        "i#0 (copy)"
+        "i#4",
+        "i#4 (copy)"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4",
         "0x206120622063",
-        "i#0 (copy)",
+        "i#4 (copy)",
         "1"
       ]
     },
-    "373": {
+    "376": {
       "op": "extract3",
       "defined_out": [
-        "i#0",
+        "i#4",
         "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "tmp%0#0"
-      ]
-    },
-    "374": {
-      "op": "dig 5",
-      "defined_out": [
-        "i#0",
-        "idx#0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "tmp%0#0",
-        "idx#0"
-      ]
-    },
-    "376": {
-      "op": "swap",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "idx#0",
+        "next_range_item#0",
+        "i#4",
         "tmp%0#0"
       ]
     },
     "377": {
-      "callsub": "test_cases.iteration.base.IterationTestBase._log_with_index",
-      "op": "callsub _log_with_index",
+      "op": "dig 4",
+      "defined_out": [
+        "i#4",
+        "idx#0",
+        "tmp%0#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4",
+        "tmp%0#0",
+        "idx#0"
+      ]
+    },
+    "379": {
+      "op": "swap",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4",
+        "idx#0",
+        "tmp%0#0"
       ]
     },
     "380": {
-      "op": "intc_0 // 1",
+      "callsub": "test_cases.iteration.base.IterationTestBase._log_with_index",
+      "op": "callsub _log_with_index",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "i#4"
+      ]
+    },
+    "383": {
+      "op": "intc_0 // 1",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4",
         "1"
       ]
     },
-    "381": {
+    "384": {
       "op": ">",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
-    "382": {
+    "385": {
       "op": "bz main_after_for@39",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "385": {
-      "op": "dup",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "386": {
-      "op": "intc_2 // 2",
-      "defined_out": [
-        "2",
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "2"
-      ]
-    },
-    "387": {
-      "op": "-",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "388": {
-      "op": "bury 1",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
+      "op": "dig 3",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "390": {
-      "op": "dig 3",
+      "op": "intc_2 // 2",
+      "defined_out": [
+        "2",
+        "i#4",
+        "idx#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
+        "next_range_item#0",
+        "i#4",
+        "2"
+      ]
+    },
+    "391": {
+      "op": "-",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "i#4"
       ]
     },
     "392": {
-      "op": "intc_0 // 1",
+      "op": "bury 4",
+      "defined_out": [
+        "i#4",
+        "idx#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0"
+      ]
+    },
+    "394": {
+      "op": "dig 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0"
+      ]
+    },
+    "396": {
+      "op": "intc_0 // 1",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
         "idx#0",
         "1"
       ]
     },
-    "393": {
+    "397": {
       "op": "-",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0"
       ]
     },
-    "394": {
-      "op": "bury 4",
+    "398": {
+      "op": "bury 3",
       "defined_out": [
-        "i#0",
+        "i#4",
         "idx#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "396": {
+    "400": {
       "op": "b main_for_body@36"
     },
-    "399": {
+    "403": {
       "block": "main_after_for@39",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_empty\"",
       "defined_out": [
         "\"test_empty\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_empty\""
       ]
     },
-    "411": {
+    "415": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "412": {
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "413": {
-      "op": "bury 1",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "415": {
-      "block": "main_for_header@42",
-      "stack_in": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ],
-      "op": "dup",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "416": {
       "op": "intc_1 // 0",
       "defined_out": [
-        "0",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "417": {
-      "op": "<",
-      "defined_out": [
-        "continue_looping%0#0",
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "continue_looping%0#0"
-      ]
-    },
-    "418": {
-      "op": "bz main_after_for@45",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "421": {
-      "op": "dupn 2",
-      "defined_out": [
-        "i#0",
-        "i#0 (copy)"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "i#0 (copy)"
-      ]
-    },
-    "423": {
-      "op": "itob",
-      "defined_out": [
-        "i#0",
-        "tmp%0#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "tmp%0#0"
-      ]
-    },
-    "424": {
-      "op": "log",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "425": {
-      "op": "intc_0 // 1",
-      "defined_out": [
-        "1",
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "1"
-      ]
-    },
-    "426": {
-      "op": "+",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "427": {
       "op": "bury 1",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "429": {
-      "op": "b main_for_header@42"
-    },
-    "432": {
-      "block": "main_after_for@45",
+    "419": {
+      "block": "main_for_header@42",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ],
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
-      ]
-    },
-    "433": {
-      "op": "bury 1",
-      "defined_out": [
-        "i#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "435": {
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
-      ]
-    },
-    "436": {
-      "op": "bury 4",
-      "defined_out": [
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "438": {
-      "block": "main_for_header@51",
-      "stack_in": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dup",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "420": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "0"
+      ]
+    },
+    "421": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "continue_looping%0#0"
+      ]
+    },
+    "422": {
+      "op": "bz main_after_for@45",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "425": {
+      "op": "dupn 2",
+      "defined_out": [
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
+      ]
+    },
+    "427": {
+      "op": "itob",
+      "defined_out": [
+        "next_range_item#0",
+        "tmp%0#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "tmp%0#0"
+      ]
+    },
+    "428": {
+      "op": "log",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "429": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "1"
+      ]
+    },
+    "430": {
+      "op": "+",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "431": {
+      "op": "bury 1",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "433": {
+      "op": "b main_for_header@42"
+    },
+    "436": {
+      "block": "main_after_for@45",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ],
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0"
+      ]
+    },
+    "437": {
+      "op": "bury 3",
+      "defined_out": [
+        "idx#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ]
     },
     "439": {
       "op": "intc_1 // 0",
       "defined_out": [
-        "0",
-        "i#0"
+        "idx#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "i#0",
-        "0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "440": {
-      "op": "<",
+      "op": "bury 1",
       "defined_out": [
-        "continue_looping%2#0",
-        "i#0"
+        "idx#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "continue_looping%2#0"
+        "next_range_item#0"
       ]
     },
-    "441": {
-      "op": "bz main_after_for@54",
-      "stack_out": [
+    "442": {
+      "block": "main_for_header@51",
+      "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "443": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "0"
       ]
     },
     "444": {
-      "op": "dig 3",
+      "op": "<",
       "defined_out": [
-        "i#0",
-        "idx#0"
+        "continue_looping%2#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
+        "next_range_item#0",
+        "continue_looping%2#0"
       ]
     },
-    "446": {
-      "op": "dup",
-      "defined_out": [
-        "i#0",
-        "idx#0",
-        "idx#0 (copy)"
-      ],
+    "445": {
+      "op": "bz main_after_for@54",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "idx#0 (copy)"
-      ]
-    },
-    "447": {
-      "op": "itob",
-      "defined_out": [
-        "i#0",
-        "idx#0",
-        "tmp%2#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "tmp%2#0"
+        "next_range_item#0"
       ]
     },
     "448": {
       "op": "dig 2",
+      "defined_out": [
+        "idx#0",
+        "next_range_item#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "tmp%2#0",
-        "i#0"
+        "next_range_item#0",
+        "idx#0"
       ]
     },
     "450": {
       "op": "dup",
       "defined_out": [
-        "i#0",
-        "i#0 (copy)",
         "idx#0",
-        "tmp%2#0"
+        "idx#0 (copy)",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "tmp%2#0",
-        "i#0 (copy)",
-        "i#0 (copy)"
+        "idx#0 (copy)"
       ]
     },
     "451": {
-      "op": "cover 2",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "i#0",
-        "tmp%2#0",
-        "i#0 (copy)"
-      ]
-    },
-    "453": {
       "op": "itob",
       "defined_out": [
-        "i#0",
         "idx#0",
-        "tmp%2#0",
-        "tmp%4#0"
+        "next_range_item#0",
+        "tmp%2#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0",
+        "tmp%2#0"
+      ]
+    },
+    "452": {
+      "op": "dig 2",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0",
         "tmp%2#0",
-        "tmp%4#0"
+        "next_range_item#0"
       ]
     },
     "454": {
-      "op": "concat",
+      "op": "dup",
       "defined_out": [
-        "i#0",
         "idx#0",
-        "tmp%5#0"
+        "next_range_item#0",
+        "next_range_item#0 (copy)",
+        "tmp%2#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0",
-        "tmp%5#0"
+        "tmp%2#0",
+        "next_range_item#0 (copy)",
+        "next_range_item#0 (copy)"
       ]
     },
     "455": {
-      "op": "log",
+      "op": "cover 2",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0"
-      ]
-    },
-    "456": {
-      "op": "intc_0 // 1",
-      "defined_out": [
-        "1",
-        "i#0",
-        "idx#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0",
-        "i#0",
-        "1"
+        "next_range_item#0",
+        "tmp%2#0",
+        "next_range_item#0 (copy)"
       ]
     },
     "457": {
-      "op": "+",
+      "op": "itob",
+      "defined_out": [
+        "idx#0",
+        "next_range_item#0",
+        "tmp%2#0",
+        "tmp%4#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
-        "i#0"
+        "next_range_item#0",
+        "tmp%2#0",
+        "tmp%4#0"
       ]
     },
     "458": {
-      "op": "bury 2",
+      "op": "concat",
       "defined_out": [
-        "i#0",
-        "idx#0"
+        "idx#0",
+        "next_range_item#0",
+        "tmp%5#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
+        "next_range_item#0",
+        "idx#0",
+        "next_range_item#0",
+        "tmp%5#0"
+      ]
+    },
+    "459": {
+      "op": "log",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0",
+        "next_range_item#0"
       ]
     },
     "460": {
       "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "idx#0",
+        "next_range_item#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "idx#0",
+        "next_range_item#0",
         "1"
       ]
     },
     "461": {
       "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "idx#0"
+        "next_range_item#0",
+        "idx#0",
+        "next_range_item#0"
       ]
     },
     "462": {
-      "op": "bury 4",
+      "op": "bury 2",
       "defined_out": [
-        "i#0",
-        "idx#0"
+        "idx#0",
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "idx#0"
       ]
     },
     "464": {
-      "op": "b main_for_header@51"
-    },
-    "467": {
-      "block": "main_after_for@54",
-      "stack_in": [
+      "op": "intc_0 // 1",
+      "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "idx#0",
+        "1"
+      ]
+    },
+    "465": {
+      "op": "+",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "idx#0"
+      ]
+    },
+    "466": {
+      "op": "bury 3",
+      "defined_out": [
+        "idx#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "468": {
+      "op": "b main_for_header@51"
+    },
+    "471": {
+      "block": "main_after_for@54",
+      "stack_in": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
       ],
       "op": "pushbytes \"test_break\"",
       "defined_out": [
         "\"test_break\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_break\""
-      ]
-    },
-    "479": {
-      "op": "log",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "480": {
-      "op": "pushbytes 0x61",
-      "defined_out": [
-        "0x61"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x61"
       ]
     },
     "483": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "484": {
+      "op": "pushbytes 0x61",
+      "defined_out": [
+        "0x61"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "0x61"
+      ]
+    },
+    "487": {
+      "op": "log",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "488": {
       "op": "pushbytes \"test_tuple_target\"",
       "defined_out": [
         "\"test_tuple_target\""
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "\"test_tuple_target\""
       ]
     },
-    "503": {
+    "507": {
       "op": "log",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "504": {
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "tup.1#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0"
-      ]
-    },
-    "505": {
-      "op": "bury 2",
-      "defined_out": [
-        "tup.1#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ]
-    },
-    "507": {
-      "op": "intc_1 // 0",
-      "defined_out": [
-        "tup.0#0",
-        "tup.1#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.0#0"
+        "next_range_item#0"
       ]
     },
     "508": {
-      "op": "bury 3",
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "tup.0#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0",
+        "tup.0#0"
       ]
     },
-    "510": {
-      "block": "main_for_header@77",
-      "stack_in": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0"
-      ],
-      "op": "dig 1",
+    "509": {
+      "op": "bury 2",
       "defined_out": [
-        "tup.1#0"
+        "tup.0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0"
+        "next_range_item#0"
+      ]
+    },
+    "511": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "next_range_item#0",
+        "tup.0#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "512": {
-      "op": "intc_0 // 1",
+      "op": "bury 1",
       "defined_out": [
-        "1",
-        "tup.1#0"
+        "next_range_item#0",
+        "tup.0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0",
-        "1"
-      ]
-    },
-    "513": {
-      "op": "<",
-      "defined_out": [
-        "continue_looping%0#0",
-        "tup.1#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "continue_looping%0#0"
+        "next_range_item#0"
       ]
     },
     "514": {
-      "op": "bz main_after_for@80",
-      "stack_out": [
+      "block": "main_for_header@77",
+      "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
+      ],
+      "op": "dup",
+      "defined_out": [
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0"
+      ]
+    },
+    "515": {
+      "op": "intc_0 // 1",
+      "defined_out": [
+        "1",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "1"
+      ]
+    },
+    "516": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "next_range_item#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "continue_looping%0#0"
       ]
     },
     "517": {
-      "op": "pushbytes 0x74",
-      "defined_out": [
-        "0x74",
-        "tup.1#0"
-      ],
+      "op": "bz main_after_for@80",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x74"
+        "next_range_item#0"
       ]
     },
     "520": {
-      "op": "dig 2",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x74",
-        "tup.1#0"
-      ]
-    },
-    "522": {
-      "op": "dup",
+      "op": "pushbytes 0x74",
       "defined_out": [
         "0x74",
-        "tup.1#0",
-        "tup.1#0 (copy)"
+        "next_range_item#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "0x74",
-        "tup.1#0 (copy)",
-        "tup.1#0 (copy)"
+        "next_range_item#0",
+        "0x74"
       ]
     },
     "523": {
-      "op": "cover 2",
+      "op": "dig 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0",
+        "next_range_item#0",
         "0x74",
-        "tup.1#0 (copy)"
+        "next_range_item#0"
       ]
     },
     "525": {
-      "op": "intc_0 // 1",
+      "op": "dup",
+      "defined_out": [
+        "0x74",
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0",
+        "next_range_item#0",
         "0x74",
-        "tup.1#0 (copy)",
-        "1"
+        "next_range_item#0 (copy)",
+        "next_range_item#0 (copy)"
       ]
     },
     "526": {
-      "op": "extract3",
-      "defined_out": [
-        "tmp%0#0",
-        "tup.1#0"
-      ],
+      "op": "cover 2",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0",
-        "tmp%0#0"
+        "next_range_item#0",
+        "next_range_item#0",
+        "0x74",
+        "next_range_item#0 (copy)"
       ]
     },
-    "527": {
-      "op": "dig 4",
-      "defined_out": [
-        "tmp%0#0",
-        "tup.0#0",
-        "tup.1#0"
-      ],
+    "528": {
+      "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0",
-        "tmp%0#0",
-        "tup.0#0"
+        "next_range_item#0",
+        "next_range_item#0",
+        "0x74",
+        "next_range_item#0 (copy)",
+        "1"
       ]
     },
     "529": {
-      "op": "dup",
+      "op": "extract3",
       "defined_out": [
-        "tmp%0#0",
-        "tup.0#0",
-        "tup.0#0 (copy)",
-        "tup.1#0"
+        "next_range_item#0",
+        "tmp%0#0"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.1#0",
-        "tmp%0#0",
-        "tup.0#0 (copy)",
-        "tup.0#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0",
+        "tmp%0#0"
       ]
     },
     "530": {
-      "op": "cover 3",
+      "op": "dig 3",
+      "defined_out": [
+        "next_range_item#0",
+        "tmp%0#0",
+        "tup.0#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "tmp%0#0",
+        "tup.0#0"
+      ]
+    },
+    "532": {
+      "op": "dup",
+      "defined_out": [
+        "next_range_item#0",
+        "tmp%0#0",
         "tup.0#0",
-        "tup.1#0",
+        "tup.0#0 (copy)"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "next_range_item#0",
+        "tmp%0#0",
+        "tup.0#0 (copy)",
+        "tup.0#0 (copy)"
+      ]
+    },
+    "533": {
+      "op": "cover 3",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "tup.0#0",
+        "next_range_item#0",
         "tmp%0#0",
         "tup.0#0 (copy)"
       ]
     },
-    "532": {
+    "535": {
       "op": "swap",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "tup.0#0",
-        "tup.1#0",
+        "next_range_item#0",
         "tup.0#0 (copy)",
         "tmp%0#0"
       ]
     },
-    "533": {
+    "536": {
       "callsub": "test_cases.iteration.base.IterationTestBase._log_with_index",
       "op": "callsub _log_with_index",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "tup.0#0",
-        "tup.1#0"
+        "next_range_item#0"
       ]
     },
-    "536": {
+    "539": {
       "op": "intc_0 // 1",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "tup.0#0",
-        "tup.1#0",
+        "next_range_item#0",
         "1"
-      ]
-    },
-    "537": {
-      "op": "+",
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.0#0",
-        "tup.1#0"
-      ]
-    },
-    "538": {
-      "op": "bury 3",
-      "defined_out": [
-        "tup.0#0",
-        "tup.1#0"
-      ],
-      "stack_out": [
-        "idx#0",
-        "tup.0#0",
-        "tup.1#0",
-        "i#0",
-        "tup.0#0"
       ]
     },
     "540": {
-      "op": "intc_0 // 1",
+      "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
+        "tup.0#0",
+        "next_range_item#0"
+      ]
+    },
+    "541": {
+      "op": "bury 2",
+      "defined_out": [
+        "next_range_item#0",
+        "tup.0#0"
+      ],
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
+        "tup.0#0"
+      ]
+    },
+    "543": {
+      "op": "intc_0 // 1",
+      "stack_out": [
+        "i#4",
+        "idx#0",
+        "tup.0#0",
+        "next_range_item#0",
         "tup.0#0",
         "1"
       ]
     },
-    "541": {
+    "544": {
       "op": "+",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "tup.0#0"
       ]
     },
-    "542": {
-      "op": "bury 3",
+    "545": {
+      "op": "bury 2",
+      "defined_out": [
+        "next_range_item#0",
+        "tup.0#0"
+      ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "544": {
+    "547": {
       "op": "b main_for_header@77"
     },
-    "547": {
+    "550": {
       "block": "main_after_for@80",
       "stack_in": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "intc_0 // 1",
       "defined_out": [
         "1"
       ],
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0",
+        "next_range_item#0",
         "1"
       ]
     },
-    "548": {
+    "551": {
       "op": "return",
       "stack_out": [
+        "i#4",
         "idx#0",
         "tup.0#0",
-        "tup.1#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
-    "549": {
+    "552": {
       "subroutine": "test_cases.iteration.base.IterationTestBase._log_with_index",
       "params": {
         "idx#0": "uint64",
@@ -2901,7 +2917,7 @@
       "stack_in": [],
       "op": "proto 2 0"
     },
-    "552": {
+    "555": {
       "op": "pushbytes 0x30313233343536373839",
       "defined_out": [
         "0x30313233343536373839"
@@ -2910,7 +2926,7 @@
         "0x30313233343536373839"
       ]
     },
-    "564": {
+    "567": {
       "op": "frame_dig -2",
       "defined_out": [
         "0x30313233343536373839",
@@ -2921,7 +2937,7 @@
         "idx#0 (copy)"
       ]
     },
-    "566": {
+    "569": {
       "op": "intc_0 // 1",
       "defined_out": [
         "0x30313233343536373839",
@@ -2934,7 +2950,7 @@
         "1"
       ]
     },
-    "567": {
+    "570": {
       "op": "extract3",
       "defined_out": [
         "tmp%0#0"
@@ -2943,7 +2959,7 @@
         "tmp%0#0"
       ]
     },
-    "568": {
+    "571": {
       "op": "pushbytes \"=\"",
       "defined_out": [
         "\"=\"",
@@ -2954,7 +2970,7 @@
         "\"=\""
       ]
     },
-    "571": {
+    "574": {
       "op": "concat",
       "defined_out": [
         "tmp%1#0"
@@ -2963,7 +2979,7 @@
         "tmp%1#0"
       ]
     },
-    "572": {
+    "575": {
       "op": "frame_dig -1",
       "defined_out": [
         "tmp%1#0",
@@ -2974,7 +2990,7 @@
         "value#0 (copy)"
       ]
     },
-    "574": {
+    "577": {
       "op": "concat",
       "defined_out": [
         "tmp%2#0"
@@ -2983,11 +2999,11 @@
         "tmp%2#0"
       ]
     },
-    "575": {
+    "578": {
       "op": "log",
       "stack_out": []
     },
-    "576": {
+    "579": {
       "retsub": true,
       "op": "retsub"
     }

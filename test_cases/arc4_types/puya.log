@@ -96,6 +96,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -108,6 +110,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added head_and_tail#0 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0) in block@0
 debug: Added head_and_tail#1 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) (head_and_tail#1) with head_and_tail#0
@@ -222,6 +226,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'array_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -236,6 +242,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
 debug: Added array_head_and_tail#1 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) (array_head_and_tail#1) with array_head_and_tail#0
@@ -258,6 +266,8 @@ debug: Replaced trivial Phi node: let new_items_count#1: uint64 = φ(new_items_c
 debug: Terminated block@4
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@5
 debug: Created Phi assignment: let head_offset#4: uint64 = undefined while trying to resolve 'head_offset' in block@5
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@5
+debug: Created Phi assignment: let next_range_item#4: uint64 = undefined while trying to resolve 'next_range_item' in block@5
 debug: Terminated block@5
 debug: Sealing block@6
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@5
@@ -272,6 +282,8 @@ debug: Terminated block@7
 debug: Sealing block@5
 debug: Added head_offset#3 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4) in block@4
 debug: Added head_offset#5 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4, head_offset#5 <- block@7) in block@7
+debug: Added next_range_item#3 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4) in block@4
+debug: Added next_range_item#5 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4, next_range_item#5 <- block@7) in block@7
 debug: Created Phi assignment: let new_head_and_tail#2: bytes = undefined while trying to resolve 'new_head_and_tail' in block@1
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
@@ -327,6 +339,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -341,6 +355,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
 debug: Added new_item_length#0 to Phi node: let new_item_length#1: uint64 = φ(new_item_length#0 <- block@0) in block@0
@@ -363,6 +379,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'tail_offset' in an unsealed block creating an incomplete Phi: block@1
@@ -375,6 +393,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#3 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#3 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added tail_offset#0 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0) in block@0
 debug: Added tail_offset#2 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0, tail_offset#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
@@ -7040,13 +7060,14 @@ debug: Optimizer: Perform Subroutine Inlining
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Copy Propagation
-debug: Found equivalence set: tmp%4#0, head_offset#0
+debug: Found equivalence set: tmp%4#0, head_offset#0, next_range_item#0
 debug: selected head_offset#0 from equivalence set
-debug: Copy propagation made 1 modifications
+debug: Copy propagation made 2 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
-debug: Removing unused variable head_offset#2
+debug: Removing unused variable head_offset#1
 debug: Optimizer: Intrinsic Simplifier
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizer: Simplify Control Ops
@@ -7058,11 +7079,16 @@ debug: Optimizer: Remove Unreachable Blocks
 debug: Optimizer: Repeated Expression Elimination
 debug: Replacing redundant declaration let tmp%3#0: uint64 = (* length#0 2u) with copy of existing registers (Register(source_location=INTERNAL:326:8-28, ir_type=uint64, name='tmp%0', version=0),)
 debug: Replacing redundant declaration let head_offset#0: uint64 = (* start_at_index#0 2u) with copy of existing registers (Register(source_location=INTERNAL:327:44-72, ir_type=uint64, name='tmp%1', version=0),)
+debug: Replacing redundant declaration let next_range_item#2: uint64 = (+ next_range_item#1 2u) with copy of existing registers (Register(source_location=INTERNAL:335:8-19, ir_type=uint64, name='head_offset', version=3),)
 debug: Found equivalence set: tmp%0#0, tmp%3#0
 debug: selected tmp%0#0 from equivalence set
 debug: Found equivalence set: tmp%1#0, head_offset#0
 debug: selected head_offset#0 from equivalence set
-debug: Copy propagation made 3 modifications
+debug: Found equivalence set: next_range_item#1, head_offset#2
+debug: selected next_range_item#1 from equivalence set
+debug: Found equivalence set: head_offset#3, next_range_item#2
+debug: selected head_offset#3 from equivalence set
+debug: Copy propagation made 4 modifications
 debug: Optimizer: Constant Reads And Unobserved Writes Elimination
 debug: Optimizing subroutine test_cases.arc4_types.mutation.Arc4MutationContract.array_concat
 debug: Optimizer: Perform Subroutine Inlining
@@ -9207,31 +9233,36 @@ debug: Converting to CSSA
 debug: Removing Phi nodes
 debug: Coalescing local variables in _puya_lib.arc4.recalculate_head_for_elements_with_byte_length_head using strategy RootOperandGrouping
 debug: Coalescing array_head_and_tail#0 with [array_head_and_tail#5, array_head_and_tail#1, array_head_and_tail#2]
-debug: Coalescing head_offset#0 with [head_offset#6, head_offset#1, head_offset#3]
+debug: Coalescing head_offset#0 with [head_offset#3]
 debug: Coalescing tail_offset#0 with [tail_offset#5, tail_offset#1, tail_offset#2]
-debug: Coalescing resulted in 27 replacement/s
+debug: Coalescing next_range_item#1 with [next_range_item#2]
+debug: Coalescing resulted in 23 replacement/s
 debug: Sequentializing parallel copies in _puya_lib.arc4.recalculate_head_for_elements_with_byte_length_head
-debug: loc: {head_offset#0=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
-debug: pred: {head_offset#0=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
-debug: ready: 
-debug: to_do: head_offset#0, tail_offset#0, array_head_and_tail#0
+debug: loc: {next_range_item#1=None, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0, head_offset#0=head_offset#0}
+debug: pred: {next_range_item#1=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
+debug: ready: next_range_item#1
+debug: to_do: next_range_item#1, tail_offset#0, array_head_and_tail#0
+debug: * avail next_range_item#1
+debug: * avail head_offset#0
 debug: * to_do array_head_and_tail#0
 debug: * to_do tail_offset#0
-debug: * to_do head_offset#0
-debug: loc: {head_offset#0=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
-debug: pred: {head_offset#0=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
+debug: * to_do next_range_item#1
+debug: loc: {next_range_item#1=next_range_item#1, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
+debug: pred: {next_range_item#1=next_range_item#1, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
 debug: ready: 
-debug: to_do: head_offset#0, tail_offset#0, array_head_and_tail#0
+debug: to_do: next_range_item#1, tail_offset#0, array_head_and_tail#0
 debug: * to_do array_head_and_tail#0
 debug: * to_do tail_offset#0
-debug: * to_do head_offset#0
-debug: loc: {head_offset#0=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
-debug: pred: {head_offset#0=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
-debug: ready: 
-debug: to_do: head_offset#0, tail_offset#0, array_head_and_tail#0
+debug: * to_do next_range_item#1
+debug: loc: {next_range_item#1=None, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0, head_offset#0=head_offset#0}
+debug: pred: {next_range_item#1=head_offset#0, tail_offset#0=tail_offset#0, array_head_and_tail#0=array_head_and_tail#0}
+debug: ready: next_range_item#1
+debug: to_do: next_range_item#1, tail_offset#0, array_head_and_tail#0
+debug: * avail next_range_item#1
+debug: * avail head_offset#0
 debug: * to_do array_head_and_tail#0
 debug: * to_do tail_offset#0
-debug: * to_do head_offset#0
+debug: * to_do next_range_item#1
 debug: Performing post-SSA optimizations at level 1
 debug: Output IR to arc4_types/out/Arc4MutationContract.ir/Arc4MutationContract.approval.7.destructured.ir
 debug: Performing SSA IR destructuring for test_cases.arc4_types.mutation.Arc4MutationContract.clear_state_program
@@ -9636,14 +9667,18 @@ debug: Inserted recalculate_head_for_elements_with_byte_length_head_block@0.ops[
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_block@0.ops[10]: 'v-load head_offset#0' with 'l-load head_offset#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_block@0.ops[12]: 'l-store-copy tmp%2#0 0'
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_block@0.ops[15]: 'v-load tmp%2#0' with 'l-load tmp%2#0'
+debug: Inserted recalculate_head_for_elements_with_byte_length_head_block@0.ops[11]: 'l-store-copy head_offset#0 1'
+debug: Replaced recalculate_head_for_elements_with_byte_length_head_block@0.ops[20]: 'v-load head_offset#0' with 'l-load head_offset#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_block@0.ops[3]: 'l-store-copy tmp%0#0 0'
-debug: Replaced recalculate_head_for_elements_with_byte_length_head_block@0.ops[15]: 'v-load tmp%0#0' with 'l-load tmp%0#0'
+debug: Replaced recalculate_head_for_elements_with_byte_length_head_block@0.ops[16]: 'v-load tmp%0#0' with 'l-load tmp%0#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_header@1.ops[3]: 'l-store-copy continue_looping%0#0 0'
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_header@1.ops[5]: 'v-load continue_looping%0#0' with 'l-load continue_looping%0#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[2]: 'l-store-copy tmp%5#0 0'
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[4]: 'v-load tmp%5#0' with 'l-load tmp%5#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[15]: 'l-store-copy tmp%6#0 0'
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[17]: 'v-load tmp%6#0' with 'l-load tmp%6#0'
+debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[28]: 'l-store-copy head_offset#0 0'
+debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[30]: 'v-load head_offset#0' with 'l-load head_offset#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[20]: 'l-store-copy tmp%7#0 0'
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[23]: 'v-load tmp%7#0' with 'l-load tmp%7#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[6]: 'l-store-copy tail_offset_bytes#0 0'
@@ -9652,14 +9687,14 @@ debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.o
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[24]: 'v-load tail_offset#0' with 'l-load tail_offset#0'
 debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[1]: 'l-store-copy tail_offset#0 0'
 debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[15]: 'v-load tail_offset#0' with 'l-load tail_offset#0'
-debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[11]: 'l-store-copy head_offset#0 3'
-debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[30]: 'v-load head_offset#0' with 'l-load head_offset#0'
+debug: Inserted recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[11]: 'l-store-copy next_range_item#1 3'
+debug: Replaced recalculate_head_for_elements_with_byte_length_head_for_body@2.ops[30]: 'v-load next_range_item#1' with 'l-load next_range_item#1'
 debug: Found 3 edge set/s for _puya_lib.arc4.dynamic_array_concat_bits
 debug: Found 2 edge set/s for _puya_lib.arc4.recalculate_head_for_elements_with_byte_length_head
 debug: _puya_lib.arc4.dynamic_array_concat_bits f-stack entry: ['read_offset#0', 'write_end#0', 'write_offset#0']
 debug: _puya_lib.arc4.dynamic_array_concat_bits f-stack on first store: ['array_length#0', 'result#0', 'current_bytes#0', 'required_bytes#0', 'result#7']
 debug: _puya_lib.arc4.recalculate_head_for_elements_with_byte_length_head f-stack entry: []
-debug: _puya_lib.arc4.recalculate_head_for_elements_with_byte_length_head f-stack on first store: ['tmp%0#0', 'head_offset#0', 'tail_offset#0']
+debug: _puya_lib.arc4.recalculate_head_for_elements_with_byte_length_head f-stack on first store: ['tmp%0#0', 'tail_offset#0', 'next_range_item#1']
 arc4_types/mutation.py:34 debug: optimizing TEAL subroutine ops test_cases.arc4_types.mutation.Arc4MutationContract.approval_program() -> uint64:
 debug: optimizing TEAL subroutine ops _puya_lib.arc4.dynamic_array_pop_bit(array: bytes) -> bytes, bytes:
 debug: optimizing TEAL subroutine ops _puya_lib.arc4.dynamic_array_pop_byte_length_head(array: bytes) -> bytes, bytes:

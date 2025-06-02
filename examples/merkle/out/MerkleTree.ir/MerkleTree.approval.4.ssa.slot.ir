@@ -52,7 +52,8 @@ subroutine examples.merkle.contract.MerkleTree.verify(proof: bytes, leaf: bytes[
     block@2: // for_header_L22
         let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@6)
         let computed#1: bytes = φ(leaf#0 <- block@0, computed#2 <- block@6)
-        goto tmp%0#1 ? block@3 : block@7
+        let continue_looping%0#0: bool = (< next_range_item#1 tmp%0#1)
+        goto continue_looping%0#0 ? block@3 : block@7
     block@3: // for_body_L23
         let array_head_and_tail%0#0: bytes = ((extract 2 0) proof#0)
         let item_offset%0#0: uint64 = (* next_range_item#1 32u)
@@ -68,7 +69,7 @@ subroutine examples.merkle.contract.MerkleTree.verify(proof: bytes, leaf: bytes[
     block@6: // ternary_merge_L29
         let ternary_result%0#2: bytes = φ(ternary_result%0#0 <- block@4, ternary_result%0#1 <- block@5)
         let computed#2: bytes = (sha256 ternary_result%0#2)
-        let next_range_item#2: uint64 = 1u
+        let next_range_item#2: uint64 = (+ next_range_item#1 1u)
         goto block@2
     block@7: // after_for_L22
         let tmp%0#0: bool = (== maybe_value%0#0 computed#1)

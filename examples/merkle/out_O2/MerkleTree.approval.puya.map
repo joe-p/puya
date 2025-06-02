@@ -3,7 +3,7 @@
   "sources": [
     "../contract.py"
   ],
-  "mappings": ";;;;;;;;;;;;;;;;;;;AAQA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;;AAAA;AALL;;;AAAA;AAAA;;AAAA;;;AAOe;AAAA;AAAA;AAAA;AAAA;;AAAA;AAMO;AAAA;AAAA;AAAA;;AAAP;AAAA;;;;AAAf;AAAA;;;AACuC;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAMT;;AAAA;AAAT;;;AAAA;;AAAA;AAAA;AAAV;AAAA;;AAPI;AAAA;;;;;AAOkE;;AAAA;;;;AAblE;;AAAA;;AAAA;AAFV;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAEG;AAHR;;;AAGQ;AAFH;",
+  "mappings": ";;;;;;;;;;;;;;;;;;;AAQA;;AAAA;;;AAAA;;;;;;;;;;;;AAAA;;;AAAA;;;;;;AAAA;;AAKK;;AAAA;AAAA;AAAA;;AAAA;AALL;;;AAAA;AAAA;;AAAA;;;AAOe;AAAA;AAAA;AAAA;AAAA;;AAAA;AAMO;AAAA;AAAA;AAAA;;AAAP;AAAA;;;;AAAA;AAAA;AAAf;;;AACuC;;AAAA;;;AAAA;;AAAA;AAAA;AAAA;AAAA;AAAA;AAMT;;AAAA;AAAT;;;AAAA;;AAAA;AAAA;AAAV;AAAA;;AAPI;;AAAA;AAAA;AAAA;;;;;AAOkE;;AAAA;;;;AAblE;;AAAA;;AAAA;AAFV;;;AAAA;AAAA;;AAAA;AAAA;;;;;;AAAA;AAAA;AAAA;AAAA;;AAJA;;AAAA;AAAA;AAAA;;AAAA;AAAA;AAEG;AAHR;;;AAGQ;AAFH;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -493,8 +493,9 @@
         "next_range_item#0",
         "tmp%0#1"
       ],
-      "op": "dup",
+      "op": "dup2",
       "defined_out": [
+        "next_range_item#0",
         "tmp%0#1"
       ],
       "stack_out": [
@@ -503,10 +504,27 @@
         "proof#0",
         "next_range_item#0",
         "tmp%0#1",
+        "next_range_item#0",
         "tmp%0#1"
       ]
     },
     "81": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%0#0",
+        "next_range_item#0",
+        "tmp%0#1"
+      ],
+      "stack_out": [
+        "computed#1",
+        "maybe_value%0#0",
+        "proof#0",
+        "next_range_item#0",
+        "tmp%0#1",
+        "continue_looping%0#0"
+      ]
+    },
+    "82": {
       "op": "bz main_after_for@16",
       "stack_out": [
         "computed#1",
@@ -516,9 +534,10 @@
         "tmp%0#1"
       ]
     },
-    "84": {
+    "85": {
       "op": "dig 2",
       "defined_out": [
+        "next_range_item#0",
         "proof#0",
         "tmp%0#1"
       ],
@@ -531,10 +550,11 @@
         "proof#0"
       ]
     },
-    "86": {
+    "87": {
       "op": "extract 2 0",
       "defined_out": [
         "array_head_and_tail%0#0",
+        "next_range_item#0",
         "proof#0",
         "tmp%0#1"
       ],
@@ -547,14 +567,8 @@
         "array_head_and_tail%0#0"
       ]
     },
-    "89": {
+    "90": {
       "op": "dig 2",
-      "defined_out": [
-        "array_head_and_tail%0#0",
-        "next_range_item#0",
-        "proof#0",
-        "tmp%0#1"
-      ],
       "stack_out": [
         "computed#1",
         "maybe_value%0#0",
@@ -565,7 +579,7 @@
         "next_range_item#0"
       ]
     },
-    "91": {
+    "92": {
       "op": "intc_2 // 32",
       "defined_out": [
         "32",
@@ -585,7 +599,7 @@
         "32"
       ]
     },
-    "92": {
+    "93": {
       "op": "*",
       "defined_out": [
         "array_head_and_tail%0#0",
@@ -604,7 +618,7 @@
         "item_offset%0#0"
       ]
     },
-    "93": {
+    "94": {
       "op": "intc_2 // 32",
       "stack_out": [
         "computed#1",
@@ -617,7 +631,7 @@
         "32"
       ]
     },
-    "94": {
+    "95": {
       "error": "Index access is out of bounds",
       "op": "extract3 // on error: Index access is out of bounds",
       "defined_out": [
@@ -635,7 +649,7 @@
         "b#0"
       ]
     },
-    "95": {
+    "96": {
       "op": "dup",
       "defined_out": [
         "b#0",
@@ -653,7 +667,7 @@
         "b#0"
       ]
     },
-    "96": {
+    "97": {
       "op": "dig 6",
       "defined_out": [
         "b#0",
@@ -673,7 +687,7 @@
         "computed#1"
       ]
     },
-    "98": {
+    "99": {
       "op": "b>",
       "defined_out": [
         "b#0",
@@ -693,7 +707,7 @@
         "tmp%0#0"
       ]
     },
-    "99": {
+    "100": {
       "op": "bz main_ternary_false@14",
       "stack_out": [
         "computed#1",
@@ -704,7 +718,7 @@
         "b#0"
       ]
     },
-    "102": {
+    "103": {
       "op": "dig 5",
       "stack_out": [
         "computed#1",
@@ -716,7 +730,7 @@
         "computed#1"
       ]
     },
-    "104": {
+    "105": {
       "op": "swap",
       "stack_out": [
         "computed#1",
@@ -728,7 +742,7 @@
         "b#0"
       ]
     },
-    "105": {
+    "106": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -746,7 +760,7 @@
         "ternary_result%0#0"
       ]
     },
-    "106": {
+    "107": {
       "block": "main_ternary_merge@15",
       "stack_in": [
         "computed#1",
@@ -769,7 +783,7 @@
         "computed#1"
       ]
     },
-    "107": {
+    "108": {
       "op": "bury 5",
       "defined_out": [
         "computed#1"
@@ -782,8 +796,8 @@
         "tmp%0#1"
       ]
     },
-    "109": {
-      "op": "intc_1 // 1",
+    "110": {
+      "op": "dig 1",
       "defined_out": [
         "computed#1",
         "next_range_item#0"
@@ -797,7 +811,30 @@
         "next_range_item#0"
       ]
     },
-    "110": {
+    "112": {
+      "op": "intc_1 // 1",
+      "stack_out": [
+        "computed#1",
+        "maybe_value%0#0",
+        "proof#0",
+        "next_range_item#0",
+        "tmp%0#1",
+        "next_range_item#0",
+        "1"
+      ]
+    },
+    "113": {
+      "op": "+",
+      "stack_out": [
+        "computed#1",
+        "maybe_value%0#0",
+        "proof#0",
+        "next_range_item#0",
+        "tmp%0#1",
+        "next_range_item#0"
+      ]
+    },
+    "114": {
       "op": "bury 2",
       "defined_out": [
         "computed#1",
@@ -811,10 +848,10 @@
         "tmp%0#1"
       ]
     },
-    "112": {
+    "116": {
       "op": "b main_for_header@11"
     },
-    "115": {
+    "119": {
       "block": "main_ternary_false@14",
       "stack_in": [
         "computed#1",
@@ -839,7 +876,7 @@
         "computed#1"
       ]
     },
-    "117": {
+    "121": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -854,10 +891,10 @@
         "ternary_result%0#0"
       ]
     },
-    "118": {
+    "122": {
       "op": "b main_ternary_merge@15"
     },
-    "121": {
+    "125": {
       "block": "main_after_for@16",
       "stack_in": [
         "computed#1",
@@ -879,7 +916,7 @@
         "maybe_value%0#0"
       ]
     },
-    "123": {
+    "127": {
       "op": "dig 5",
       "defined_out": [
         "computed#1",
@@ -895,7 +932,7 @@
         "computed#1"
       ]
     },
-    "125": {
+    "129": {
       "op": "==",
       "defined_out": [
         "computed#1",
@@ -911,7 +948,7 @@
         "tmp%0#0"
       ]
     },
-    "126": {
+    "130": {
       "op": "pushbytes 0x00",
       "defined_out": [
         "0x00",
@@ -929,7 +966,7 @@
         "0x00"
       ]
     },
-    "129": {
+    "133": {
       "op": "intc_0 // 0",
       "defined_out": [
         "0",
@@ -949,7 +986,7 @@
         "0"
       ]
     },
-    "130": {
+    "134": {
       "op": "uncover 2",
       "stack_out": [
         "computed#1",
@@ -962,7 +999,7 @@
         "tmp%0#0"
       ]
     },
-    "132": {
+    "136": {
       "op": "setbit",
       "defined_out": [
         "computed#1",
@@ -978,7 +1015,7 @@
         "encoded_bool%0#0"
       ]
     },
-    "133": {
+    "137": {
       "op": "pushbytes 0x151f7c75",
       "defined_out": [
         "0x151f7c75",
@@ -996,7 +1033,7 @@
         "0x151f7c75"
       ]
     },
-    "139": {
+    "143": {
       "op": "swap",
       "stack_out": [
         "computed#1",
@@ -1008,7 +1045,7 @@
         "encoded_bool%0#0"
       ]
     },
-    "140": {
+    "144": {
       "op": "concat",
       "defined_out": [
         "computed#1",
@@ -1024,7 +1061,7 @@
         "tmp%12#0"
       ]
     },
-    "141": {
+    "145": {
       "op": "log",
       "stack_out": [
         "computed#1",
@@ -1034,7 +1071,7 @@
         "tmp%0#1"
       ]
     },
-    "142": {
+    "146": {
       "op": "intc_1 // 1",
       "defined_out": [
         "computed#1",
@@ -1050,7 +1087,7 @@
         "tmp%0#0"
       ]
     },
-    "143": {
+    "147": {
       "op": "return",
       "stack_out": [
         "computed#1",
@@ -1060,7 +1097,7 @@
         "tmp%0#1"
       ]
     },
-    "144": {
+    "148": {
       "block": "main_create_route@3",
       "stack_in": [
         "computed#1",
@@ -1082,7 +1119,7 @@
         "tmp%3#0"
       ]
     },
-    "146": {
+    "150": {
       "op": "!",
       "defined_out": [
         "tmp%4#0"
@@ -1096,7 +1133,7 @@
         "tmp%4#0"
       ]
     },
-    "147": {
+    "151": {
       "error": "OnCompletion is not NoOp",
       "op": "assert // OnCompletion is not NoOp",
       "stack_out": [
@@ -1107,7 +1144,7 @@
         "tmp%0#1"
       ]
     },
-    "148": {
+    "152": {
       "op": "txn ApplicationID",
       "defined_out": [
         "tmp%5#0"
@@ -1121,7 +1158,7 @@
         "tmp%5#0"
       ]
     },
-    "150": {
+    "154": {
       "op": "!",
       "defined_out": [
         "tmp%6#0"
@@ -1135,7 +1172,7 @@
         "tmp%6#0"
       ]
     },
-    "151": {
+    "155": {
       "error": "can only call when creating",
       "op": "assert // can only call when creating",
       "stack_out": [
@@ -1146,7 +1183,7 @@
         "tmp%0#1"
       ]
     },
-    "152": {
+    "156": {
       "op": "bytec_0 // \"root\"",
       "defined_out": [
         "\"root\""
@@ -1160,7 +1197,7 @@
         "\"root\""
       ]
     },
-    "153": {
+    "157": {
       "op": "txna ApplicationArgs 1",
       "defined_out": [
         "\"root\"",
@@ -1176,7 +1213,7 @@
         "root#0"
       ]
     },
-    "156": {
+    "160": {
       "op": "app_global_put",
       "stack_out": [
         "computed#1",
@@ -1186,7 +1223,7 @@
         "tmp%0#1"
       ]
     },
-    "157": {
+    "161": {
       "op": "intc_1 // 1",
       "defined_out": [
         "tmp%0#0"
@@ -1200,7 +1237,7 @@
         "tmp%0#0"
       ]
     },
-    "158": {
+    "162": {
       "op": "return",
       "stack_out": [
         "computed#1",

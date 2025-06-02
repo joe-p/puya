@@ -91,6 +91,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -103,6 +105,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added head_and_tail#0 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0) in block@0
 debug: Added head_and_tail#1 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) (head_and_tail#1) with head_and_tail#0
@@ -217,6 +221,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'array_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -231,6 +237,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
 debug: Added array_head_and_tail#1 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) (array_head_and_tail#1) with array_head_and_tail#0
@@ -253,6 +261,8 @@ debug: Replaced trivial Phi node: let new_items_count#1: uint64 = φ(new_items_c
 debug: Terminated block@4
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@5
 debug: Created Phi assignment: let head_offset#4: uint64 = undefined while trying to resolve 'head_offset' in block@5
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@5
+debug: Created Phi assignment: let next_range_item#4: uint64 = undefined while trying to resolve 'next_range_item' in block@5
 debug: Terminated block@5
 debug: Sealing block@6
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@5
@@ -267,6 +277,8 @@ debug: Terminated block@7
 debug: Sealing block@5
 debug: Added head_offset#3 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4) in block@4
 debug: Added head_offset#5 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4, head_offset#5 <- block@7) in block@7
+debug: Added next_range_item#3 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4) in block@4
+debug: Added next_range_item#5 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4, next_range_item#5 <- block@7) in block@7
 debug: Created Phi assignment: let new_head_and_tail#2: bytes = undefined while trying to resolve 'new_head_and_tail' in block@1
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
@@ -322,6 +334,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -336,6 +350,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
 debug: Added new_item_length#0 to Phi node: let new_item_length#1: uint64 = φ(new_item_length#0 <- block@0) in block@0
@@ -358,6 +374,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'tail_offset' in an unsealed block creating an incomplete Phi: block@1
@@ -370,6 +388,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#3 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#3 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added tail_offset#0 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0) in block@0
 debug: Added tail_offset#2 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0, tail_offset#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
@@ -429,6 +449,8 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Looking for 'i' in an unsealed block creating an incomplete Phi: block@4
 debug: Created Phi assignment: let i#1: uint64 = undefined while trying to resolve 'i' in block@4
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@4
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@4
 debug: Terminated block@4
 debug: Sealing block@5
 debug: Looking for 'b' in an unsealed block creating an incomplete Phi: block@4
@@ -441,6 +463,8 @@ debug: Terminated block@6
 debug: Sealing block@4
 debug: Added i#0 to Phi node: let i#1: uint64 = φ(i#0 <- block@3) in block@3
 debug: Added i#2 to Phi node: let i#1: uint64 = φ(i#0 <- block@3, i#2 <- block@6) in block@6
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@3) in block@3
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@3, next_range_item#2 <- block@6) in block@6
 debug: Added b#2 to Phi node: let b#4: uint64 = φ(b#2 <- block@3) in block@3
 debug: Added b#5 to Phi node: let b#4: uint64 = φ(b#2 <- block@3, b#5 <- block@6) in block@6
 debug: Added a#2 to Phi node: let a#4: uint64 = φ(a#2 <- block@3) in block@3
@@ -502,6 +526,8 @@ debug: Sealing block@3
 debug: Terminated block@3
 debug: Looking for 'i' in an unsealed block creating an incomplete Phi: block@4
 debug: Created Phi assignment: let i#1: uint64 = undefined while trying to resolve 'i' in block@4
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@4
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@4
 debug: Terminated block@4
 debug: Sealing block@5
 debug: Looking for 'b' in an unsealed block creating an incomplete Phi: block@4
@@ -514,6 +540,8 @@ debug: Terminated block@6
 debug: Sealing block@4
 debug: Added i#0 to Phi node: let i#1: uint64 = φ(i#0 <- block@3) in block@3
 debug: Added i#2 to Phi node: let i#1: uint64 = φ(i#0 <- block@3, i#2 <- block@6) in block@6
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@3) in block@3
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@3, next_range_item#2 <- block@6) in block@6
 debug: Added b#2 to Phi node: let b#4: uint64 = φ(b#2 <- block@3) in block@3
 debug: Added b#5 to Phi node: let b#4: uint64 = φ(b#2 <- block@3, b#5 <- block@6) in block@6
 debug: Added a#2 to Phi node: let a#4: uint64 = φ(a#2 <- block@3) in block@3
@@ -609,11 +637,13 @@ debug: selected tmp%1#1 from equivalence set
 debug: Copy propagation made 2 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable i#1
 debug: Optimizer: Intrinsic Simplifier
 debug: Simplified (+ 1u 2u) to 3u
 debug: Simplified (* 4u 5u) to 20u
 debug: Simplified (* 3u 20u) to 60u
 debug: Simplified (+ 60u 20u) to 80u
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
 debug: Simplified (+ 3u 2u) to 5u
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
@@ -681,6 +711,8 @@ ssa/contract.py:40:16 debug: inlining call to test_cases.ssa.contract.phi_in_equ
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Copy Propagation
+debug: Found equivalence set: next_range_item#1, i#2
+debug: selected next_range_item#1 from equivalence set
 debug: Found equivalence set: x#3, tmp%7#0
 debug: selected x#3 from equivalence set
 debug: Found equivalence set: x#7, tmp%9#0
@@ -690,6 +722,7 @@ debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
 debug: Removing unused variable a#0
 debug: Removing unused variable b#0
+debug: Removing unused variable i#0
 debug: Removing unused variable b#6
 debug: Removing unused variable tmp%4#0
 debug: Removing unused variable y#0
@@ -957,7 +990,7 @@ debug: Coalescing local variables in test_cases.ssa.contract.MyContract.approval
 debug: Coalescing a#1 with [a#11, a#2, a#3, a#14, a#4, a#5, a#6, a#17, a#7, a#8]
 debug: Coalescing b#1 with [b#14, b#2, b#3, b#17, b#4, b#5, b#7, b#8, b#20, b#9, b#10, b#11]
 debug: Coalescing tmp%0#0 with [tmp%0#1]
-debug: Coalescing i#0 with [i#5, i#1, i#2]
+debug: Coalescing next_range_item#0 with [next_range_item#5, next_range_item#1, next_range_item#2]
 debug: Coalescing c#0 with [c#10, c#1, c#5, c#16, c#2, c#13, c#3, c#6, c#4, c#7]
 debug: Coalescing resulted in 103 replacement/s
 debug: Sequentializing parallel copies in test_cases.ssa.contract.MyContract.approval_program
@@ -979,27 +1012,27 @@ debug: ready:
 debug: to_do: a#1, b#1
 debug: * to_do b#1
 debug: * to_do a#1
-debug: loc: {i#0=i#0, b#1=b#1, a#1=a#1}
-debug: pred: {i#0=i#0, b#1=b#1, a#1=a#1}
+debug: loc: {next_range_item#0=next_range_item#0, b#1=b#1, a#1=a#1}
+debug: pred: {next_range_item#0=next_range_item#0, b#1=b#1, a#1=a#1}
 debug: ready: 
-debug: to_do: i#0, b#1, a#1
+debug: to_do: next_range_item#0, b#1, a#1
 debug: * to_do a#1
 debug: * to_do b#1
-debug: * to_do i#0
-debug: loc: {i#0=i#0, b#1=b#1, a#1=a#1}
-debug: pred: {i#0=i#0, b#1=b#1, a#1=a#1}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, b#1=b#1, a#1=a#1}
+debug: pred: {next_range_item#0=next_range_item#0, b#1=b#1, a#1=a#1}
 debug: ready: 
-debug: to_do: i#0, b#1, a#1
+debug: to_do: next_range_item#0, b#1, a#1
 debug: * to_do a#1
 debug: * to_do b#1
-debug: * to_do i#0
-debug: loc: {i#0=i#0, b#1=b#1, a#1=a#1}
-debug: pred: {i#0=i#0, b#1=b#1, a#1=a#1}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, b#1=b#1, a#1=a#1}
+debug: pred: {next_range_item#0=next_range_item#0, b#1=b#1, a#1=a#1}
 debug: ready: 
-debug: to_do: i#0, b#1, a#1
+debug: to_do: next_range_item#0, b#1, a#1
 debug: * to_do a#1
 debug: * to_do b#1
-debug: * to_do i#0
+debug: * to_do next_range_item#0
 debug: loc: {b#1=b#1, a#1=a#1}
 debug: pred: {b#1=b#1, a#1=a#1}
 debug: ready: 
@@ -1040,8 +1073,8 @@ debug: Inserted main_for_header@4.ops[3]: 'l-store-copy continue_looping%0#0 0'
 debug: Replaced main_for_header@4.ops[5]: 'v-load continue_looping%0#0' with 'l-load continue_looping%0#0'
 debug: Inserted main_for_body@5.ops[2]: 'l-store-copy a#1 1'
 debug: Replaced main_for_body@5.ops[5]: 'v-load a#1' with 'l-load a#1'
-debug: Inserted main_for_body@5.ops[7]: 'l-store-copy i#0 1'
-debug: Replaced main_for_body@5.ops[10]: 'v-load i#0' with 'l-load i#0'
+debug: Inserted main_for_body@5.ops[7]: 'l-store-copy next_range_item#0 1'
+debug: Replaced main_for_body@5.ops[10]: 'v-load next_range_item#0' with 'l-load next_range_item#0'
 debug: Inserted main_after_for@7.ops[3]: 'l-store-copy tmp%1#0 0'
 debug: Replaced main_after_for@7.ops[5]: 'v-load tmp%1#0' with 'l-load tmp%1#0'
 debug: Inserted main_if_body@8.ops[3]: 'l-store-copy tmp%2#0 0'
@@ -1067,7 +1100,7 @@ debug: Replaced main_after_if_else@22.ops[12]: 'v-load tmp%1#1' with 'l-load tmp
 debug: Inserted main_after_if_else@22.ops[17]: 'l-store-copy c#0 0'
 debug: Replaced main_after_if_else@22.ops[23]: 'v-load c#0' with 'l-load c#0'
 debug: Found 10 edge set/s for test_cases.ssa.contract.MyContract.approval_program
-debug: test_cases.ssa.contract.MyContract.approval_program f-stack entry: ['c#0', 'i#0']
+debug: test_cases.ssa.contract.MyContract.approval_program f-stack entry: ['c#0', 'next_range_item#0']
 debug: test_cases.ssa.contract.MyContract.approval_program f-stack on first store: ['a#1', 'b#1']
 ssa/contract.py:7 debug: optimizing TEAL subroutine ops test_cases.ssa.contract.MyContract.approval_program() -> uint64:
 ssa/contract.py:7 debug: optimizing TEAL subroutine blocks test_cases.ssa.contract.MyContract.approval_program() -> uint64:

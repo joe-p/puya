@@ -1,3 +1,0 @@
-main test_cases.literals.folding.LiteralFolding.clear_state_program:
-    block@0: // L105
-        return 1u

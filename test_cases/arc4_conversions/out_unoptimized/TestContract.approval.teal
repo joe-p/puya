@@ -214,8 +214,11 @@ dynamic_array_concat_dynamic_element_for_header@1:
     bz dynamic_array_concat_dynamic_element_after_for@4
 
 dynamic_array_concat_dynamic_element_for_body@2:
-    frame_dig -3
     frame_dig 4
+    intc_0 // 0
+    +
+    frame_dig -3
+    swap
     extract_uint16
     frame_dig 2
     +
@@ -253,8 +256,11 @@ dynamic_array_concat_dynamic_element_for_header@5:
     bz dynamic_array_concat_dynamic_element_after_for@8
 
 dynamic_array_concat_dynamic_element_for_body@6:
-    frame_dig -1
     frame_dig 4
+    intc_0 // 0
+    +
+    frame_dig -1
+    swap
     extract_uint16
     frame_dig 2
     +

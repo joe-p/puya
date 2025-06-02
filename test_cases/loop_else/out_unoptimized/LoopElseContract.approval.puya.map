@@ -3,7 +3,7 @@
   "sources": [
     "../loop_else.py"
   ],
-  "mappings": ";;;;;;;;;;;;AAMwB;AAAhB;;;AAEU;AACM;;AAAV;;AAAA;AAAd;;;AACqB;AAArB;AAAqB;AAAO;;AAAP;AAArB;;;AAAqB;AACG;AAAL;AAAnB;;;AAGe;AAAA;;AAAiC;;;;;;;;;;;;;;AAAjC;AAAf;;;AACgB;AAAA;;AAC4B;;AAAA;;AAAP;AAArC;AAAqC;AAAjB;;AAAiB;;AAAA;;AAAA;AAArC;;;AACoB;;AAAU;;AACI;;AAAX;AAAvB;;;AASY;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AADJ;AAEI;AAAQ;;AAAe;AAAf;AAAR;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAFJ;AAGI;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAHJ;AAII;AAAQ;;AAAgB;AAAhB;AAAR;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAJJ;AAMO;AAAP;AAhB6B;;AAAA;AAAA;AAAA;;;;;AAKjB;AAER;AAAW;AAAX;AAAA;;;;;AAVI;AAYJ;AAaZ;;;;AAEW;;AAAS;AAAT;AAAP;AACS;AACS;AAAtB;AAAsB;AAAtB;;AAAA;AAAA;;;AAAsB;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAd;;AACG;;AAAK;AAAL;AAAX;;;AAIW;;AAAU;AAAV;AAAP;;AALkB;AAAA;;AAAA;AAAtB;;;AAAsB;;AAAA;AAAA;AAAA;;;;;AADT;AAKK;AAAV;AAAA;;",
+  "mappings": ";;;;;;;;;;;;AAMwB;AAAhB;;;AAEU;AACM;;AAAV;;AAAA;AAAd;;;AACqB;AAArB;AAAqB;AAAO;;AAAP;AAArB;;;AAAqB;AAAA;AAAA;AACG;AAAL;AAAnB;;;AAGe;AAAA;;AAAiC;;;;;;;;;;;;;;AAAjC;AAAf;;;AACgB;AAAA;;AAC4B;;AAAA;;AAAP;AAArC;AAAqC;AAAA;;AAAA;;AAAA;;AAAA;AAArC;;;AAAqC;;AAAA;AAAA;AAAA;AAAA;;AACP;;AACI;;AAAX;AAAvB;;;AASY;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AADJ;AAEI;AAAQ;;AAAe;AAAf;AAAR;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAFJ;AAGI;AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;AAHJ;AAII;AAAQ;;AAAgB;AAAhB;AAAR;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAJJ;AAMO;AAAP;AAhB6B;;AAAA;AAAA;AAAA;;;;;AAKjB;AAER;AAAW;AAAX;AAAA;;;;;AAVI;AAYJ;AAaZ;;;;AAEW;;AAAS;AAAT;AAAP;AACS;AACS;AAAtB;AAAsB;AAAtB;;AAAA;AAAA;;;AAAsB;;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAd;;AACG;;AAAK;AAAL;AAAX;;;AAIW;;AAAU;AAAV;AAAP;;AALkB;AAAA;;AAAA;AAAtB;;;AAAsB;;AAAA;AAAA;AAAA;;;;;AADT;AAKK;AAAV;AAAA;;",
   "op_pc_offset": 0,
   "pc_events": {
     "1": {
@@ -19,13 +19,14 @@
     "9": {
       "op": "bytec_0 // \"\"",
       "stack_out": [
-        "account_index#0"
+        "account_index#2"
       ]
     },
     "10": {
-      "op": "dupn 2",
+      "op": "dupn 3",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0"
       ]
@@ -33,7 +34,8 @@
     "12": {
       "block": "main_block@0",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0"
       ],
@@ -42,7 +44,8 @@
         "0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "0"
@@ -52,7 +55,8 @@
       "callsub": "test_cases.loop_else.loop_else.test_empty_loop",
       "op": "callsub test_empty_loop",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0"
       ]
@@ -63,7 +67,8 @@
         "arg_idx#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -72,7 +77,8 @@
     "17": {
       "block": "main_while_top@1",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -82,7 +88,8 @@
         "tmp%0#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -96,7 +103,8 @@
         "tmp%0#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -111,7 +119,8 @@
         "tmp%1#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -121,7 +130,8 @@
     "22": {
       "op": "bz main_after_while@17",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -130,7 +140,8 @@
     "25": {
       "block": "main_while_body@2",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -140,7 +151,8 @@
         "1"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -151,7 +163,8 @@
       "error": "Step cannot be zero",
       "op": "assert // Step cannot be zero",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -160,7 +173,8 @@
     "27": {
       "block": "main_for_header@3",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -170,7 +184,8 @@
         "0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -184,7 +199,8 @@
         "10"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -198,7 +214,8 @@
         "continue_looping%0#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -208,7 +225,8 @@
     "31": {
       "op": "bz main_after_for@7",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -217,7 +235,8 @@
     "34": {
       "block": "main_for_body@4",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -227,7 +246,8 @@
         "0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -237,7 +257,8 @@
     "35": {
       "op": "dup",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -246,31 +267,60 @@
       ]
     },
     "36": {
+      "op": "+",
+      "defined_out": [
+        "i#2"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "i#2"
+      ]
+    },
+    "37": {
+      "op": "intc_1 // 0",
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "i#2",
+        "0"
+      ]
+    },
+    "38": {
       "op": "==",
       "defined_out": [
         "tmp%2#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%2#0"
       ]
     },
-    "37": {
+    "39": {
       "op": "bz main_after_if_else@6",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "40": {
+    "42": {
       "block": "main_after_for@7",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -280,28 +330,30 @@
         "arg_idx#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "arg_idx#0"
       ]
     },
-    "41": {
+    "43": {
       "op": "txnas ApplicationArgs",
       "defined_out": [
         "arg_idx#0",
         "tmp%3#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%3#0"
       ]
     },
-    "43": {
+    "45": {
       "op": "pushbytes 0x7768696c655f736563726574",
       "defined_out": [
         "0x7768696c655f736563726574",
@@ -309,7 +361,8 @@
         "tmp%3#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -317,33 +370,36 @@
         "0x7768696c655f736563726574"
       ]
     },
-    "57": {
+    "59": {
       "op": "==",
       "defined_out": [
         "arg_idx#0",
         "tmp%4#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%4#0"
       ]
     },
-    "58": {
+    "60": {
       "op": "bz main_after_if_else@16",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "61": {
+    "63": {
       "block": "main_if_body@8",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -353,53 +409,57 @@
         "secret_index#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "secret_index#0"
       ]
     },
-    "62": {
+    "64": {
       "op": "bury 3",
       "defined_out": [
         "secret_index#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "64": {
+    "66": {
       "op": "txn NumAccounts",
       "defined_out": [
         "secret_index#0",
         "tmp%5#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%5#0"
       ]
     },
-    "66": {
+    "68": {
       "op": "bury 2",
       "defined_out": [
         "secret_index#0",
         "tmp%5#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "68": {
+    "70": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -407,154 +467,227 @@
         "tmp%5#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "1"
       ]
     },
-    "69": {
+    "71": {
       "error": "Step cannot be zero",
       "op": "assert // Step cannot be zero",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "70": {
+    "72": {
       "op": "intc_1 // 0",
       "defined_out": [
-        "account_index#0",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
-        "account_index#0"
+        "next_range_item#2"
       ]
     },
-    "71": {
+    "73": {
       "op": "bury 4",
       "defined_out": [
-        "account_index#0",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "73": {
+    "75": {
       "block": "main_for_header@9",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ],
       "op": "dig 3",
       "defined_out": [
-        "account_index#0"
+        "next_range_item#2"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
-        "account_index#0"
-      ]
-    },
-    "75": {
-      "op": "dig 2",
-      "defined_out": [
-        "account_index#0",
-        "tmp%5#0"
-      ],
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "account_index#0",
-        "tmp%5#0"
+        "next_range_item#2"
       ]
     },
     "77": {
-      "op": "<",
+      "op": "dig 2",
       "defined_out": [
-        "account_index#0",
-        "continue_looping%1#0",
+        "next_range_item#2",
         "tmp%5#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "next_range_item#2",
+        "tmp%5#0"
+      ]
+    },
+    "79": {
+      "op": "<",
+      "defined_out": [
+        "continue_looping%1#0",
+        "next_range_item#2",
+        "tmp%5#0"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "continue_looping%1#0"
       ]
     },
-    "78": {
+    "80": {
       "op": "bz main_after_for@14",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "81": {
+    "83": {
       "block": "main_for_body@10",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ],
       "op": "dig 3",
       "defined_out": [
-        "account_index#0"
+        "next_range_item#2"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
-        "account_index#0"
+        "next_range_item#2"
       ]
     },
-    "83": {
+    "85": {
+      "op": "intc_1 // 0",
+      "defined_out": [
+        "0",
+        "next_range_item#2"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "next_range_item#2",
+        "0"
+      ]
+    },
+    "86": {
+      "op": "+",
+      "defined_out": [
+        "account_index#2",
+        "next_range_item#2"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "account_index#2"
+      ]
+    },
+    "87": {
+      "op": "dup",
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "account_index#2",
+        "account_index#2"
+      ]
+    },
+    "88": {
+      "op": "bury 6",
+      "defined_out": [
+        "account_index#2",
+        "next_range_item#2"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "account_index#2"
+      ]
+    },
+    "90": {
       "op": "txnas Accounts",
       "defined_out": [
         "account#0",
-        "account_index#0"
+        "account_index#2",
+        "next_range_item#2"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "account#0"
       ]
     },
-    "85": {
+    "92": {
       "op": "global ZeroAddress",
       "defined_out": [
         "account#0",
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "tmp%6#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -562,33 +695,37 @@
         "tmp%6#0"
       ]
     },
-    "87": {
+    "94": {
       "op": "==",
       "defined_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "tmp%7#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%7#0"
       ]
     },
-    "88": {
+    "95": {
       "op": "bz main_after_if_else@12",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "91": {
+    "98": {
       "block": "main_block@18",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -598,21 +735,23 @@
         "\"found secret argument at idx=\""
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "\"found secret argument at idx=\""
       ]
     },
-    "122": {
+    "129": {
       "op": "bytec_0 // \"\"",
       "defined_out": [
         "\"\"",
         "\"found secret argument at idx=\""
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -620,27 +759,29 @@
         "\"\""
       ]
     },
-    "123": {
+    "130": {
       "op": "concat",
       "defined_out": [
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%8#0"
       ]
     },
-    "124": {
+    "131": {
       "op": "dig 3",
       "defined_out": [
         "secret_index#0",
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -648,7 +789,7 @@
         "secret_index#0"
       ]
     },
-    "126": {
+    "133": {
       "op": "intc_2 // 48",
       "defined_out": [
         "48",
@@ -656,7 +797,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -665,7 +807,7 @@
         "48"
       ]
     },
-    "127": {
+    "134": {
       "op": "+",
       "defined_out": [
         "secret_index#0",
@@ -673,7 +815,8 @@
         "tmp%9#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -681,7 +824,7 @@
         "tmp%9#0"
       ]
     },
-    "128": {
+    "135": {
       "op": "itob",
       "defined_out": [
         "secret_index#0",
@@ -689,7 +832,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -697,7 +841,7 @@
         "tmp%10#0"
       ]
     },
-    "129": {
+    "136": {
       "op": "dup",
       "defined_out": [
         "secret_index#0",
@@ -706,7 +850,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -715,7 +860,7 @@
         "tmp%10#0 (copy)"
       ]
     },
-    "130": {
+    "137": {
       "op": "len",
       "defined_out": [
         "secret_index#0",
@@ -724,7 +869,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -733,7 +879,7 @@
         "tmp%11#0"
       ]
     },
-    "131": {
+    "138": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -743,7 +889,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -753,7 +900,7 @@
         "1"
       ]
     },
-    "132": {
+    "139": {
       "op": "-",
       "defined_out": [
         "secret_index#0",
@@ -762,7 +909,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -771,10 +919,11 @@
         "tmp%12#0"
       ]
     },
-    "133": {
+    "140": {
       "op": "intc_0 // 1",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -784,7 +933,7 @@
         "1"
       ]
     },
-    "134": {
+    "141": {
       "op": "extract3",
       "defined_out": [
         "secret_index#0",
@@ -792,7 +941,8 @@
         "tmp%8#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -800,24 +950,26 @@
         "tmp%13#0"
       ]
     },
-    "135": {
+    "142": {
       "op": "concat",
       "defined_out": [
         "secret_index#0",
         "tmp%14#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%14#0"
       ]
     },
-    "136": {
+    "143": {
       "op": "bytec_0 // \"\"",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -825,21 +977,22 @@
         "\"\""
       ]
     },
-    "137": {
+    "144": {
       "op": "concat",
       "defined_out": [
         "secret_index#0",
         "tmp%15#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%15#0"
       ]
     },
-    "138": {
+    "145": {
       "op": "pushbytes \" and secret account at idx=\"",
       "defined_out": [
         "\" and secret account at idx=\"",
@@ -847,7 +1000,8 @@
         "tmp%15#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -855,24 +1009,26 @@
         "\" and secret account at idx=\""
       ]
     },
-    "167": {
+    "174": {
       "op": "concat",
       "defined_out": [
         "secret_index#0",
         "tmp%16#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%16#0"
       ]
     },
-    "168": {
+    "175": {
       "op": "bytec_0 // \"\"",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -880,124 +1036,132 @@
         "\"\""
       ]
     },
-    "169": {
+    "176": {
       "op": "concat",
       "defined_out": [
         "secret_index#0",
         "tmp%17#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%17#0"
-      ]
-    },
-    "170": {
-      "op": "dig 4",
-      "defined_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%17#0"
-      ],
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "tmp%17#0",
-        "account_index#0"
-      ]
-    },
-    "172": {
-      "op": "intc_2 // 48",
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "tmp%17#0",
-        "account_index#0",
-        "48"
-      ]
-    },
-    "173": {
-      "op": "+",
-      "defined_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%17#0",
-        "tmp%18#0"
-      ],
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "tmp%17#0",
-        "tmp%18#0"
-      ]
-    },
-    "174": {
-      "op": "itob",
-      "defined_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%17#0",
-        "tmp%19#0"
-      ],
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "tmp%17#0",
-        "tmp%19#0"
-      ]
-    },
-    "175": {
-      "op": "dup",
-      "defined_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%17#0",
-        "tmp%19#0",
-        "tmp%19#0 (copy)"
-      ],
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "tmp%17#0",
-        "tmp%19#0",
-        "tmp%19#0 (copy)"
-      ]
-    },
-    "176": {
-      "op": "len",
-      "defined_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%17#0",
-        "tmp%19#0",
-        "tmp%20#0"
-      ],
-      "stack_out": [
-        "account_index#0",
-        "secret_index#0",
-        "tmp%5#0",
-        "arg_idx#0",
-        "tmp%17#0",
-        "tmp%19#0",
-        "tmp%20#0"
       ]
     },
     "177": {
+      "op": "dig 5",
+      "defined_out": [
+        "account_index#2",
+        "secret_index#0",
+        "tmp%17#0"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "tmp%17#0",
+        "account_index#2"
+      ]
+    },
+    "179": {
+      "op": "intc_2 // 48",
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "tmp%17#0",
+        "account_index#2",
+        "48"
+      ]
+    },
+    "180": {
+      "op": "+",
+      "defined_out": [
+        "account_index#2",
+        "secret_index#0",
+        "tmp%17#0",
+        "tmp%18#0"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "tmp%17#0",
+        "tmp%18#0"
+      ]
+    },
+    "181": {
+      "op": "itob",
+      "defined_out": [
+        "account_index#2",
+        "secret_index#0",
+        "tmp%17#0",
+        "tmp%19#0"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "tmp%17#0",
+        "tmp%19#0"
+      ]
+    },
+    "182": {
+      "op": "dup",
+      "defined_out": [
+        "account_index#2",
+        "secret_index#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%19#0 (copy)"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%19#0 (copy)"
+      ]
+    },
+    "183": {
+      "op": "len",
+      "defined_out": [
+        "account_index#2",
+        "secret_index#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0"
+      ],
+      "stack_out": [
+        "account_index#2",
+        "next_range_item#2",
+        "secret_index#0",
+        "tmp%5#0",
+        "arg_idx#0",
+        "tmp%17#0",
+        "tmp%19#0",
+        "tmp%20#0"
+      ]
+    },
+    "184": {
       "op": "intc_0 // 1",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -1007,17 +1171,18 @@
         "1"
       ]
     },
-    "178": {
+    "185": {
       "op": "-",
       "defined_out": [
-        "account_index#0",
+        "account_index#2",
         "secret_index#0",
         "tmp%17#0",
         "tmp%19#0",
         "tmp%21#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -1026,10 +1191,11 @@
         "tmp%21#0"
       ]
     },
-    "179": {
+    "186": {
       "op": "intc_0 // 1",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -1039,16 +1205,17 @@
         "1"
       ]
     },
-    "180": {
+    "187": {
       "op": "extract3",
       "defined_out": [
-        "account_index#0",
+        "account_index#2",
         "secret_index#0",
         "tmp%17#0",
         "tmp%22#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -1056,113 +1223,123 @@
         "tmp%22#0"
       ]
     },
-    "181": {
+    "188": {
       "op": "concat",
       "defined_out": [
-        "account_index#0",
+        "account_index#2",
         "secret_index#0",
         "tmp%23#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "tmp%23#0"
       ]
     },
-    "182": {
+    "189": {
       "op": "log",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "183": {
+    "190": {
       "op": "intc_0 // 1",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "1"
       ]
     },
-    "184": {
+    "191": {
       "op": "return",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "185": {
+    "192": {
       "block": "main_for_footer@13",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ],
       "op": "dig 3",
       "defined_out": [
-        "account_index#0"
+        "next_range_item#2"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
-        "account_index#0"
+        "next_range_item#2"
       ]
     },
-    "187": {
+    "194": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
-        "account_index#0"
+        "next_range_item#2"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
-        "account_index#0",
+        "next_range_item#2",
         "1"
       ]
     },
-    "188": {
+    "195": {
       "op": "+",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
-        "account_index#0"
+        "next_range_item#2"
       ]
     },
-    "189": {
+    "196": {
       "op": "bury 4",
       "defined_out": [
-        "account_index#0"
+        "next_range_item#2"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "191": {
+    "198": {
       "op": "b main_for_header@9"
     },
-    "194": {
+    "201": {
       "block": "main_after_for@14",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -1170,10 +1347,11 @@
       "error": "access denied, missing secret account",
       "op": "err // access denied, missing secret account"
     },
-    "195": {
+    "202": {
       "block": "main_after_if_else@16",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -1183,21 +1361,23 @@
         "arg_idx#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "arg_idx#0"
       ]
     },
-    "196": {
+    "203": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
         "arg_idx#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
@@ -1205,35 +1385,38 @@
         "1"
       ]
     },
-    "197": {
+    "204": {
       "op": "+",
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0",
         "arg_idx#0"
       ]
     },
-    "198": {
+    "205": {
       "op": "bury 1",
       "defined_out": [
         "arg_idx#0"
       ],
       "stack_out": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
       ]
     },
-    "200": {
+    "207": {
       "op": "b main_while_top@1"
     },
-    "203": {
+    "210": {
       "block": "main_after_if_else@6",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -1241,10 +1424,11 @@
       "error": "unreachable",
       "op": "err // unreachable"
     },
-    "204": {
+    "211": {
       "block": "main_after_while@17",
       "stack_in": [
-        "account_index#0",
+        "account_index#2",
+        "next_range_item#2",
         "secret_index#0",
         "tmp%5#0",
         "arg_idx#0"
@@ -1252,7 +1436,7 @@
       "error": "access denied, missing secret argument",
       "op": "err // access denied, missing secret argument"
     },
-    "205": {
+    "212": {
       "subroutine": "test_cases.loop_else.loop_else.test_empty_loop",
       "params": {
         "count#0": "uint64"
@@ -1261,13 +1445,13 @@
       "stack_in": [],
       "op": "proto 1 0"
     },
-    "208": {
+    "215": {
       "op": "bytec_0 // \"\"",
       "stack_out": [
         "i#0"
       ]
     },
-    "209": {
+    "216": {
       "block": "test_empty_loop_block@0",
       "stack_in": [
         "i#0"
@@ -1281,7 +1465,7 @@
         "count#0 (copy)"
       ]
     },
-    "211": {
+    "218": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -1293,7 +1477,7 @@
         "0"
       ]
     },
-    "212": {
+    "219": {
       "op": "==",
       "defined_out": [
         "tmp%0#0"
@@ -1303,13 +1487,13 @@
         "tmp%0#0"
       ]
     },
-    "213": {
+    "220": {
       "op": "assert",
       "stack_out": [
         "i#0"
       ]
     },
-    "214": {
+    "221": {
       "op": "intc_1 // 0",
       "defined_out": [
         "result#0"
@@ -1319,7 +1503,7 @@
         "result#0"
       ]
     },
-    "215": {
+    "222": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1331,7 +1515,7 @@
         "1"
       ]
     },
-    "216": {
+    "223": {
       "error": "Step cannot be zero",
       "op": "assert // Step cannot be zero",
       "stack_out": [
@@ -1339,7 +1523,7 @@
         "result#0"
       ]
     },
-    "217": {
+    "224": {
       "op": "intc_1 // 0",
       "stack_out": [
         "i#0",
@@ -1347,7 +1531,7 @@
         "0"
       ]
     },
-    "218": {
+    "225": {
       "op": "frame_dig -1",
       "stack_out": [
         "i#0",
@@ -1356,7 +1540,7 @@
         "count#0 (copy)"
       ]
     },
-    "220": {
+    "227": {
       "op": "<",
       "defined_out": [
         "result#0",
@@ -1368,14 +1552,14 @@
         "should_loop%0#0"
       ]
     },
-    "221": {
+    "228": {
       "op": "bz test_empty_loop_after_for@7",
       "stack_out": [
         "i#0",
         "result#0"
       ]
     },
-    "224": {
+    "231": {
       "block": "test_empty_loop_for_header@1",
       "stack_in": [
         "i#0",
@@ -1391,7 +1575,7 @@
         "count#0 (copy)"
       ]
     },
-    "226": {
+    "233": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -1404,7 +1588,7 @@
         "0"
       ]
     },
-    "227": {
+    "234": {
       "op": "-",
       "defined_out": [
         "range_length%0#0"
@@ -1415,7 +1599,7 @@
         "range_length%0#0"
       ]
     },
-    "228": {
+    "235": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1428,7 +1612,7 @@
         "1"
       ]
     },
-    "229": {
+    "236": {
       "op": "-",
       "defined_out": [
         "range_length_minus_one%0#0"
@@ -1439,7 +1623,7 @@
         "range_length_minus_one%0#0"
       ]
     },
-    "230": {
+    "237": {
       "op": "intc_0 // 1",
       "stack_out": [
         "i#0",
@@ -1448,7 +1632,7 @@
         "1"
       ]
     },
-    "231": {
+    "238": {
       "op": "/",
       "defined_out": [
         "iteration_count_minus_one%0#0"
@@ -1459,7 +1643,7 @@
         "iteration_count_minus_one%0#0"
       ]
     },
-    "232": {
+    "239": {
       "op": "intc_0 // 1",
       "stack_out": [
         "i#0",
@@ -1468,7 +1652,7 @@
         "1"
       ]
     },
-    "233": {
+    "240": {
       "op": "*",
       "defined_out": [
         "range_delta%0#0"
@@ -1479,7 +1663,7 @@
         "range_delta%0#0"
       ]
     },
-    "234": {
+    "241": {
       "op": "intc_1 // 0",
       "stack_out": [
         "i#0",
@@ -1488,7 +1672,7 @@
         "0"
       ]
     },
-    "235": {
+    "242": {
       "op": "+",
       "defined_out": [
         "i#0"
@@ -1499,7 +1683,7 @@
         "i#0"
       ]
     },
-    "236": {
+    "243": {
       "op": "frame_bury 0",
       "defined_out": [
         "i#0"
@@ -1509,7 +1693,7 @@
         "result#0"
       ]
     },
-    "238": {
+    "245": {
       "block": "test_empty_loop_for_body@2",
       "stack_in": [
         "i#0",
@@ -1525,7 +1709,7 @@
         "i#0"
       ]
     },
-    "240": {
+    "247": {
       "op": "intc_1 // 0",
       "defined_out": [
         "0",
@@ -1538,7 +1722,7 @@
         "0"
       ]
     },
-    "241": {
+    "248": {
       "op": "==",
       "defined_out": [
         "i#0",
@@ -1550,14 +1734,14 @@
         "tmp%1#0"
       ]
     },
-    "242": {
+    "249": {
       "op": "bz test_empty_loop_after_if_else@4",
       "stack_out": [
         "i#0",
         "result#0"
       ]
     },
-    "245": {
+    "252": {
       "block": "test_empty_loop_block@8",
       "stack_in": [
         "i#0",
@@ -1573,7 +1757,7 @@
         "result#0"
       ]
     },
-    "247": {
+    "254": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1586,7 +1770,7 @@
         "1"
       ]
     },
-    "248": {
+    "255": {
       "op": "==",
       "defined_out": [
         "result#0",
@@ -1598,18 +1782,18 @@
         "tmp%2#0"
       ]
     },
-    "249": {
+    "256": {
       "op": "assert",
       "stack_out": [
         "i#0",
         "result#0"
       ]
     },
-    "250": {
+    "257": {
       "retsub": true,
       "op": "retsub"
     },
-    "251": {
+    "258": {
       "block": "test_empty_loop_for_footer@5",
       "stack_in": [
         "i#0",
@@ -1625,7 +1809,7 @@
         "0"
       ]
     },
-    "252": {
+    "259": {
       "op": "frame_dig 0",
       "defined_out": [
         "0",
@@ -1638,7 +1822,7 @@
         "i#0"
       ]
     },
-    "254": {
+    "261": {
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
@@ -1650,14 +1834,14 @@
         "continue_looping%0#0"
       ]
     },
-    "255": {
+    "262": {
       "op": "bz test_empty_loop_after_for@7",
       "stack_out": [
         "i#0",
         "result#0"
       ]
     },
-    "258": {
+    "265": {
       "block": "test_empty_loop_for_increment@6",
       "stack_in": [
         "i#0",
@@ -1673,7 +1857,7 @@
         "i#0"
       ]
     },
-    "260": {
+    "267": {
       "op": "intc_0 // 1",
       "defined_out": [
         "1",
@@ -1686,7 +1870,7 @@
         "1"
       ]
     },
-    "261": {
+    "268": {
       "op": "-",
       "stack_out": [
         "i#0",
@@ -1694,7 +1878,7 @@
         "i#0"
       ]
     },
-    "262": {
+    "269": {
       "op": "frame_bury 0",
       "defined_out": [
         "i#0"
@@ -1704,10 +1888,10 @@
         "result#0"
       ]
     },
-    "264": {
+    "271": {
       "op": "b test_empty_loop_for_body@2"
     },
-    "267": {
+    "274": {
       "block": "test_empty_loop_after_for@7",
       "stack_in": [
         "i#0",
@@ -1723,7 +1907,7 @@
         "0"
       ]
     },
-    "268": {
+    "275": {
       "op": "intc_0 // 1",
       "defined_out": [
         "0",
@@ -1736,7 +1920,7 @@
         "1"
       ]
     },
-    "269": {
+    "276": {
       "op": "+",
       "defined_out": [
         "result#0"
@@ -1747,7 +1931,7 @@
         "result#0"
       ]
     },
-    "270": {
+    "277": {
       "op": "frame_bury 1",
       "defined_out": [
         "result#0"
@@ -1757,7 +1941,7 @@
         "result#0"
       ]
     },
-    "272": {
+    "279": {
       "op": "b test_empty_loop_block@8"
     }
   }

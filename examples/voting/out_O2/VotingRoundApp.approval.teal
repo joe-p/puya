@@ -97,17 +97,17 @@ main_vote_route@21:
     intc_0 // 0
     bury 10
     intc_0 // 0
-    bury 5
+    bury 6
 
 main_for_header@22:
-    dig 4
+    dig 5
     dig 4
     <
     bz main_after_for@24
     dig 17
     dup
     extract 2 0
-    dig 6
+    dig 7
     dup
     cover 2
     getbyte
@@ -156,7 +156,7 @@ main_for_header@22:
     app_global_put
     intc_1 // 1
     +
-    bury 5
+    bury 6
     b main_for_header@22
 
 main_after_for@24:

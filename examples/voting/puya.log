@@ -91,6 +91,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -103,6 +105,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added head_and_tail#0 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0) in block@0
 debug: Added head_and_tail#1 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) (head_and_tail#1) with head_and_tail#0
@@ -217,6 +221,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'array_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -231,6 +237,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
 debug: Added array_head_and_tail#1 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) (array_head_and_tail#1) with array_head_and_tail#0
@@ -253,6 +261,8 @@ debug: Replaced trivial Phi node: let new_items_count#1: uint64 = φ(new_items_c
 debug: Terminated block@4
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@5
 debug: Created Phi assignment: let head_offset#4: uint64 = undefined while trying to resolve 'head_offset' in block@5
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@5
+debug: Created Phi assignment: let next_range_item#4: uint64 = undefined while trying to resolve 'next_range_item' in block@5
 debug: Terminated block@5
 debug: Sealing block@6
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@5
@@ -267,6 +277,8 @@ debug: Terminated block@7
 debug: Sealing block@5
 debug: Added head_offset#3 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4) in block@4
 debug: Added head_offset#5 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4, head_offset#5 <- block@7) in block@7
+debug: Added next_range_item#3 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4) in block@4
+debug: Added next_range_item#5 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4, next_range_item#5 <- block@7) in block@7
 debug: Created Phi assignment: let new_head_and_tail#2: bytes = undefined while trying to resolve 'new_head_and_tail' in block@1
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
@@ -322,6 +334,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -336,6 +350,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
 debug: Added new_item_length#0 to Phi node: let new_item_length#1: uint64 = φ(new_item_length#0 <- block@0) in block@0
@@ -358,6 +374,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'tail_offset' in an unsealed block creating an incomplete Phi: block@1
@@ -370,6 +388,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#3 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#3 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added tail_offset#0 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0) in block@0
 debug: Added tail_offset#2 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0, tail_offset#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
@@ -442,6 +462,8 @@ debug: Added note#2 to Phi node: let note#3: bytes = φ(note#1 <- block@2, note#
 debug: Terminated block@5
 debug: Looking for 'option_index' in an unsealed block creating an incomplete Phi: block@6
 debug: Created Phi assignment: let option_index#1: uint64 = undefined while trying to resolve 'option_index' in block@6
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@6
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@6
 debug: Terminated block@6
 debug: Sealing block@7
 debug: Terminated block@7
@@ -466,7 +488,15 @@ debug: Sealing block@10
 debug: Terminated block@10
 debug: Sealing block@6
 debug: Added option_index#0 to Phi node: let option_index#1: uint64 = φ(option_index#0 <- block@5) in block@5
+debug: Created Phi assignment: let option_index#3: uint64 = undefined while trying to resolve 'option_index' in block@9
+debug: Added option_index#2 to Phi node: let option_index#3: uint64 = φ(option_index#2 <- block@7) in block@7
+debug: Added option_index#2 to Phi node: let option_index#3: uint64 = φ(option_index#2 <- block@7, option_index#2 <- block@8) in block@8
+debug: Replacing trivial Phi node: let option_index#3: uint64 = φ(option_index#2 <- block@7, option_index#2 <- block@8) (option_index#3) with option_index#2
+debug: Deleting Phi assignment: let option_index#3: uint64 = φ(option_index#2 <- block@7, option_index#2 <- block@8)
+debug: Replaced trivial Phi node: let option_index#3: uint64 = φ(option_index#2 <- block@7, option_index#2 <- block@8) (option_index#3) with option_index#2 in current definition for 1 blocks
 debug: Added option_index#2 to Phi node: let option_index#1: uint64 = φ(option_index#0 <- block@5, option_index#2 <- block@10) in block@10
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@5) in block@5
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@5, next_range_item#2 <- block@10) in block@10
 debug: Added note#4 to Phi node: let note#5: bytes = φ(note#4 <- block@5) in block@5
 debug: Added note#8 to Phi node: let note#5: bytes = φ(note#4 <- block@5, note#8 <- block@10) in block@10
 debug: Created Phi assignment: let current_index#4: uint64 = undefined while trying to resolve 'current_index' in block@4
@@ -510,6 +540,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'question_index' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let question_index#1: uint64 = undefined while trying to resolve 'question_index' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'answer_ids' in an unsealed block creating an incomplete Phi: block@1
@@ -523,6 +555,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added question_index#0 to Phi node: let question_index#1: uint64 = φ(question_index#0 <- block@0) in block@0
 debug: Added question_index#2 to Phi node: let question_index#1: uint64 = φ(question_index#0 <- block@0, question_index#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added answer_ids#0 to Phi node: let answer_ids#1: bytes = φ(answer_ids#0 <- block@0) in block@0
 debug: Added answer_ids#1 to Phi node: let answer_ids#1: bytes = φ(answer_ids#0 <- block@0, answer_ids#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let answer_ids#1: bytes = φ(answer_ids#0 <- block@0, answer_ids#1 <- block@3) (answer_ids#1) with answer_ids#0
@@ -840,6 +874,7 @@ debug: selected note#11 from equivalence set
 debug: Copy propagation made 7 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable option_index#1
 debug: Removing unused variable reinterpret_biguint%1#0
 debug: Removing unused variable inner_txn_params%0#0
 debug: Removing unused variable inner_txn_params%0%%Fee_length#0
@@ -901,6 +936,7 @@ debug: Removing unused variable inner_txn_params%0%%ClearStateProgramPages_lengt
 debug: Optimizer: Intrinsic Simplifier
 debug: Simplified (* question_index#0 1u) to question_index#0
 debug: Simplified (btoi question_options#0) to (getbyte array_head_and_tail%0#0 question_index#0)
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizer: Simplify Control Ops
@@ -947,12 +983,14 @@ debug: selected answer_ids#0 from equivalence set
 debug: Copy propagation made 2 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable question_index#1
 debug: Optimizer: Intrinsic Simplifier
 debug: Simplified (* 1u tmp%6#0) to tmp%6#0
-debug: Simplified (* question_index#1 1u) to question_index#1
-debug: Simplified (btoi tmp%16#0) to (getbyte array_head_and_tail%0#0 question_index#1)
-debug: Simplified (* question_index#1 1u) to question_index#1
-debug: Simplified (btoi tmp%17#0) to (getbyte array_head_and_tail%1#0 question_index#1)
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
+debug: Simplified (* next_range_item#1 1u) to next_range_item#1
+debug: Simplified (btoi tmp%16#0) to (getbyte array_head_and_tail%0#0 next_range_item#1)
+debug: Simplified (* next_range_item#1 1u) to next_range_item#1
+debug: Simplified (btoi tmp%17#0) to (getbyte array_head_and_tail%1#0 next_range_item#1)
 debug: Simplified (concat "" materialized_values%0#0) to materialized_values%0#0
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
@@ -970,8 +1008,8 @@ debug: Optimizer: Repeated Expression Elimination
 debug: Replacing redundant declaration let tmp%6#0: uint64 = (extract_uint16 answer_ids#0 0u) with copy of existing registers (Register(source_location=voting/voting.py:182:15-32, ir_type=uint64, name='tmp%4', version=0),)
 debug: Found equivalence set: tmp%4#0, tmp%6#0, tmp%7#0
 debug: selected tmp%4#0 from equivalence set
-debug: Found equivalence set: question_index#1, item_offset%0#0, item_offset%1#0
-debug: selected question_index#1 from equivalence set
+debug: Found equivalence set: next_range_item#1, question_index#2, item_offset%0#0, item_offset%1#0
+debug: selected next_range_item#1 from equivalence set
 debug: Found equivalence set: materialized_values%0#0, box_prefixed_key%0#0
 debug: selected materialized_values%0#0 from equivalence set
 debug: Copy propagation made 1 modifications
@@ -1246,10 +1284,13 @@ debug: Found equivalence set: maybe_exists%1#0, maybe_exists%3#0
 debug: selected maybe_exists%1#0 from equivalence set
 debug: Found equivalence set: question_index#0, item_offset%0#0
 debug: selected question_index#0 from equivalence set
+debug: Found equivalence set: next_range_item#1, option_index#2
+debug: selected next_range_item#1 from equivalence set
 debug: Copy propagation made 2 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
 debug: Removing unused variable tmp%12#0
+debug: Removing unused variable option_index#0
 debug: Removing unused variable tmp%15#0
 debug: Optimizer: Intrinsic Simplifier
 debug: Optimizer: Inner Txn Field Replacer
@@ -1286,6 +1327,7 @@ debug: Optimizer: Constant Replacer
 debug: Optimizer: Copy Propagation
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable question_index#0
 debug: Removing unused variable tmp%16#0
 debug: Removing unused variable tmp%17#0
 debug: Optimizer: Intrinsic Simplifier
@@ -2049,7 +2091,7 @@ debug: Coalescing note#17 with [note#26, note#23]
 debug: Coalescing current_index#0 with [current_index#9, current_index#5, current_index#12, current_index#2, current_index#3, current_index#6]
 debug: Coalescing item_index_internal%0#0 with [item_index_internal%0#2]
 debug: Coalescing question_index#0 with [question_index#1]
-debug: Coalescing option_index#0 with [option_index#5, option_index#1, option_index#2]
+debug: Coalescing next_range_item#0 with [next_range_item#5, next_range_item#1, next_range_item#2]
 debug: Coalescing resulted in 70 replacement/s
 debug: Sequentializing parallel copies in examples.voting.voting.VotingRoundApp.close
 debug: loc: {question_index#0=None, note#0=note#0, current_index#0=current_index#0, item_index_internal%0#0=item_index_internal%0#0}
@@ -2078,27 +2120,27 @@ debug: * avail note#17
 debug: * avail note#0
 debug: * to_do current_index#15
 debug: * to_do note#17
-debug: loc: {option_index#0=option_index#0, note#0=note#0, current_index#0=current_index#0}
-debug: pred: {option_index#0=option_index#0, note#0=note#0, current_index#0=current_index#0}
+debug: loc: {next_range_item#0=next_range_item#0, note#0=note#0, current_index#0=current_index#0}
+debug: pred: {next_range_item#0=next_range_item#0, note#0=note#0, current_index#0=current_index#0}
 debug: ready: 
-debug: to_do: option_index#0, note#0, current_index#0
+debug: to_do: next_range_item#0, note#0, current_index#0
 debug: * to_do current_index#0
 debug: * to_do note#0
-debug: * to_do option_index#0
-debug: loc: {option_index#0=option_index#0, note#0=note#0, current_index#0=current_index#0}
-debug: pred: {option_index#0=option_index#0, note#0=note#0, current_index#0=current_index#0}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, note#0=note#0, current_index#0=current_index#0}
+debug: pred: {next_range_item#0=next_range_item#0, note#0=note#0, current_index#0=current_index#0}
 debug: ready: 
-debug: to_do: option_index#0, note#0, current_index#0
+debug: to_do: next_range_item#0, note#0, current_index#0
 debug: * to_do current_index#0
 debug: * to_do note#0
-debug: * to_do option_index#0
-debug: loc: {option_index#0=option_index#0, note#0=note#0, current_index#0=current_index#0}
-debug: pred: {option_index#0=option_index#0, note#0=note#0, current_index#0=current_index#0}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, note#0=note#0, current_index#0=current_index#0}
+debug: pred: {next_range_item#0=next_range_item#0, note#0=note#0, current_index#0=current_index#0}
 debug: ready: 
-debug: to_do: option_index#0, note#0, current_index#0
+debug: to_do: next_range_item#0, note#0, current_index#0
 debug: * to_do current_index#0
 debug: * to_do note#0
-debug: * to_do option_index#0
+debug: * to_do next_range_item#0
 debug: loc: {note#17=None, current_index#15=None, note#0=note#0, current_index#0=current_index#0}
 debug: pred: {note#17=note#0, current_index#15=current_index#0}
 debug: ready: note#17, current_index#15
@@ -2143,27 +2185,27 @@ debug: Coalescing local variables in examples.voting.voting.VotingRoundApp.vote 
 debug: Coalescing materialized_values%0#0 with [materialized_values%0#1]
 debug: Coalescing maybe_exists%0#0 with [maybe_exists%0#1]
 debug: Coalescing cumulative_offset#0 with [cumulative_offset#5, cumulative_offset#1, cumulative_offset#2]
-debug: Coalescing question_index#0 with [question_index#5, question_index#1, question_index#2]
+debug: Coalescing next_range_item#0 with [next_range_item#5, next_range_item#1, next_range_item#2]
 debug: Coalescing resulted in 22 replacement/s
 debug: Sequentializing parallel copies in examples.voting.voting.VotingRoundApp.vote
-debug: loc: {question_index#0=question_index#0, cumulative_offset#0=cumulative_offset#0}
-debug: pred: {question_index#0=question_index#0, cumulative_offset#0=cumulative_offset#0}
+debug: loc: {next_range_item#0=next_range_item#0, cumulative_offset#0=cumulative_offset#0}
+debug: pred: {next_range_item#0=next_range_item#0, cumulative_offset#0=cumulative_offset#0}
 debug: ready: 
-debug: to_do: question_index#0, cumulative_offset#0
+debug: to_do: next_range_item#0, cumulative_offset#0
 debug: * to_do cumulative_offset#0
-debug: * to_do question_index#0
-debug: loc: {question_index#0=question_index#0, cumulative_offset#0=cumulative_offset#0}
-debug: pred: {question_index#0=question_index#0, cumulative_offset#0=cumulative_offset#0}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, cumulative_offset#0=cumulative_offset#0}
+debug: pred: {next_range_item#0=next_range_item#0, cumulative_offset#0=cumulative_offset#0}
 debug: ready: 
-debug: to_do: question_index#0, cumulative_offset#0
+debug: to_do: next_range_item#0, cumulative_offset#0
 debug: * to_do cumulative_offset#0
-debug: * to_do question_index#0
-debug: loc: {question_index#0=question_index#0, cumulative_offset#0=cumulative_offset#0}
-debug: pred: {question_index#0=question_index#0, cumulative_offset#0=cumulative_offset#0}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, cumulative_offset#0=cumulative_offset#0}
+debug: pred: {next_range_item#0=next_range_item#0, cumulative_offset#0=cumulative_offset#0}
 debug: ready: 
-debug: to_do: question_index#0, cumulative_offset#0
+debug: to_do: next_range_item#0, cumulative_offset#0
 debug: * to_do cumulative_offset#0
-debug: * to_do question_index#0
+debug: * to_do next_range_item#0
 debug: Performing post-SSA optimizations at level 1
 debug: Performing SSA IR destructuring for examples.voting.voting.VotingRoundApp.voting_open
 debug: Converting to CSSA
@@ -2581,8 +2623,8 @@ debug: Inserted vote_for_body@2.ops[80]: 'l-store-copy maybe_value%2#0 1'
 debug: Replaced vote_for_body@2.ops[84]: 'v-load maybe_value%2#0' with 'l-load maybe_value%2#0'
 debug: Inserted vote_for_body@2.ops[27]: 'l-store-copy answer_option_index#0 1'
 debug: Replaced vote_for_body@2.ops[35]: 'v-load answer_option_index#0' with 'l-load answer_option_index#0'
-debug: Inserted vote_for_body@2.ops[6]: 'l-store-copy question_index#0 1'
-debug: Replaced vote_for_body@2.ops[23]: 'v-load question_index#0' with 'l-load question_index#0'
+debug: Inserted vote_for_body@2.ops[6]: 'l-store-copy next_range_item#0 1'
+debug: Replaced vote_for_body@2.ops[23]: 'v-load next_range_item#0' with 'l-load next_range_item#0'
 debug: Inserted vote_for_body@2.ops[8]: 'l-store-copy answer_option_index#0 1'
 debug: Replaced vote_for_body@2.ops[28]: 'v-load answer_option_index#0' with 'l-load answer_option_index#0'
 debug: Inserted vote_for_body@2.ops[43]: 'l-store-copy index#0 1'
@@ -2591,8 +2633,8 @@ debug: Inserted vote_for_body@2.ops[37]: 'l-store-copy cumulative_offset#0 1'
 debug: Replaced vote_for_body@2.ops[66]: 'v-load cumulative_offset#0' with 'l-load cumulative_offset#0'
 debug: Inserted vote_for_body@2.ops[31]: 'l-store-copy options_count#0 2'
 debug: Replaced vote_for_body@2.ops[68]: 'v-load options_count#0' with 'l-load options_count#0'
-debug: Inserted vote_for_body@2.ops[25]: 'l-store-copy question_index#0 2'
-debug: Replaced vote_for_body@2.ops[99]: 'v-load question_index#0' with 'l-load question_index#0'
+debug: Inserted vote_for_body@2.ops[25]: 'l-store-copy next_range_item#0 2'
+debug: Replaced vote_for_body@2.ops[99]: 'v-load next_range_item#0' with 'l-load next_range_item#0'
 debug: Inserted voting_open_block@0.ops[3]: 'l-store-copy maybe_exists%0#0 1'
 debug: Replaced voting_open_block@0.ops[6]: 'v-load maybe_exists%0#0' with 'l-load maybe_exists%0#0'
 debug: Inserted voting_open_block@0.ops[5]: 'l-store-copy maybe_value%0#0 1'
@@ -2642,10 +2684,10 @@ debug: _puya_lib.util.ensure_budget f-stack entry: []
 debug: _puya_lib.util.ensure_budget f-stack on first store: ['required_budget_with_buffer#0']
 debug: examples.voting.voting.VotingRoundApp.create f-stack entry: []
 debug: examples.voting.voting.VotingRoundApp.create f-stack on first store: ['tmp%0#1', 'total_options#0', 'item_index_internal%0#0']
-debug: examples.voting.voting.VotingRoundApp.close f-stack entry: ['array_head_and_tail%0#0', 'note#17', 'question_options#0', 'current_index#15', 'option_index#0', 'tmp%14#0']
+debug: examples.voting.voting.VotingRoundApp.close f-stack entry: ['array_head_and_tail%0#0', 'note#17', 'question_options#0', 'current_index#15', 'next_range_item#0', 'tmp%14#0']
 debug: examples.voting.voting.VotingRoundApp.close f-stack on first store: ['note#0', 'current_index#0', 'maybe_value%5#0', 'array_length%0#0', 'question_index#0']
 debug: examples.voting.voting.VotingRoundApp.vote f-stack entry: []
-debug: examples.voting.voting.VotingRoundApp.vote f-stack on first store: ['questions_count#0', 'cumulative_offset#0', 'question_index#0']
+debug: examples.voting.voting.VotingRoundApp.vote f-stack on first store: ['questions_count#0', 'cumulative_offset#0', 'next_range_item#0']
 debug: examples.voting.voting.VotingRoundApp.voting_open f-stack entry: ['awst_tmp%0#0']
 debug: examples.voting.voting.VotingRoundApp.voting_open f-stack on first store: []
 debug: optimizing TEAL subroutine ops examples.voting.voting.VotingRoundApp.__algopy_entrypoint_with_init() -> uint64:

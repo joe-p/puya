@@ -19,13 +19,13 @@
     "3": {
       "op": "pushints 0 1 // 0, 1",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "7": {
@@ -33,30 +33,30 @@
       "stack_in": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dup",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "8": {
       "op": "pushint 100 // 100",
       "defined_out": [
         "100",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "100"
       ]
     },
@@ -64,12 +64,12 @@
       "op": "<",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
@@ -77,13 +77,13 @@
       "op": "dig 2",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0",
         "sum_of_squares#10"
       ]
@@ -92,13 +92,13 @@
       "op": "bury 4",
       "defined_out": [
         "continue_looping%0#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "continue_looping%0#0"
       ]
     },
@@ -107,43 +107,43 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "18": {
       "op": "dupn 2",
       "defined_out": [
-        "i#0",
-        "i#0 (copy)",
+        "next_range_item#0",
+        "next_range_item#0 (copy)",
         "sum_of_squares#10"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
-        "i#0 (copy)"
+        "next_range_item#0",
+        "next_range_item#0",
+        "next_range_item#0 (copy)"
       ]
     },
     "20": {
       "op": "sqrt",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "square_root#0",
         "sum_of_squares#10"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "square_root#0"
       ]
     },
     "21": {
       "op": "dup",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "square_root#0",
         "square_root#0 (copy)",
         "sum_of_squares#10"
@@ -151,8 +151,8 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "square_root#0 (copy)",
         "square_root#0"
       ]
@@ -160,29 +160,29 @@
     "22": {
       "op": "*",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10",
         "tmp%0#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "tmp%0#0"
       ]
     },
     "23": {
       "op": "==",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10",
         "tmp%1#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%1#0"
       ]
     },
@@ -191,7 +191,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%1#0",
         "sum_of_squares#10"
       ]
@@ -201,7 +201,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%1#0"
       ]
     },
@@ -210,22 +210,22 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "31": {
       "op": "dup2",
       "defined_out": [
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0",
         "sum_of_squares#10"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "32": {
@@ -233,7 +233,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10"
       ]
     },
@@ -242,7 +242,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "35": {
@@ -250,7 +250,7 @@
       "stack_in": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dig 2",
       "defined_out": [
@@ -259,7 +259,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ]
     },
@@ -268,7 +268,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0",
         "sum_of_squares#0"
       ]
@@ -281,7 +281,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ]
     },
@@ -294,7 +294,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0",
         "200"
       ]
@@ -308,7 +308,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "tmp%2#0"
       ]
     },
@@ -317,7 +317,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "47": {
@@ -329,7 +329,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#10"
       ]
     },
@@ -342,7 +342,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "51": {
@@ -350,7 +350,7 @@
       "stack_in": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dig 2",
       "defined_out": [
@@ -359,7 +359,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
+        "next_range_item#0",
         "sum_of_squares#0"
       ]
     },
@@ -368,7 +368,7 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "54": {
@@ -376,30 +376,30 @@
       "stack_in": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ],
       "op": "dup",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "55": {
       "op": "pushint 1 // 1",
       "defined_out": [
         "1",
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0",
+        "next_range_item#0",
+        "next_range_item#0",
         "1"
       ]
     },
@@ -408,19 +408,19 @@
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0",
-        "i#0"
+        "next_range_item#0",
+        "next_range_item#0"
       ]
     },
     "58": {
       "op": "bury 1",
       "defined_out": [
-        "i#0"
+        "next_range_item#0"
       ],
       "stack_out": [
         "sum_of_squares#10",
         "sum_of_squares#0",
-        "i#0"
+        "next_range_item#0"
       ]
     },
     "60": {

@@ -54,14 +54,16 @@ main_for_header@2:
     b main_for_header@2
 
 main_after_for@5:
+    intc_1 // 0
+    // enumeration/contract.py:42
+    // for index, item in uenumerate(urange(start, stop, step)):
+    bury 6
     // enumeration/contract.py:6
     // iteration_count, item_sum, index_sum = enumerate_urange(UInt64(10), UInt64(21), UInt64(5))
     pushint 10 // 10
     // enumeration/contract.py:42
     // for index, item in uenumerate(urange(start, stop, step)):
     bury 1
-    intc_1 // 0
-    bury 6
 
 main_for_header@6:
     // enumeration/contract.py:42

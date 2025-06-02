@@ -716,19 +716,18 @@ dynamic_array_concat_byte_length_head:
     *
     dup
     intc_0 // 0
-    swap
 
 dynamic_array_concat_byte_length_head_for_header@2:
-    frame_dig 3
+    frame_dig 4
     frame_dig 2
     <
     bz dynamic_array_concat_byte_length_head_after_for@5
-    frame_dig 4
+    frame_dig 3
     dup
     itob
     extract 6 2
     frame_dig 1
-    frame_dig 3
+    frame_dig 4
     dup
     cover 4
     uncover 2
@@ -740,10 +739,10 @@ dynamic_array_concat_byte_length_head_for_header@2:
     intc_2 // 2
     +
     +
-    frame_bury 4
+    frame_bury 3
     intc_2 // 2
     +
-    frame_bury 3
+    frame_bury 4
     b dynamic_array_concat_byte_length_head_for_header@2
 
 dynamic_array_concat_byte_length_head_after_for@5:
@@ -2717,8 +2716,8 @@ test_bit_packed_tuples_for_header@1:
     dig 8
     intc_1 // 1
     +
-    // array/immutable.py:279
-    // foo=i,
+    // array/immutable.py:276
+    // arr2 = arr2.append(TwoBoolTuple(a=i == 0, b=i == 1))
     dig 9
     itob
     uncover 8
@@ -2793,8 +2792,8 @@ test_bit_packed_tuples_for_header@1:
     dig 4
     pushint 7 // 7
     ==
-    // array/immutable.py:292
-    // foo=i,
+    // array/immutable.py:276
+    // arr2 = arr2.append(TwoBoolTuple(a=i == 0, b=i == 1))
     uncover 3
     pushint 71 // 71
     uncover 2
@@ -2852,8 +2851,8 @@ test_bit_packed_tuples_for_header@1:
     uncover 4
     intc_3 // 8
     ==
-    // array/immutable.py:306
-    // foo=i,
+    // array/immutable.py:276
+    // arr2 = arr2.append(TwoBoolTuple(a=i == 0, b=i == 1))
     bytec_0 // 0x00
     intc_0 // 0
     uncover 2

@@ -294,7 +294,7 @@ test_array:
     intc_0 // 0
     dup
     bytec_3 // ""
-    dupn 5
+    dupn 4
     // array/static_size.py:43
     // self.count = UInt64(0)
     bytec_1 // "count"
@@ -409,14 +409,14 @@ test_array:
 test_array_for_header@1:
     // array/static_size.py:49
     // for i in urange(3):
-    frame_dig 9
+    frame_dig 8
     pushint 3 // 3
     <
     bz test_array_after_for@4
-    frame_dig 8
+    frame_dig 7
     // array/static_size.py:50
     // assert path[i].other.b == i + 1
-    frame_dig 9
+    frame_dig 8
     dup
     cover 2
     intc 4 // 144
@@ -454,11 +454,11 @@ test_array_for_header@1:
     itob
     b==
     assert
-    frame_bury 9
+    frame_bury 8
     b test_array_for_header@1
 
 test_array_after_for@4:
-    frame_dig 8
+    frame_dig 7
     // array/static_size.py:54
     // Box(ImmutableArray[Point], key="a").value = path.freeze()
     dup
@@ -495,19 +495,19 @@ test_array_after_for@4:
     // array/static_size.py:169
     // for point_idx in urange(1, path.length):
     intc_1 // 1
-    frame_bury 7
+    frame_bury 8
 
 test_array_for_header@6:
     // array/static_size.py:169
     // for point_idx in urange(1, path.length):
-    frame_dig 7
+    frame_dig 8
     frame_dig 4
     <
     bz test_array_after_for@14
-    frame_dig 8
+    frame_dig 7
     // array/static_size.py:170
     // point = path[point_idx]
-    frame_dig 7
+    frame_dig 8
     intc 4 // 144
     *
     intc 4 // 144
@@ -571,10 +571,10 @@ test_array_after_if_else@13:
     frame_bury 5
     // array/static_size.py:169
     // for point_idx in urange(1, path.length):
-    frame_dig 7
+    frame_dig 8
     intc_1 // 1
     +
-    frame_bury 7
+    frame_bury 8
     b test_array_for_header@6
 
 test_array_else_body@12:

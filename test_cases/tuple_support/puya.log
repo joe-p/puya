@@ -91,6 +91,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -103,6 +105,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added head_and_tail#0 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0) in block@0
 debug: Added head_and_tail#1 to Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let head_and_tail#1: bytes = φ(head_and_tail#0 <- block@0, head_and_tail#1 <- block@3) (head_and_tail#1) with head_and_tail#0
@@ -217,6 +221,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'array_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -231,6 +237,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
 debug: Added array_head_and_tail#1 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) in block@3
 debug: Replacing trivial Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0, array_head_and_tail#1 <- block@3) (array_head_and_tail#1) with array_head_and_tail#0
@@ -253,6 +261,8 @@ debug: Replaced trivial Phi node: let new_items_count#1: uint64 = φ(new_items_c
 debug: Terminated block@4
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@5
 debug: Created Phi assignment: let head_offset#4: uint64 = undefined while trying to resolve 'head_offset' in block@5
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@5
+debug: Created Phi assignment: let next_range_item#4: uint64 = undefined while trying to resolve 'next_range_item' in block@5
 debug: Terminated block@5
 debug: Sealing block@6
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@5
@@ -267,6 +277,8 @@ debug: Terminated block@7
 debug: Sealing block@5
 debug: Added head_offset#3 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4) in block@4
 debug: Added head_offset#5 to Phi node: let head_offset#4: uint64 = φ(head_offset#3 <- block@4, head_offset#5 <- block@7) in block@7
+debug: Added next_range_item#3 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4) in block@4
+debug: Added next_range_item#5 to Phi node: let next_range_item#4: uint64 = φ(next_range_item#3 <- block@4, next_range_item#5 <- block@7) in block@7
 debug: Created Phi assignment: let new_head_and_tail#2: bytes = undefined while trying to resolve 'new_head_and_tail' in block@1
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#2: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
@@ -322,6 +334,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'new_head_and_tail' in an unsealed block creating an incomplete Phi: block@1
@@ -336,6 +350,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#2 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added new_head_and_tail#0 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0) in block@0
 debug: Added new_head_and_tail#2 to Phi node: let new_head_and_tail#1: bytes = φ(new_head_and_tail#0 <- block@0, new_head_and_tail#2 <- block@3) in block@3
 debug: Added new_item_length#0 to Phi node: let new_item_length#1: uint64 = φ(new_item_length#0 <- block@0) in block@0
@@ -358,6 +374,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'head_offset' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let head_offset#1: uint64 = undefined while trying to resolve 'head_offset' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'tail_offset' in an unsealed block creating an incomplete Phi: block@1
@@ -370,6 +388,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added head_offset#0 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0) in block@0
 debug: Added head_offset#3 to Phi node: let head_offset#1: uint64 = φ(head_offset#0 <- block@0, head_offset#3 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added tail_offset#0 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0) in block@0
 debug: Added tail_offset#2 to Phi node: let tail_offset#1: uint64 = φ(tail_offset#0 <- block@0, tail_offset#2 <- block@3) in block@3
 debug: Added array_head_and_tail#0 to Phi node: let array_head_and_tail#1: bytes = φ(array_head_and_tail#0 <- block@0) in block@0
@@ -408,6 +428,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for '_i' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let _i#1: uint64 = undefined while trying to resolve '_i' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'result' in an unsealed block creating an incomplete Phi: block@1
@@ -420,6 +442,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added _i#0 to Phi node: let _i#1: uint64 = φ(_i#0 <- block@0) in block@0
 debug: Added _i#2 to Phi node: let _i#1: uint64 = φ(_i#0 <- block@0, _i#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added result#0 to Phi node: let result#1: bytes = φ(result#0 <- block@0) in block@0
 debug: Added result#2 to Phi node: let result#1: bytes = φ(result#0 <- block@0, result#2 <- block@3) in block@3
 debug: Added b#0 to Phi node: let b#1: bytes = φ(b#0 <- block@0) in block@0
@@ -1055,6 +1079,8 @@ debug: Sealing block@0
 debug: Terminated block@0
 debug: Looking for 'i' in an unsealed block creating an incomplete Phi: block@1
 debug: Created Phi assignment: let i#1: uint64 = undefined while trying to resolve 'i' in block@1
+debug: Looking for 'next_range_item' in an unsealed block creating an incomplete Phi: block@1
+debug: Created Phi assignment: let next_range_item#1: uint64 = undefined while trying to resolve 'next_range_item' in block@1
 debug: Terminated block@1
 debug: Sealing block@2
 debug: Looking for 'twm.arr' in an unsealed block creating an incomplete Phi: block@1
@@ -1071,6 +1097,8 @@ debug: Terminated block@3
 debug: Sealing block@1
 debug: Added i#0 to Phi node: let i#1: uint64 = φ(i#0 <- block@0) in block@0
 debug: Added i#2 to Phi node: let i#1: uint64 = φ(i#0 <- block@0, i#2 <- block@3) in block@3
+debug: Added next_range_item#0 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0) in block@0
+debug: Added next_range_item#2 to Phi node: let next_range_item#1: uint64 = φ(next_range_item#0 <- block@0, next_range_item#2 <- block@3) in block@3
 debug: Added twm.arr#2 to Phi node: let twm.arr#3: bytes = φ(twm.arr#2 <- block@0) in block@0
 debug: Added twm.arr#3 to Phi node: let twm.arr#3: bytes = φ(twm.arr#2 <- block@0, twm.arr#3 <- block@3) in block@3
 debug: Replacing trivial Phi node: let twm.arr#3: bytes = φ(twm.arr#2 <- block@0, twm.arr#3 <- block@3) (twm.arr#3) with twm.arr#2
@@ -1532,7 +1560,9 @@ debug: selected arg.1#0 from equivalence set
 debug: Copy propagation made 2 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable _i#1
 debug: Optimizer: Intrinsic Simplifier
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizer: Simplify Control Ops
@@ -1733,6 +1763,8 @@ debug: Found equivalence set: c_mid#1, tuple_assignment%3#0, mid#0
 debug: selected c_mid#1 from equivalence set
 debug: Found equivalence set: c_lo#0, tuple_assignment%4#0, lo#0
 debug: selected c_lo#0 from equivalence set
+debug: Found equivalence set: next_range_item#1, _i#2
+debug: selected next_range_item#1 from equivalence set
 debug: Found equivalence set: result#2, tmp%23#0
 debug: selected result#2 from equivalence set
 debug: Copy propagation made 12 modifications
@@ -1761,6 +1793,7 @@ debug: Removing unused variable arg.1#0
 debug: Removing unused variable max_uint64#0
 debug: Removing unused variable arg.0#1
 debug: Removing unused variable arg.1#1
+debug: Removing unused variable _i#0
 debug: Removing unused variable zero#0
 debug: Removing unused variable values.0#0
 debug: Removing unused variable values.1#0
@@ -1976,6 +2009,8 @@ debug: Found equivalence set: c_mid#1, mid#0
 debug: selected c_mid#1 from equivalence set
 debug: Found equivalence set: c_lo#0, lo#0
 debug: selected c_lo#0 from equivalence set
+debug: Found equivalence set: next_range_item#1, _i#2
+debug: selected next_range_item#1 from equivalence set
 debug: Found equivalence set: result#2, tmp%23#0
 debug: selected result#2 from equivalence set
 debug: Copy propagation made 9 modifications
@@ -1998,6 +2033,7 @@ debug: Removing unused variable arg.0#0
 debug: Removing unused variable arg.1#0
 debug: Removing unused variable arg.0#1
 debug: Removing unused variable arg.1#1
+debug: Removing unused variable _i#0
 debug: Removing unused variable zero#0
 debug: Removing unused variable values.0#0
 debug: Removing unused variable values.1#0
@@ -2228,8 +2264,11 @@ debug: Optimizer: Perform Subroutine Inlining
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Copy Propagation
+debug: Found equivalence set: next_range_item#1, _i#2
+debug: selected next_range_item#1 from equivalence set
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable _i#0
 debug: Optimizer: Intrinsic Simplifier
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
@@ -2518,27 +2557,27 @@ debug: Coalescing tmp%0#0 with [tmp%0#2]
 debug: Coalescing did_overflow#0 with [did_overflow#1]
 debug: Coalescing c_mid#0 with [c_mid#1]
 debug: Coalescing result#1 with [result#6, result#2, result#3]
-debug: Coalescing _i#0 with [_i#5, _i#1, _i#2]
+debug: Coalescing next_range_item#0 with [next_range_item#5, next_range_item#1, next_range_item#2]
 debug: Coalescing resulted in 22 replacement/s
 debug: Sequentializing parallel copies in test_cases.tuple_support.tuple_support.TupleSupport.__algopy_entrypoint_with_init
-debug: loc: {_i#0=_i#0, result#1=result#1}
-debug: pred: {_i#0=_i#0, result#1=result#1}
+debug: loc: {next_range_item#0=next_range_item#0, result#1=result#1}
+debug: pred: {next_range_item#0=next_range_item#0, result#1=result#1}
 debug: ready: 
-debug: to_do: _i#0, result#1
+debug: to_do: next_range_item#0, result#1
 debug: * to_do result#1
-debug: * to_do _i#0
-debug: loc: {_i#0=_i#0, result#1=result#1}
-debug: pred: {_i#0=_i#0, result#1=result#1}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, result#1=result#1}
+debug: pred: {next_range_item#0=next_range_item#0, result#1=result#1}
 debug: ready: 
-debug: to_do: _i#0, result#1
+debug: to_do: next_range_item#0, result#1
 debug: * to_do result#1
-debug: * to_do _i#0
-debug: loc: {_i#0=_i#0, result#1=result#1}
-debug: pred: {_i#0=_i#0, result#1=result#1}
+debug: * to_do next_range_item#0
+debug: loc: {next_range_item#0=next_range_item#0, result#1=result#1}
+debug: pred: {next_range_item#0=next_range_item#0, result#1=result#1}
 debug: ready: 
-debug: to_do: _i#0, result#1
+debug: to_do: next_range_item#0, result#1
 debug: * to_do result#1
-debug: * to_do _i#0
+debug: * to_do next_range_item#0
 debug: Performing post-SSA optimizations at level 1
 debug: Performing SSA IR destructuring for test_cases.tuple_support.tuple_support.add_three_values
 debug: Converting to CSSA
@@ -2649,7 +2688,7 @@ debug: Allocated 2 variable/s to x-stack: loop_counter%0#0, value#1
 debug: shared x-stack for add_three_values_block@0 -> add_three_values_for_body@1: value#1, loop_counter%0#0
 debug: shared x-stack for add_three_values_for_header_1@3 -> add_three_values_for_body@1: value#1, loop_counter%0#0
 debug: shared x-stack for add_three_values_for_header_2@4 -> add_three_values_for_body@1: value#1, loop_counter%0#0
-debug: test_cases.tuple_support.tuple_support.TupleSupport.__algopy_entrypoint_with_init f-stack entry: ['result#1', '_i#0']
+debug: test_cases.tuple_support.tuple_support.TupleSupport.__algopy_entrypoint_with_init f-stack entry: ['result#1', 'next_range_item#0']
 debug: test_cases.tuple_support.tuple_support.TupleSupport.__algopy_entrypoint_with_init f-stack on first store: []
 debug: test_cases.tuple_support.tuple_support.add_three_values f-stack entry: []
 debug: test_cases.tuple_support.tuple_support.add_three_values f-stack on first store: ['total#0']
@@ -3858,6 +3897,7 @@ debug: selected twm.arr#2 from equivalence set
 debug: Copy propagation made 3 modifications
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
+debug: Removing unused variable i#1
 debug: Removing unused variable twm.child.a#0
 debug: Removing unused variable twm.child.b#0
 debug: Removing unused variable twm.child.c#0
@@ -3865,6 +3905,7 @@ debug: Optimizer: Intrinsic Simplifier
 debug: Simplified (concat 0x 0x0000000000000000) to 0x0000000000000000
 debug: Simplified (concat 0x0001 0x0000000000000000) to 0x00010000000000000000
 debug: Simplified ((extract 2 0) 0x00010000000000000000) to 0x0000000000000000
+debug: Simplified (+ next_range_item#1 0u) to next_range_item#1
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
 debug: Optimizer: Simplify Control Ops
@@ -4798,11 +4839,14 @@ debug: Optimizer: Perform Subroutine Inlining
 debug: Optimizer: Split Parallel Copies
 debug: Optimizer: Constant Replacer
 debug: Optimizer: Copy Propagation
+debug: Found equivalence set: next_range_item#1, i#2
+debug: selected next_range_item#1 from equivalence set
 debug: Optimizer: Elide Itxn Field Calls
 debug: Optimizer: Remove Unused Variables
 debug: Removing unused variable result%0#0
 debug: Removing unused variable twm.arr#0
 debug: Removing unused variable expr_value_trimmed%0#0
+debug: Removing unused variable i#0
 debug: Optimizer: Intrinsic Simplifier
 debug: Optimizer: Inner Txn Field Replacer
 debug: Optimizer: Replace Compiled References
@@ -6998,7 +7042,7 @@ debug: Performing SSA IR destructuring for test_cases.tuple_support.nested_tuple
 debug: Converting to CSSA
 debug: Removing Phi nodes
 debug: Coalescing local variables in test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tuple using strategy RootOperandGrouping
-debug: Coalescing i#0 with [i#5, i#1, i#2]
+debug: Coalescing next_range_item#0 with [next_range_item#5, next_range_item#1, next_range_item#2]
 debug: Coalescing resulted in 10 replacement/s
 debug: Sequentializing parallel copies in test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tuple
 debug: Performing post-SSA optimizations at level 1
@@ -8075,10 +8119,10 @@ debug: Inserted mutate_local_tuple_for_body@2.ops[12]: 'l-store-copy tmp%0#0 0'
 debug: Replaced mutate_local_tuple_for_body@2.ops[15]: 'v-load tmp%0#0' with 'l-load tmp%0#0'
 debug: Inserted mutate_local_tuple_for_body@2.ops[9]: 'l-store-copy reinterpret_biguint%0#0 0'
 debug: Replaced mutate_local_tuple_for_body@2.ops[15]: 'v-load reinterpret_biguint%0#0' with 'l-load reinterpret_biguint%0#0'
-debug: Inserted mutate_local_tuple_for_body@2.ops[1]: 'l-store-copy i#0 0'
-debug: Replaced mutate_local_tuple_for_body@2.ops[12]: 'v-load i#0' with 'l-load i#0'
-debug: Inserted mutate_local_tuple_for_body@2.ops[13]: 'l-store-copy i#0 1'
-debug: Replaced mutate_local_tuple_for_body@2.ops[24]: 'v-load i#0' with 'l-load i#0'
+debug: Inserted mutate_local_tuple_for_body@2.ops[1]: 'l-store-copy next_range_item#0 0'
+debug: Replaced mutate_local_tuple_for_body@2.ops[12]: 'v-load next_range_item#0' with 'l-load next_range_item#0'
+debug: Inserted mutate_local_tuple_for_body@2.ops[13]: 'l-store-copy next_range_item#0 1'
+debug: Replaced mutate_local_tuple_for_body@2.ops[24]: 'v-load next_range_item#0' with 'l-load next_range_item#0'
 debug: Inserted mutate_tuple_in_storage_currently_supported_method_block@0.ops[27]: 'l-store-copy item1%0#0 0'
 debug: Replaced mutate_tuple_in_storage_currently_supported_method_block@0.ops[29]: 'v-load item1%0#0' with 'l-load item1%0#0'
 debug: Inserted mutate_tuple_in_storage_currently_supported_method_block@0.ops[42]: 'l-store-copy expr_value_trimmed%0#0 0'
@@ -8276,7 +8320,7 @@ debug: test_cases.tuple_support.nested_tuples.NestedTuples.load_tuple_from_box_o
 debug: test_cases.tuple_support.nested_tuples.NestedTuples.load_tuple_from_local_state_or_default f-stack entry: []
 debug: test_cases.tuple_support.nested_tuples.NestedTuples.load_tuple_from_local_state_or_default f-stack on first store: ['tmp%2#0', 'tmp%1#0', 'maybe_value%0#0']
 debug: test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tuple f-stack entry: []
-debug: test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tuple f-stack on first store: ['i#0']
+debug: test_cases.tuple_support.nested_tuples.NestedTuples.mutate_local_tuple f-stack on first store: ['next_range_item#0']
 debug: test_cases.tuple_support.nested_tuples.NestedTuples.run_tests f-stack entry: ['a#2']
 debug: test_cases.tuple_support.nested_tuples.NestedTuples.run_tests f-stack on first store: ['total#0', 't.0#0']
 debug: optimizing TEAL subroutine ops test_cases.tuple_support.nested_tuples.NestedTuples.__algopy_entrypoint_with_init() -> uint64:

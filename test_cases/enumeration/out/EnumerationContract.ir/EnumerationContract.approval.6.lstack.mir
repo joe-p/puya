@@ -19,16 +19,16 @@ subroutine main:
         int 10                                                                                        10
         // enumeration/contract.py:38
         // for item in urange(start, stop, step):
-        v-store item#0
+        v-store next_range_item#0
         b main_for_header@2
 
     main_for_header@2:
         // enumeration/contract.py:38
         // for item in urange(start, stop, step):
-        v-load item#0                                                                                 item#0
+        v-load next_range_item#0                                                                      next_range_item#0
         // enumeration/contract.py:6
         // iteration_count, item_sum, index_sum = enumerate_urange(UInt64(10), UInt64(21), UInt64(5))
-        int 21                                                                                        item#0,21
+        int 21                                                                                        next_range_item#0,21
         // enumeration/contract.py:38
         // for item in urange(start, stop, step):
         <                                                                                             continue_looping%0#0
@@ -45,40 +45,42 @@ subroutine main:
         // enumeration/contract.py:40
         // item_sum += item
         v-load item_sum#1                                                                             item_sum#1
-        v-load item#0                                                                                 item_sum#1,item#0
-        l-store-copy item#0 1                                                                         item#0,item_sum#1,item#0 (copy)
-        +                                                                                             item#0,item_sum#1
-        v-store item_sum#1                                                                            item#0
+        v-load next_range_item#0                                                                      item_sum#1,next_range_item#0
+        l-store-copy next_range_item#0 1                                                              next_range_item#0,item_sum#1,next_range_item#0 (copy)
+        +                                                                                             next_range_item#0,item_sum#1
+        v-store item_sum#1                                                                            next_range_item#0
         // enumeration/contract.py:38
         // for item in urange(start, stop, step):
-        l-load item#0 0                                                                               item#0
+        l-load next_range_item#0 0                                                                    next_range_item#0
         // enumeration/contract.py:6
         // iteration_count, item_sum, index_sum = enumerate_urange(UInt64(10), UInt64(21), UInt64(5))
-        int 5                                                                                         item#0,5
+        int 5                                                                                         next_range_item#0,5
         // enumeration/contract.py:38
         // for item in urange(start, stop, step):
-        +                                                                                             item#0
-        v-store item#0
+        +                                                                                             next_range_item#0
+        v-store next_range_item#0
         b main_for_header@2
 
     main_after_for@5:
+        int 0                                                                                         0
+        // enumeration/contract.py:42
+        // for index, item in uenumerate(urange(start, stop, step)):
+        v-store index#0
         // enumeration/contract.py:6
         // iteration_count, item_sum, index_sum = enumerate_urange(UInt64(10), UInt64(21), UInt64(5))
         int 10                                                                                        10
         // enumeration/contract.py:42
         // for index, item in uenumerate(urange(start, stop, step)):
-        v-store item#0
-        int 0                                                                                         0
-        v-store index#0
+        v-store next_range_item#0
         b main_for_header@6
 
     main_for_header@6:
         // enumeration/contract.py:42
         // for index, item in uenumerate(urange(start, stop, step)):
-        v-load item#0                                                                                 item#0
+        v-load next_range_item#0                                                                      next_range_item#0
         // enumeration/contract.py:6
         // iteration_count, item_sum, index_sum = enumerate_urange(UInt64(10), UInt64(21), UInt64(5))
-        int 21                                                                                        item#0,21
+        int 21                                                                                        next_range_item#0,21
         // enumeration/contract.py:42
         // for index, item in uenumerate(urange(start, stop, step)):
         <                                                                                             continue_looping%1#0
@@ -95,27 +97,27 @@ subroutine main:
         // enumeration/contract.py:44
         // item_sum += item
         v-load item_sum#1                                                                             item_sum#1
-        v-load item#0                                                                                 item_sum#1,item#0
-        l-store-copy item#0 1                                                                         item#0,item_sum#1,item#0 (copy)
-        +                                                                                             item#0,item_sum#1
-        v-store item_sum#1                                                                            item#0
+        v-load next_range_item#0                                                                      item_sum#1,next_range_item#0
+        l-store-copy next_range_item#0 1                                                              next_range_item#0,item_sum#1,next_range_item#0 (copy)
+        +                                                                                             next_range_item#0,item_sum#1
+        v-store item_sum#1                                                                            next_range_item#0
         // enumeration/contract.py:45
         // index_sum += index
-        v-load index_sum#3                                                                            item#0,index_sum#3
-        v-load index#0                                                                                item#0,index_sum#3,index#0
-        l-store-copy index#0 2                                                                        index#0,item#0,index_sum#3,index#0 (copy)
-        +                                                                                             index#0,item#0,index_sum#3
-        v-store index_sum#3                                                                           index#0,item#0
+        v-load index_sum#3                                                                            next_range_item#0,index_sum#3
+        v-load index#0                                                                                next_range_item#0,index_sum#3,index#0
+        l-store-copy index#0 2                                                                        index#0,next_range_item#0,index_sum#3,index#0 (copy)
+        +                                                                                             index#0,next_range_item#0,index_sum#3
+        v-store index_sum#3                                                                           index#0,next_range_item#0
         // enumeration/contract.py:42
         // for index, item in uenumerate(urange(start, stop, step)):
-        l-load item#0 0                                                                               index#0,item#0
+        l-load next_range_item#0 0                                                                    index#0,next_range_item#0
         // enumeration/contract.py:6
         // iteration_count, item_sum, index_sum = enumerate_urange(UInt64(10), UInt64(21), UInt64(5))
-        int 5                                                                                         index#0,item#0,5
+        int 5                                                                                         index#0,next_range_item#0,5
         // enumeration/contract.py:42
         // for index, item in uenumerate(urange(start, stop, step)):
-        +                                                                                             index#0,item#0
-        v-store item#0                                                                                index#0
+        +                                                                                             index#0,next_range_item#0
+        v-store next_range_item#0                                                                     index#0
         l-load index#0 0                                                                              index#0
         int 1                                                                                         index#0,1
         +                                                                                             index#0
